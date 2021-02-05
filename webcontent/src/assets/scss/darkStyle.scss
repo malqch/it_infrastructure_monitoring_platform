@@ -1,0 +1,107 @@
+.wrapper{
+  background: #2a2f4d;
+}
+
+/deep/ .container{
+  background:none;
+  border:none;
+  border-radius: 0px;
+}
+/deep/ .el-input__inner{
+  background: #24273e;
+  border:1px solid #3c4163;
+}
+/deep/ .el-input.is-disabled .el-input__inner{
+  background: #363955;
+  border:1px solid #3c4163;
+}
+/deep/ .el-textarea__inner{
+  background-color:#24273e;
+  border:1px solid #3c4163;
+  color:#fff;
+}
+/deep/ .el-table--border td{
+  border-right: 1px solid #3c4163;
+}
+/deep/ .el-table--border td, .el-table td{
+  border-right: 1px solid #3c4163;
+}
+/deep/ .el-table td{
+  border-bottom: 1px solid #3c4163;
+}
+/deep/ .el-table--border th{
+  border-right: 1px solid #3c4163;
+  border-bottom: 1px solid #485080;
+}
+/deep/ .el-table--border{
+  border:none;
+}
+/deep/ .el-table::before{
+  background-color:#24273e;
+}
+/deep/ .el-table::after{
+  background-color:#24273e;
+}
+/deep/ .el-table tr{
+  color:#fff;
+  background: #333963;
+  /*#333963*/
+}
+/deep/ .el-table th{
+  background-color: #3f4780 !important;
+}
+/deep/ .el-table--enable-row-hover .el-table__body tr:hover>td{
+  background-color: #3f4780 !important;
+}
+/deep/ .el-pagination__total{
+  color:#fff;
+}
+/deep/ .el-pagination.is-background .btn-next{
+  background-color:#24273e;
+}
+/deep/ .el-pagination.is-background .btn-prev{
+  background-color:#24273e;
+}
+/deep/ .el-dialog{
+  background:#24273e;
+}
+
+/deep/ .el-form-item__label{
+  color:#fff;
+}
+/deep/ .el-input__inner{
+  color:#fff;
+}
+/deep/ .el-select-dropdown{
+  background-color:#24273e;
+  border: 1px solid #3c4163;
+}
+/deep/ .el-select-dropdown__item.hover{
+  background-color: #2c3661;
+}
+/deep/ .el-popper[x-placement^=top] .popper__arrow::after{
+  border-top-color: #24273e!important;
+}
+/deep/ .el-popper[x-placement^=bottom] .popper__arrow::after{
+  border-bottom-color: #24273e!important;
+}
+/deep/ .el-dialog__body{
+  color:#fff;
+}
+/deep/ .el-message-box__content{
+  color:#fff;
+}
+/deep/ .el-table__empty-block{
+  background: #333963;
+}
+/deep/ .el-table{
+  background:#24273e ;
+}
+.change_el_button{
+  background: #323968;
+  border: 1px solid #2f3561;
+  color:#fff;
+}
+.danger{
+  color: #F56C6C;
+}

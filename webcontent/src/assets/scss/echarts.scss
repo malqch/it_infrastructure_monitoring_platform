@@ -1,0 +1,82 @@
+$color-bg:#191a2c;
+$colo-piece: #24273e;
+.wrapper{
+  background: $color-bg;
+}
+.m10{
+  margin:10px;
+}
+.mlr10{
+  margin:0 10px;
+}
+.mtb10{
+  margin:10px 0;
+}
+.ml10{
+  margin-left:10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mb10{
+  margin-bottom:10px;
+}
+.mt10{
+  margin-top: 10px;
+}
+dl{
+  dt{
+    color:#e5bb2e;
+    display: inline;
+  }
+  .time{
+    font-family:"DS-DIGI";
+    font-size:26px;
+  }
+  .serve_name{
+    font-size:20px;
+  }
+  dd{
+    color:#fff;
+    font-size:12px;
+    margin-top: 10px;
+  }
+}
+.top_font{
+  text-align: center;
+  padding-top: 32px;
+}
+.top_font_10{
+  text-align: center;
+  padding-top: 10px;
+}
+/deep/ .el-input__inner{
+  background: #191a2c;
+  border: 1px solid #191a2c;
+  color:#fff;
+}
+/deep/ .el-range-separator{
+  color:#fff;
+}
+/deep/ .el-range-input{
+  background: #24273e;
+  color: #fff;
+}
+/deep/ .el-range__close-icon {
+  color: #fff;
+}
+.selectIp{
+  width:100%;
+}
+.serve_select{
+  border-radius: 10px;
+  margin:13px 13px;
+  background:#24273e;
+  padding-top:10px;
+}
+/deep/  .el-form-item--small.el-form-item{
+  margin-bottom:10px;
+}
+/deep/ .el-form-item__label{
+  color:#fff;
+}
