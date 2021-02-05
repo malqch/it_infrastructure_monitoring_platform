@@ -1,0 +1,2 @@
+[2021-01-15 14:36:30,488] [views.py:564] [views:upload_immediate_exec_script] [INFO]- 开始连接10.10.10.130
+[2021-01-15 14:36:34,561] [views.py:601] [views:upload_immediate_exec_script] [ERROR]- 10.10.10.130脚本执行失败：Authentication failed.

@@ -1,0 +1,109 @@
+[2020-12-07 09:48:29,620] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-07 09:50:01,319] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4901
+[2020-12-07 09:50:48,738] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/status/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 523, in del_alarm
+    send_res = AlarmDetailViewSet().send_email(email_list, result['alarm_ip'])
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 558, in send_email
+    smtpObj and smtpObj.quit()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 988, in quit
+    res = self.docmd("quit")
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 424, in docmd
+    self.putcmd(cmd, args)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 371, in putcmd
+    self.send(str)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 363, in send
+    raise SMTPServerDisconnected('please run connect() first')
+smtplib.SMTPServerDisconnected: please run connect() first
+[2020-12-07 09:50:48,740] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /monitor/api/alarm_detail/status/ HTTP/1.1" 500 21216
+[2020-12-07 09:52:18,835] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4924
+[2020-12-07 09:52:42,940] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/status/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 523, in del_alarm
+    send_res = AlarmDetailViewSet().send_email(email_list, result['alarm_ip'])
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 558, in send_email
+    smtpObj and smtpObj.quit()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 988, in quit
+    res = self.docmd("quit")
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 424, in docmd
+    self.putcmd(cmd, args)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 371, in putcmd
+    self.send(str)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 363, in send
+    raise SMTPServerDisconnected('please run connect() first')
+smtplib.SMTPServerDisconnected: please run connect() first
+[2020-12-07 09:52:42,942] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /monitor/api/alarm_detail/status/ HTTP/1.1" 500 21216
+[2020-12-07 09:54:05,458] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-07 09:54:36,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4943
+[2020-12-07 09:55:02,497] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/status/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 523, in del_alarm
+    AlarmDetailViewSet().send_email(email_list, result['alarm_ip'])
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 553, in send_email
+    smtpObj and smtpObj.quit()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 988, in quit
+    res = self.docmd("quit")
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 424, in docmd
+    self.putcmd(cmd, args)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 371, in putcmd
+    self.send(str)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/smtplib.py", line 363, in send
+    raise SMTPServerDisconnected('please run connect() first')
+smtplib.SMTPServerDisconnected: please run connect() first
+[2020-12-07 09:55:02,514] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /monitor/api/alarm_detail/status/ HTTP/1.1" 500 21205
+[2020-12-07 09:55:23,698] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4964
+[2020-12-07 10:22:08,639] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py changed, reloading.

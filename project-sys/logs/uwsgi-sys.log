@@ -1,0 +1,160 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Dec 14 11:40:33 2020] ***
+compiled with version: 4.7.4 on 07 December 2020 02:52:42
+os: Linux-4.15.0-43-generic #46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018
+nodename: rock-Inspiron-7472
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/rock/quality_inspection/python-workspace/project-sys
+writing pidfile to /home/rock/quality_inspection/python-workspace/project-sys/uwsgi.pid
+detected binary path: /home/rock/anaconda3/envs/venv/bin/uwsgi
+chdir() to /home/rock/quality_inspection/python-workspace/project-sys
+your processes number limit is 31095
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40773 (port auto-assigned) fd 3
+Python version: 3.8.3 (default, May 19 2020, 18:47:26)  [GCC 7.3.0]
+Python main interpreter initialized at 0x26263c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 422160 bytes (412 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x26263c0 pid: 22460 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22460)
+spawned uWSGI worker 1 (pid: 22471, cores: 2)
+spawned uWSGI worker 2 (pid: 22472, cores: 2)
+*** Stats server enabled on /home/rock/quality_inspection/python-workspace/project-sys/uwsgi.status fd: 18 ***
+spawned uWSGI http 1 (pid: 22475)
+Mon Dec 14 11:41:47 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:41:47 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:41:47 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:41:47 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Dec 14 11:44:10 2020] ***
+compiled with version: 4.7.4 on 07 December 2020 02:52:42
+os: Linux-4.15.0-43-generic #46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018
+nodename: rock-Inspiron-7472
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/rock/quality_inspection/python-workspace/project-sys
+writing pidfile to /home/rock/quality_inspection/python-workspace/project-sys/uwsgi.pid
+detected binary path: /home/rock/anaconda3/envs/venv/bin/uwsgi
+chdir() to /home/rock/quality_inspection/python-workspace/project-sys
+your processes number limit is 31095
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38865 (port auto-assigned) fd 3
+Python version: 3.8.3 (default, May 19 2020, 18:47:26)  [GCC 7.3.0]
+Python main interpreter initialized at 0x14093d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 422160 bytes (412 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x14093d0 pid: 24647 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24647)
+spawned uWSGI worker 1 (pid: 24649, cores: 2)
+spawned uWSGI worker 2 (pid: 24650, cores: 2)
+*** Stats server enabled on /home/rock/quality_inspection/python-workspace/project-sys/uwsgi.status fd: 18 ***
+spawned uWSGI http 1 (pid: 24653)
+[pid: 24650|app: 0|req: 2/1] 127.0.0.1 () {54 vars in 870 bytes} [Mon Dec 14 11:45:49 2020] POST /sys/api/auth/ => generated 65 bytes in 455 msecs (HTTP/1.1 200) 8 headers in 271 bytes (1 switches on core 0)
+[pid: 24650|app: 0|req: 2/2] 127.0.0.1 () {54 vars in 870 bytes} [Mon Dec 14 11:45:49 2020] POST /sys/api/auth/ => generated 65 bytes in 464 msecs (HTTP/1.1 200) 8 headers in 271 bytes (1 switches on core 1)
+[pid: 24650|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 855 bytes} [Mon Dec 14 11:47:49 2020] GET /sys/api/user/role/?username=cxh&application=sys&type=menu => generated 1159 bytes in 173 msecs (HTTP/1.1 200) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 24650|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 859 bytes} [Mon Dec 14 11:47:49 2020] GET /sys/api/user/role/?username=cxh&application=sys&type=button => generated 291 bytes in 104 msecs (HTTP/1.1 200) 6 headers in 185 bytes (1 switches on core 1)
+Mon Dec 14 11:48:05 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:48:05 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:48:05 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Dec 14 11:48:05 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Dec 15 09:33:57 2020] ***
+compiled with version: 4.7.4 on 07 December 2020 02:52:42
+os: Linux-4.15.0-43-generic #46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018
+nodename: rock-Inspiron-7472
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/rock/quality_inspection/python-workspace/project-sys
+writing pidfile to /home/rock/quality_inspection/python-workspace/project-sys/uwsgi-sys.pid
+detected binary path: /home/rock/anaconda3/envs/venv/bin/uwsgi
+chdir() to /home/rock/quality_inspection/python-workspace/project-sys
+your processes number limit is 31095
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35859 (port auto-assigned) fd 3
+Python version: 3.8.3 (default, May 19 2020, 18:47:26)  [GCC 7.3.0]
+Python main interpreter initialized at 0x14bc420
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 422160 bytes (412 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x14bc420 pid: 16447 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16447)
+spawned uWSGI worker 1 (pid: 16468, cores: 2)
+spawned uWSGI worker 2 (pid: 16469, cores: 2)
+*** Stats server enabled on /home/rock/quality_inspection/python-workspace/project-sys/uwsgi-sys.status fd: 18 ***
+spawned uWSGI http 1 (pid: 16472)
+[pid: 16469|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 872 bytes} [Tue Dec 15 09:38:53 2020] POST /sys/api/auth/ => generated 65 bytes in 2758 msecs (HTTP/1.1 200) 8 headers in 271 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 16472)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 16468)...
+Gracefully killing worker 2 (pid: 16469)...
+worker 1 buried after 11 seconds
+worker 2 buried after 11 seconds
+binary reloading uWSGI...
+chdir() to /home/rock/quality_inspection/python-workspace/project-sys
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:35859)
+running /home/rock/anaconda3/envs/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi-sys.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Dec 15 17:59:51 2020] ***
+compiled with version: 4.7.4 on 07 December 2020 02:52:42
+os: Linux-4.15.0-43-generic #46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018
+nodename: rock-Inspiron-7472
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/rock/quality_inspection/python-workspace/project-sys
+detected binary path: /home/rock/anaconda3/envs/venv/bin/uwsgi
+chdir() to /home/rock/quality_inspection/python-workspace/project-sys
+your processes number limit is 31095
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34347 (port auto-assigned) fd 4
+Python version: 3.8.3 (default, May 19 2020, 18:47:26)  [GCC 7.3.0]
+Python main interpreter initialized at 0xea0200
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 422160 bytes (412 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 11 seconds on interpreter 0xea0200 pid: 16447 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16447)
+spawned uWSGI worker 1 (pid: 6289, cores: 2)
+spawned uWSGI worker 2 (pid: 6290, cores: 2)
+*** Stats server enabled on /home/rock/quality_inspection/python-workspace/project-sys/uwsgi-sys.status fd: 18 ***
+spawned uWSGI http 1 (pid: 6292)

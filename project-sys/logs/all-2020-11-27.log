@@ -1,0 +1,5 @@
+[2020-11-27 09:11:32,296] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-27 09:13:28,824] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-27 11:11:05,943] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-11-27 11:11:22,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=yxt&application=monitor&type=menu HTTP/1.1" 200 10057
+[2020-11-27 11:11:22,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=yxt&application=monitor&type=button HTTP/1.1" 200 2

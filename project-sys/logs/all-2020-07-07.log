@@ -1,0 +1,506 @@
+[2020-07-07 09:17:10,938] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-07 09:17:43,626] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 09:17:43,628] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 09:17:43,630] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-07 09:17:43,630] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-07 09:17:56,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:19:41,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 09:19:41,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 09:19:43,658] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:19:57,203] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:23:52,742] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 09:23:52,743] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-07 09:23:52,767] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 09:23:52,768] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-07 09:23:52,771] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 09:23:52,772] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-07 09:24:10,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:24:12,710] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 09:24:12,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 09:24:14,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:47:18,171] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:47:25,408] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:47:25,635] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 09:47:25,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 09:51:24,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:52:16,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:52:20,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:52:21,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 09:52:21,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 09:53:57,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:54:13,972] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 09:54:13,973] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 09:58:45,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:58:48,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 09:58:48,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 09:58:51,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 09:58:59,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:00:10,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:00:13,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:00:13,549] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:00:13,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:00:21,235] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:02:22,453] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:03:24,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:03:27,430] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:03:27,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:03:30,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:03:35,067] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:08:04,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:08:07,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:08:07,925] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:08:07,926] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:08:12,286] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:10:01,787] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:10:05,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:10:06,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:10:06,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:10:10,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:11:08,088] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:11:11,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:11:11,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:11:11,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:11:15,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:12:37,823] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:12:45,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:12:54,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:13:40,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:15:56,488] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:27:31,793] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:32:33,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:38:31,984] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 10:38:31,984] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 10:38:45,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:38:47,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:38:47,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:38:50,206] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:39:17,912] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:39:35,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:42:32,834] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:45:09,804] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:45:42,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:45:42,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 10:45:42,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 10:45:51,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:45:55,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:54:58,391] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:55:29,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:55:33,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 10:55:41,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:04:28,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:04:31,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 11:04:31,347] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 11:05:09,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:05:09,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 11:05:09,595] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 11:05:38,650] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:05:40,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:06:53,965] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:06:54,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 11:06:54,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 11:07:10,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:07:10,688] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 11:07:10,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 11:09:09,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:09:18,255] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:09:22,656] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:09:51,992] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:10:43,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:11:47,372] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 11:12:12,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:16:57,642] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 15:16:57,650] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 15:16:57,823] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-07 15:16:57,824] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-07 15:16:57,863] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 15:16:57,865] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 15:17:12,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:17:20,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 15:17:20,545] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 15:17:24,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:17:26,009] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:17:35,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:17:38,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:17:55,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=asset&type=button HTTP/1.1" 200 60
+[2020-07-07 15:17:55,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=asset&type=menu HTTP/1.1" 200 6044
+[2020-07-07 15:18:56,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 15:18:56,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 15:18:58,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:19:12,739] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:19:21,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:21:43,093] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:38:25,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:56:13,296] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 15:56:13,365] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 15:56:13,369] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 15:56:13,401] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 15:56:13,403] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-07 15:56:13,406] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-07 15:56:26,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:56:29,030] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 15:56:29,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 15:56:31,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:56:33,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:56:40,635] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:57:21,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:57:22,105] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 15:57:22,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 15:57:31,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:57:39,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 15:58:52,610] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:01:53,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:04:53,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:08:08,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:09:57,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:10:43,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:11:33,071] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:13:58,275] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:19:14,711] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:23:05,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:23:32,938] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:24:35,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:29:58,435] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 16:29:58,436] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 16:30:12,693] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:30:14,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 16:30:14,598] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 16:30:18,665] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:30:21,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:30:45,593] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:44:48,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:45:46,375] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:46:24,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:47:02,729] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:47:31,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 16:52:48,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:18:45,729] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 17:18:45,732] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 17:18:45,749] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 17:18:45,751] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-07 17:18:45,760] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 17:18:45,761] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-07 17:18:58,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:19:00,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:19:00,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:19:02,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:19:15,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:28:43,641] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:33:07,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:33:15,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:33:15,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:33:15,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:33:18,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:36:15,937] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:36:16,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:36:16,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:36:26,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:36:43,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:36:43,731] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:36:43,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:41:31,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:41:36,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:41:36,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:41:36,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:41:51,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:42:16,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:49:27,642] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 17:49:27,642] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-07 17:49:27,655] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-07 17:49:27,655] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-07 17:49:27,688] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-07 17:49:27,689] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-07 17:49:39,331] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:49:41,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:49:41,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:49:47,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:49:50,235] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:50:03,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:50:03,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:50:47,839] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:50:48,020] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:50:48,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:51:49,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:52:12,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:52:35,771] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:53:36,342] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:53:56,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:55:51,797] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:56:36,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:56:40,596] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:56:46,592] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:56:46,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 17:56:46,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 17:56:50,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:57:11,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 17:57:48,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:01:39,485] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:01:39,628] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 18:01:39,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 18:01:43,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:02:07,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:02:22,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:02:22,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:02:34,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:02:34,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-07 18:02:34,925] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-07 18:07:43,614] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-07 18:07:50,078] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:46:58,388] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 09:46:58,389] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 09:46:58,443] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-08 09:46:58,444] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-08 09:47:14,120] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:17,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 09:47:17,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 09:47:19,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:22,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:25,604] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:28,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:30,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:34,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:47:39,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:03,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:05,128] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:14,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:25,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:26,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:31,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:31,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 09:49:31,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 09:49:42,052] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:50,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:53,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:49:53,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:59:05,207] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 09:59:05,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 09:59:05,391] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 10:14:11,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 10:14:11,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 10:14:11,781] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 10:49:59,106] [log.py:222] [log:log_response] [WARNING]- Not Found: /index
+[2020-07-08 10:49:59,176] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /index HTTP/1.1" 404 10951
+[2020-07-08 10:49:59,245] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-08 10:49:59,246] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10969
+[2020-07-08 11:20:00,134] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 11:20:00,149] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 11:20:00,152] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 11:20:00,224] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-08 11:20:00,225] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-08 11:20:00,232] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-08 11:20:14,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:21:52,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 11:21:52,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 11:21:55,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:21:58,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:23:59,642] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:24:28,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:24:28,810] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 11:24:28,811] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 11:24:38,807] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:15,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:16,051] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 11:30:16,071] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 11:30:21,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:27,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:27,807] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 11:30:27,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 11:30:34,343] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:34,759] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:39,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:30:40,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:31:13,681] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:31:13,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 11:31:13,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2065
+[2020-07-08 11:31:20,104] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:31:20,498] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:31:25,355] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:31:25,704] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:34:51,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 11:34:51,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:44:41,759] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 13:44:41,761] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 13:44:41,762] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-08 13:44:41,762] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-08 13:44:41,814] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 13:44:41,814] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-08 13:46:18,112] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:46:22,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:46:22,422] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:46:24,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:46:48,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:47:01,180] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:53:50,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:53:50,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:53:50,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:54:16,586] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:54:16,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:54:16,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:54:26,529] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:54:26,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:54:26,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:56:41,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:56:41,854] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:56:41,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:56:45,693] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:56:51,617] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 13:56:51,618] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 13:57:00,850] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 13:57:00,852] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 13:57:18,338] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:57:18,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 13:57:18,562] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 13:57:47,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 13:57:51,894] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 13:57:51,896] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:01:22,268] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:01:22,269] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:02:55,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:02:56,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:02:56,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:03:00,469] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:03:00,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:03:00,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:03:02,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:03:12,802] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:03:12,804] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:08:16,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:10:42,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:10:43,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:10:43,017] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:10:45,382] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:10:53,609] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:10:53,611] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:15:14,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:15:15,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:15:15,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:15:20,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:15:29,959] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:15:29,962] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:17:06,138] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:17:06,139] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-08 14:17:06,177] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 14:17:06,179] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-08 14:17:06,205] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 14:17:06,205] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-08 14:17:17,030] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:17:22,255] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:17:22,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:17:26,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:17:28,444] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:21:40,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:21:41,042] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:21:41,043] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:21:44,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:21:49,414] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:21:49,415] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:33:40,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:33:40,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 14:33:40,709] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 14:33:44,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 14:33:48,713] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:33:48,715] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:34:16,700] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:34:16,701] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 14:34:50,708] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 14:34:50,709] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 15:12:43,662] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:12:43,744] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-08 15:22:42,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:22:46,858] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:22:46,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:22:49,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:22:52,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:23:08,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:02,176] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:02,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:24:02,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:24:04,610] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:11,474] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:43,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:44,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:24:44,014] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:24:45,959] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:52,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:24:52,603] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:24:52,606] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 15:34:22,403] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:34:22,404] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 15:34:22,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:34:22,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:42:32,163] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:42:32,165] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 15:42:38,235] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:42:38,238] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 15:49:36,008] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:49:36,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:49:46,937] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:50:01,180] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:50:26,986] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:50:39,833] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:50:46,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:52:53,416] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 15:52:53,418] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-08 15:53:01,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:53:07,426] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:53:07,429] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:53:11,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:53:21,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:53:27,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:53:46,529] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:54:02,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:54:02,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 15:54:02,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 15:54:06,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 15:54:14,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:11:48,499] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:11:50,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:11:56,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:24:05,398] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 16:24:05,402] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-08 16:24:05,402] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-08 16:24:05,404] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-08 16:24:17,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:24:22,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:24:22,258] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:24:26,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:24:30,813] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:24:37,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:25:50,623] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:25:50,625] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:25:54,904] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:25:54,905] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:25:55,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:25:55,349] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:25:59,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:26:03,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:26:09,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:26:09,961] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:26:09,962] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:31:05,850] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:31:09,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:31:12,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:31:18,439] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:31:18,816] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:31:18,817] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:33:09,352] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:33:18,266] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:33:23,822] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:33:24,129] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:33:24,131] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:37:14,772] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:37:14,822] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:37:14,841] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:37:14,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:37:26,347] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:37:30,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:37:30,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:37:30,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:37:32,654] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:37:40,064] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-08 16:37:43,089] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-08 16:37:43,091] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-08 16:38:30,919] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:38:30,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:39:51,714] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-08 16:39:51,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 2370
+[2020-07-08 16:52:36,643] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.

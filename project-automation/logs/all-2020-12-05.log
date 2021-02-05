@@ -1,0 +1,61 @@
+[2020-12-05 11:17:57,040] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:28:18,969] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-automation/script/views.py changed, reloading.
+[2020-12-05 11:28:20,140] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:33:30,989] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-automation/script/views.py changed, reloading.
+[2020-12-05 11:33:32,878] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:37:11,204] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-automation/script/views.py changed, reloading.
+[2020-12-05 11:37:12,500] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:38:32,894] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:39:07,324] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:41:31,448] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:42:37,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:43:05,614] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0&name=test.py HTTP/1.1" 200 446
+[2020-12-05 11:44:30,290] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:46:08,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:46:11,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0&name=test.py HTTP/1.1" 200 446
+[2020-12-05 11:46:39,917] [views.py:565] [views:upload_immediate_exec_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 11:46:43,916] [views.py:574] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 11:46:46,621] [views.py:602] [views:upload_immediate_exec_script] [ERROR]- 10.230.13.41脚本执行失败：[Errno 2] No such file or directory: '/home/rock/quality_inspection/python-workspace/project-automation/script/script_file/test.py'
+[2020-12-05 11:46:46,631] [basehttp.py:157] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x88\x82L\x9di_Ou')
+[2020-12-05 11:46:46,633] [basehttp.py:157] [basehttp:log_message] [WARNING]- "Li_Ou" 400 -
+[2020-12-05 11:46:46,635] [basehttp.py:71] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54192)
+
+[2020-12-05 11:47:54,857] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:47:59,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-05 11:48:03,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /automation/api/script/1/ HTTP/1.1" 200 444
+[2020-12-05 11:48:03,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-05 11:48:05,679] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:48:08,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0&name=test.py HTTP/1.1" 200 446
+[2020-12-05 11:48:20,330] [views.py:565] [views:upload_immediate_exec_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 11:48:22,262] [views.py:574] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 11:48:23,052] [views.py:578] [views:upload_immediate_exec_script] [INFO]- 脚本文件上传到10.230.13.41成功
+[2020-12-05 11:48:23,626] [views.py:582] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41正在执行脚本
+[2020-12-05 11:48:34,945] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：starting....
+[2020-12-05 11:48:38,183] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：executing...
+[2020-12-05 11:48:40,883] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：2
+[2020-12-05 11:48:43,338] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：ending...
+[2020-12-05 11:48:47,240] [basehttp.py:157] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x88\x82{&JmxÎ')
+[2020-12-05 11:48:47,247] [basehttp.py:157] [basehttp:log_message] [WARNING]- "{&JmxÎ" 400 -
+[2020-12-05 11:48:47,251] [basehttp.py:71] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55250)
+
+[2020-12-05 11:49:00,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script_log/?log_use=0&current_page=1&pre_page=10 HTTP/1.1" 200 3623
+[2020-12-05 11:49:40,541] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 11:49:43,821] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-05 11:49:44,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:50:42,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-05 11:50:43,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:51:27,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-05 11:51:28,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 839
+[2020-12-05 11:58:12,111] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-05 12:03:38,307] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0&name=test.py HTTP/1.1" 200 446
+[2020-12-05 12:03:48,418] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /automation/api/script/exec_script/ HTTP/1.1" 200 52
+[2020-12-05 12:03:48,524] [views.py:518] [views:redis_lock] [INFO]- <Redis Lock> scheduler.lock.rbay5a1dbk00000000.2020-12-05 12:03:48
+[2020-12-05 12:03:48,552] [views.py:149] [views:upload_execute_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 12:03:48,761] [views.py:157] [views:upload_execute_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 12:03:48,961] [views.py:160] [views:upload_execute_script] [INFO]- 脚本文件上传到10.230.13.41成功
+[2020-12-05 12:03:48,962] [views.py:163] [views:upload_execute_script] [INFO]- 10.230.13.41正在执行脚本
+[2020-12-05 12:03:51,025] [views.py:166] [views:upload_execute_script] [INFO]- 10.230.13.41脚本执行结果：['starting....\n', 'executing...\n', '2\n', 'ending...\n']
+[2020-12-05 12:03:51,325] [basehttp.py:157] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x88\x82\x93')
+[2020-12-05 12:03:51,326] [basehttp.py:157] [basehttp:log_message] [WARNING]- "ÕMä" 400 -
+[2020-12-05 12:03:51,327] [basehttp.py:71] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 39700)
+

@@ -1,0 +1,30 @@
+[2020-06-06 15:01:53,698] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-06 15:06:34,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-06 15:06:34,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 592
+[2020-06-06 15:06:35,442] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-06 15:06:35,495] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 492
+[2020-06-06 15:06:36,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-06 15:06:36,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:11:55,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:12:31,359] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:13:17,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:13:21,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:13:28,988] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 872
+[2020-06-06 15:13:58,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 592
+[2020-06-06 15:14:00,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 592
+[2020-06-06 15:14:12,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?username=gz&current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-06 15:14:12,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=gz&current_page=1&pre_page=10 HTTP/1.1" 200 248
+[2020-06-06 15:14:14,505] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=gz&current_page=1&pre_page=10 HTTP/1.1" 200 248
+[2020-06-06 15:14:17,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 592
+[2020-06-06 15:14:19,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 492
+[2020-06-06 21:09:02,145] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/3/ HTTP/1.1" 200 0
+[2020-06-06 21:09:02,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/3/ HTTP/1.1" 200 195
+[2020-06-06 21:09:08,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/4/ HTTP/1.1" 200 0
+[2020-06-06 21:09:08,660] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/4/ HTTP/1.1" 200 195
+[2020-06-06 22:34:29,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-06 22:34:29,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 870
+[2020-06-06 22:34:49,856] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 870
+[2020-06-06 22:36:51,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 870
+[2020-06-06 22:36:58,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 870
+[2020-06-06 22:39:55,676] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 870
+[2020-06-07 12:09:01,455] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.

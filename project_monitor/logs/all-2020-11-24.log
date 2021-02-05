@@ -1,0 +1,8 @@
+[2020-11-24 10:59:41,705] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-24 10:59:49,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/storageitem/monitor?storage_name=GZ-18500V5-1 HTTP/1.1" 301 0
+[2020-11-24 10:59:49,899] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/storageitem/monitor/?storage_name=GZ-18500V5-1 HTTP/1.1" 200 2
+[2020-11-24 16:00:18,759] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-24 16:06:35,909] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/storage/views.py changed, reloading.
+[2020-11-24 16:06:37,431] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-24 16:08:49,475] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/storage/views.py changed, reloading.
+[2020-11-24 16:08:50,550] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

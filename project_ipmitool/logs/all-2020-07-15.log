@@ -1,0 +1,134 @@
+[2020-07-15 13:41:18,078] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 13:41:21,651] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 13:41:24,060] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 13:57:34,530] [log.py:222] [log:log_response] [WARNING]- Not Found: /ipmitool/api/checkipmi/
+[2020-07-15 13:57:34,531] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /ipmitool/api/checkipmi/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 404 2119
+[2020-07-15 13:58:55,779] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 13:58:56,391] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 13:59:01,032] [log.py:222] [log:log_response] [WARNING]- Not Found: /ipmitool/api/checkipmi/
+[2020-07-15 13:59:01,032] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /ipmitool/api/checkipmi/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 404 2119
+[2020-07-15 14:00:37,055] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/project_ipmitool/urls.py changed, reloading.
+[2020-07-15 14:00:37,542] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:00:43,419] [log.py:222] [log:log_response] [WARNING]- Not Found: /ipmitool/api/checkipmi/
+[2020-07-15 14:00:43,420] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /ipmitool/api/checkipmi/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 404 2240
+[2020-07-15 14:01:17,113] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ipmitool/api/checksn/
+Traceback (most recent call last):
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2020-07-15 14:01:17,114] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 500 81608
+[2020-07-15 14:01:57,492] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:01:58,013] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:02:02,500] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ipmitool/api/checksn/
+Traceback (most recent call last):
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2020-07-15 14:02:02,501] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 500 81608
+[2020-07-15 14:04:47,203] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:04:47,733] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:04:55,878] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ipmitool/api/checksn/
+Traceback (most recent call last):
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2020-07-15 14:04:55,879] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 500 81608
+[2020-07-15 14:06:41,848] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:06:42,269] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:08:01,300] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:08:01,893] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:12:41,195] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:12:41,996] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:13:06,420] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:13:06,924] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:13:45,810] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ipmitool/api/checksn/
+Traceback (most recent call last):
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/yangxiaotong/.virtualenvs/django-test/lib/python3.8/site-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2020-07-15 14:13:45,811] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 500 81608
+[2020-07-15 14:15:41,351] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:15:41,772] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:16:08,078] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 14:16:08,456] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 14:16:12,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 14:26:42,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 14:27:27,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 14:28:01,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 14:28:33,221] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 14:38:42,127] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/project_ipmitool/settings.py changed, reloading.
+[2020-07-15 14:38:43,086] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 16:55:08,598] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 39
+[2020-07-15 16:57:26,081] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 16:57:26,697] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 16:57:47,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:01:36,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:02:25,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:17:09,780] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 17:17:10,646] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 17:17:57,615] [views.py:19] [views:post] [INFO]- {'device_name': '服务器5', 'hostname': 'test-10', 'sn': 'dsfdgsn', 'status': 'REBOOTING', 'usage': '生产', 'location': '机房1', 'console_ip': 'http://fuwuqi1', 'console_user': 'admin', 'console_password': '111111', 'ipmi_server_ip': 'localhost', 'pxe_server_ip': 'localhost'}
+[2020-07-15 17:18:07,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /ipmitool/api/ipmi/ HTTP/1.1" 200 22
+[2020-07-15 17:20:07,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:20:41,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:20:56,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_pwd=111111 HTTP/1.1" 200 35
+[2020-07-15 17:20:56,814] [views.py:19] [views:post] [INFO]- {'device_name': '服务器9', 'sn': 'adsfdfgsn', 'status': 'WAITING', 'ip': '192.168.5.4', 'gateway': '192.168.124.11', 'netmask': '0xffffff00', 'hostname': 'test-01', 'usage': 'ceshi', 'location': '机房1', 'type': 'vm', 'console_ip': 'http://fuwuqi1', 'console_user': 'admin', 'console_pwd': '111111', 'ipmi_server_ip': 'localhost', 'os_name': 'os-test1', 'os_version': 'os-test1', 'ks_name': 'os-test1', 'profile': 'ubunt16-x86_64', 'pxe_server_ip': 'localhost', 'mac': ['a.a.a', 'b.b.b'], 'ifname': ['a.a.a', 'b.b.b']}
+[2020-07-15 17:20:56,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /ipmitool/api/ipmi/ HTTP/1.1" 200 31
+[2020-07-15 17:24:02,151] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-15 17:24:03,008] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-15 17:24:44,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_password=111111 HTTP/1.1" 200 35
+[2020-07-15 17:24:44,235] [views.py:19] [views:post] [INFO]- {'device_name': '服务器9', 'sn': 'adsfdfgsn', 'status': 'WAITING', 'ip': '192.168.5.4', 'gateway': '192.168.124.11', 'netmask': '0xffffff00', 'hostname': 'test-01', 'usage': 'ceshi', 'location': '机房1', 'type': 'vm', 'console_ip': 'http://fuwuqi1', 'console_user': 'admin', 'console_password': '111111', 'ipmi_server_ip': 'localhost', 'os_name': 'os-test1', 'os_version': 'os-test1', 'ks_name': 'os-test1', 'profile': 'ubunt16-x86_64', 'pxe_server_ip': 'localhost', 'mac': ['a.a.a', 'b.b.b'], 'ifname': ['a.a.a', 'b.b.b']}
+[2020-07-15 17:24:54,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /ipmitool/api/ipmi/ HTTP/1.1" 200 22
+[2020-07-15 17:28:15,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ipmitool/api/checksn/?sn=adsfdfgsn&console_ip=http://fuwuqi1&console_user=admin&console_password=111111 HTTP/1.1" 200 35
+[2020-07-15 17:28:15,168] [views.py:19] [views:post] [INFO]- {'device_name': '服务器9', 'sn': 'adsfdfgsn', 'status': 'WAITING', 'ip': '192.168.5.4', 'gateway': '192.168.124.11', 'netmask': '0xffffff00', 'hostname': 'test-01', 'usage': 'ceshi', 'location': '机房1', 'type': 'vm', 'console_ip': 'http://fuwuqi1', 'console_user': 'admin', 'console_password': '111111', 'ipmi_server_ip': 'localhost', 'os_name': 'os-test1', 'os_version': 'os-test1', 'ks_name': 'os-test1', 'profile': 'ubunt16-x86_64', 'pxe_server_ip': 'localhost', 'mac': ['a.a.a', 'b.b.b'], 'ifname': ['a.a.a', 'b.b.b']}
+[2020-07-15 17:28:25,171] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /ipmitool/api/ipmi/ HTTP/1.1" 200 22
+[2020-07-16 09:45:27,467] [log.py:222] [log:log_response] [WARNING]- Not Found: /pxeserver/api/callnics/
+[2020-07-16 09:45:27,469] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /pxeserver/api/callnics/ HTTP/1.1" 404 2152
+[2020-07-16 14:44:57,690] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.

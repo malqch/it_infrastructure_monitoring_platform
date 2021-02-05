@@ -1,0 +1,624 @@
+[2020-08-18 09:29:59,882] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-18 09:37:11,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:mem_percent HTTP/1.1" 200 25813
+[2020-08-18 09:37:11,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:cpu_user HTTP/1.1" 200 24379
+[2020-08-18 09:37:11,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:cpu_percent HTTP/1.1" 200 24403
+[2020-08-18 09:37:11,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:cpu_system HTTP/1.1" 200 24379
+[2020-08-18 09:37:11,623] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:swap_percent HTTP/1.1" 200 25813
+[2020-08-18 09:37:11,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628231&end=1597714631&m=sum:iowait HTTP/1.1" 200 24379
+[2020-08-18 09:37:11,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:37:14,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=REDIS_10.10.10.130_6379 HTTP/1.1" 200 5056
+[2020-08-18 09:37:20,704] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:37:20,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:cpu_user HTTP/1.1" 200 24379
+[2020-08-18 09:37:20,814] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:cpu_percent HTTP/1.1" 200 24403
+[2020-08-18 09:37:20,820] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:mem_percent HTTP/1.1" 200 25813
+[2020-08-18 09:37:20,820] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:cpu_system HTTP/1.1" 200 24379
+[2020-08-18 09:37:20,830] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:swap_percent HTTP/1.1" 200 25813
+[2020-08-18 09:37:20,835] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628240&end=1597714640&m=sum:iowait HTTP/1.1" 200 24379
+[2020-08-18 09:38:16,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=REDIS_10.10.10.130_6379 HTTP/1.1" 200 5056
+[2020-08-18 09:38:17,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:38:17,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:cpu_percent HTTP/1.1" 200 24402
+[2020-08-18 09:38:17,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:mem_percent HTTP/1.1" 200 25813
+[2020-08-18 09:38:17,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:swap_percent HTTP/1.1" 200 25813
+[2020-08-18 09:38:17,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:iowait HTTP/1.1" 200 24379
+[2020-08-18 09:38:17,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:cpu_system HTTP/1.1" 200 24379
+[2020-08-18 09:38:17,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597628297&end=1597714697&m=sum:cpu_user HTTP/1.1" 200 24379
+[2020-08-18 09:41:18,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 09:44:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:47:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:50:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:53:18,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:56:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 09:59:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:02:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:05:18,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:08:18,553] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:11:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:14:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:17:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 10:20:18,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:23:18,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 10:26:18,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:29:18,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:32:18,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 10:35:18,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:38:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:41:18,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 10:44:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 10:47:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:50:18,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:53:18,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:56:18,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 10:59:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:02:18,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 11:05:18,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:08:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:11:18,658] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:14:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:17:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:20:18,548] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:23:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:26:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:29:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 11:32:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:35:18,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:38:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:41:18,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:44:18,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 11:47:18,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 11:50:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:53:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:56:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 11:59:18,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 12:02:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 12:05:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2685
+[2020-08-18 12:08:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:11:18,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 12:14:18,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 12:17:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:20:18,552] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:23:18,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:26:18,552] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 12:29:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:32:18,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2680
+[2020-08-18 12:35:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 12:38:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 12:41:18,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:44:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:47:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:50:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 12:53:18,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 12:56:18,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 12:59:18,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 13:02:18,581] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:05:18,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:08:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 13:11:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:14:18,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:17:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:20:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 13:23:18,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:26:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2686
+[2020-08-18 13:29:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:32:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:35:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:38:18,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:41:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:44:18,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:47:18,592] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:50:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:53:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 13:56:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 13:59:18,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:02:18,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:05:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2686
+[2020-08-18 14:08:18,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:11:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2680
+[2020-08-18 14:14:18,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:17:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:20:18,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:23:18,564] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:26:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:29:18,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:32:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:35:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:38:18,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:41:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:44:18,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 14:47:18,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 14:50:18,549] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 14:53:18,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 14:56:18,549] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 14:59:18,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 15:02:18,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 15:05:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 15:08:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 15:11:18,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:14:18,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:17:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:20:18,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:23:18,578] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:26:18,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:29:18,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:32:18,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:35:18,548] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:38:18,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:41:18,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 15:44:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 15:47:18,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2682
+[2020-08-18 15:50:18,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:53:18,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 15:56:18,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 15:59:18,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 16:02:18,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 16:05:18,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 16:08:18,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2683
+[2020-08-18 16:11:18,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2684
+[2020-08-18 16:14:18,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2681
+[2020-08-18 16:15:41,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=REDIS_10.10.10.130_6379 HTTP/1.1" 200 5058
+[2020-08-18 16:15:47,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/dbitem/?current_page=1&pre_page=10 HTTP/1.1" 200 73
+[2020-08-18 16:15:50,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-18 16:15:50,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597652150&end=1597738550&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35433
+[2020-08-18 16:15:50,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597652150&end=1597738550&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46958
+[2020-08-18 16:15:50,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597652150&end=1597738550&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46221
+[2020-08-18 16:15:52,526] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:15:52,530] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:15:52,533] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597652150&end=1597738550&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 16:15:52,545] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597652150&end=1597738550&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 16:18:50,337] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21244
+[2020-08-18 16:21:50,342] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20463
+[2020-08-18 16:24:50,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20430
+[2020-08-18 16:29:50,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2688
+[2020-08-18 16:29:51,068] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:mem_percent HTTP/1.1" 200 25867
+[2020-08-18 16:29:51,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:cpu_percent HTTP/1.1" 200 24458
+[2020-08-18 16:29:51,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:cpu_user HTTP/1.1" 200 24434
+[2020-08-18 16:29:51,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:cpu_system HTTP/1.1" 200 24430
+[2020-08-18 16:29:51,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:swap_percent HTTP/1.1" 200 25867
+[2020-08-18 16:29:51,092] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597652990&end=1597739390&m=sum:iowait HTTP/1.1" 200 24431
+[2020-08-18 16:36:38,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-18 16:36:38,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653398&end=1597739798&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46945
+[2020-08-18 16:36:38,451] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653398&end=1597739798&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35389
+[2020-08-18 16:36:38,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653398&end=1597739798&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46194
+[2020-08-18 16:36:38,694] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:36:38,714] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:36:38,719] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597653398&end=1597739798&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 16:36:38,724] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597653398&end=1597739798&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 16:39:38,309] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20453
+[2020-08-18 16:42:38,317] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-18 16:44:23,854] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20450
+[2020-08-18 16:44:23,871] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653863&end=1597740263&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35294
+[2020-08-18 16:44:23,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653863&end=1597740263&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46953
+[2020-08-18 16:44:23,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597653863&end=1597740263&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46185
+[2020-08-18 16:44:23,957] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:44:23,963] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597653863&end=1597740263&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 16:44:23,987] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 16:44:23,988] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597653863&end=1597740263&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 16:44:34,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 18312
+[2020-08-18 16:45:02,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 18312
+[2020-08-18 16:45:07,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=ORACLE_10.10.10.11_testdb HTTP/1.1" 200 9068
+[2020-08-18 16:45:11,438] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 18312
+[2020-08-18 16:52:51,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 886
+[2020-08-18 16:52:51,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597654371&end=1597740771&m=sum:SystemCpuLoad HTTP/1.1" 200 46063
+[2020-08-18 16:52:51,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597654371&end=1597740771&m=sum:SystemLoadAverage HTTP/1.1" 200 24859
+[2020-08-18 16:58:50,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 886
+[2020-08-18 16:58:50,729] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597654730&end=1597741130&m=sum:SystemLoadAverage HTTP/1.1" 200 24751
+[2020-08-18 16:58:50,731] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597654730&end=1597741130&m=sum:SystemCpuLoad HTTP/1.1" 200 45863
+[2020-08-18 17:12:33,283] [log.py:222] [log:log_response] [WARNING]- Not Found: /asset/api/device/visualization/
+[2020-08-18 17:12:33,283] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /asset/api/device/visualization/ HTTP/1.1" 404 24100
+[2020-08-18 17:49:26,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-18 17:49:26,926] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597657766&end=1597744166&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35198
+[2020-08-18 17:49:26,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597657766&end=1597744166&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46152
+[2020-08-18 17:49:26,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597657766&end=1597744166&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46924
+[2020-08-18 17:49:27,416] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 17:49:27,421] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 17:49:27,423] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597657766&end=1597744166&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 17:49:27,426] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597657766&end=1597744166&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 18:10:27,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 878
+[2020-08-18 18:10:27,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659027&end=1597745427&m=sum:SystemCpuLoad HTTP/1.1" 200 45434
+[2020-08-18 18:10:27,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659027&end=1597745427&m=sum:SystemLoadAverage HTTP/1.1" 200 24518
+[2020-08-18 18:10:30,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-18 18:10:30,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659030&end=1597745430&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 34971
+[2020-08-18 18:10:30,663] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659030&end=1597745430&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46947
+[2020-08-18 18:10:30,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659030&end=1597745430&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46172
+[2020-08-18 18:10:30,803] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:10:30,811] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659030&end=1597745430&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 18:10:30,861] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:10:30,863] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659030&end=1597745430&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 18:10:43,802] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 878
+[2020-08-18 18:10:43,825] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659043&end=1597745443&m=sum:SystemLoadAverage HTTP/1.1" 200 24518
+[2020-08-18 18:10:43,833] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659043&end=1597745443&m=sum:SystemCpuLoad HTTP/1.1" 200 45434
+[2020-08-18 18:10:44,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-18 18:10:44,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659044&end=1597745444&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46947
+[2020-08-18 18:10:44,986] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659044&end=1597745444&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 34971
+[2020-08-18 18:10:45,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659044&end=1597745444&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46172
+[2020-08-18 18:10:45,117] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:10:45,129] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659044&end=1597745444&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 18:10:45,155] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:10:45,160] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659044&end=1597745444&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 18:11:26,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 878
+[2020-08-18 18:11:26,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659086&end=1597745486&m=sum:SystemLoadAverage HTTP/1.1" 200 24518
+[2020-08-18 18:11:26,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659086&end=1597745486&m=sum:SystemCpuLoad HTTP/1.1" 200 45435
+[2020-08-18 18:11:37,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 2685
+[2020-08-18 18:11:37,698] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:mem_percent HTTP/1.1" 200 25867
+[2020-08-18 18:11:37,711] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:cpu_percent HTTP/1.1" 200 24448
+[2020-08-18 18:11:37,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:cpu_user HTTP/1.1" 200 24440
+[2020-08-18 18:11:37,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:cpu_system HTTP/1.1" 200 24430
+[2020-08-18 18:11:37,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:swap_percent HTTP/1.1" 200 25867
+[2020-08-18 18:11:37,819] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1597659097&end=1597745497&m=sum:iowait HTTP/1.1" 200 24431
+[2020-08-18 18:12:01,169] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=ORACLE_10.10.10.11_testdb HTTP/1.1" 200 9067
+[2020-08-18 18:12:07,479] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 18312
+[2020-08-18 18:12:50,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-18 18:12:50,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659170&end=1597745570&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 34934
+[2020-08-18 18:12:50,469] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659170&end=1597745570&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46950
+[2020-08-18 18:12:50,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659170&end=1597745570&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46173
+[2020-08-18 18:12:50,706] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:12:50,708] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:12:50,712] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659170&end=1597745570&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 18:12:50,715] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659170&end=1597745570&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 18:14:24,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 18313
+[2020-08-18 18:15:05,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=REDIS_10.10.10.130_6379 HTTP/1.1" 200 5057
+[2020-08-18 18:15:05,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659305&end=1597745705&m=sum:instantaneous_input_kbps HTTP/1.1" 200 25735
+[2020-08-18 18:15:05,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659305&end=1597745705&m=sum:instantaneous_ops_per_sec HTTP/1.1" 200 24344
+[2020-08-18 18:15:05,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659305&end=1597745705&m=sum:instantaneous_output_kbps HTTP/1.1" 200 25638
+[2020-08-18 18:15:47,809] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21255
+[2020-08-18 18:15:47,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659347&end=1597745747&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 46968
+[2020-08-18 18:15:47,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659347&end=1597745747&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 34954
+[2020-08-18 18:15:47,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597659347&end=1597745747&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46191
+[2020-08-18 18:15:47,969] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:15:47,990] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-18 18:15:47,991] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659347&end=1597745747&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20416
+[2020-08-18 18:15:47,992] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597659347&end=1597745747&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20407
+[2020-08-18 18:15:51,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 877
+[2020-08-18 18:15:51,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659350&end=1597745750&m=sum:SystemCpuLoad HTTP/1.1" 200 45435
+[2020-08-18 18:15:51,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597659350&end=1597745750&m=sum:SystemLoadAverage HTTP/1.1" 200 24518

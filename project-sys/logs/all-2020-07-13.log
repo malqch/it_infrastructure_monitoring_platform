@@ -1,0 +1,656 @@
+[2020-07-13 09:18:09,715] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 09:22:08,593] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 09:22:08,594] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-13 09:22:08,604] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 09:22:08,608] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-13 09:22:17,891] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 09:22:17,892] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 09:22:32,628] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 09:22:39,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 09:22:39,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 09:22:41,852] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 09:22:45,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 09:22:45,810] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 09:22:45,814] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 09:23:02,058] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 09:38:00,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 09:53:31,423] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 09:53:31,426] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 13:38:05,778] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/auth/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2003, "Can't connect to MySQL server on '10.10.10.16' (113)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    obj = User.objects.filter(username=user).first()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 664, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '10.10.10.16' (113)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 116, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-07-13 13:38:05,795] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/auth/ HTTP/1.1" 500 23915
+[2020-07-13 13:39:09,465] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:39:15,331] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 13:39:15,333] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 13:39:19,284] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 13:39:19,285] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 13:39:23,082] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 13:39:23,083] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 13:39:28,505] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 13:39:28,506] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 13:39:35,918] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 13:39:35,919] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-13 13:45:37,633] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/
+[2020-07-13 13:45:37,634] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 404 10952
+[2020-07-13 13:46:46,255] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:47:02,999] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/
+[2020-07-13 13:47:03,000] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 404 10952
+[2020-07-13 13:47:15,618] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/
+[2020-07-13 13:47:15,619] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 404 10952
+[2020-07-13 13:47:42,921] [log.py:222] [log:log_response] [WARNING]- Unsupported Media Type: /sys/api/user/
+[2020-07-13 13:47:42,922] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/user/ HTTP/1.1" 415 66
+[2020-07-13 13:47:58,453] [log.py:222] [log:log_response] [WARNING]- Bad Request: /sys/api/user/
+[2020-07-13 13:47:58,454] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/user/ HTTP/1.1" 400 115
+[2020-07-13 13:49:18,280] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 13:49:18,282] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19135
+[2020-07-13 13:49:46,635] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 13:49:46,637] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19120
+[2020-07-13 13:50:28,395] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 13:50:28,396] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19120
+[2020-07-13 13:51:56,818] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-13 13:51:57,944] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:52:02,570] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:52:08,574] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password').copy())
+AttributeError: 'str' object has no attribute 'copy'
+[2020-07-13 13:52:08,576] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 18797
+[2020-07-13 13:52:39,093] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:52:45,371] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 165, in create
+    user_form['password'] = make_password(passd)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 13:52:45,373] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19100
+[2020-07-13 13:54:31,021] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:54:37,379] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 165, in create
+    passd1 = passd.copy()
+AttributeError: 'str' object has no attribute 'copy'
+[2020-07-13 13:54:37,381] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 18747
+[2020-07-13 13:55:06,148] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:55:09,586] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/user/ HTTP/1.1" 201 189
+[2020-07-13 13:57:52,078] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-13 13:57:52,952] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:58:31,931] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 13:59:06,011] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 166, in create
+    user_form['password'] = make_password(passd)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 13:59:06,012] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19100
+[2020-07-13 14:00:05,102] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:00:10,346] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 165, in create
+    user_form['password'] = user_form1.get('password')
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 14:00:10,348] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19106
+[2020-07-13 14:01:11,474] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:01:14,903] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 165, in create
+    user_form['password'] = make_password(user_form1.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 14:01:14,905] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19121
+[2020-07-13 14:02:54,307] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:03:34,928] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:05:50,402] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:05:57,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/user/ HTTP/1.1" 201 189
+[2020-07-13 14:06:40,402] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:06:45,926] [log.py:222] [log:log_response] [WARNING]- Conflict: /sys/api/user/
+[2020-07-13 14:06:45,926] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/user/ HTTP/1.1" 409 25
+[2020-07-13 14:06:53,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/user/ HTTP/1.1" 201 190
+[2020-07-13 14:07:41,064] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:12:54,014] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:12:56,687] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/sys/api/user/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2020-07-13 14:12:56,688] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user HTTP/1.1" 500 74880
+[2020-07-13 14:13:35,498] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 14:13:35,500] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19120
+[2020-07-13 14:13:46,814] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-13 14:13:47,801] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:13:52,831] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 164, in create
+    user_form['password'] = make_password(user_form.get('password'))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+[2020-07-13 14:13:52,833] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /sys/api/user/ HTTP/1.1" 500 19170
+[2020-07-13 14:14:18,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/user/ HTTP/1.1" 201 261
+[2020-07-13 14:14:48,280] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:14:54,018] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/
+[2020-07-13 14:14:54,019] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/user/ HTTP/1.1" 403 40
+[2020-07-13 14:15:11,248] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-13 14:15:12,189] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:15:14,986] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:15:19,418] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/user/ HTTP/1.1" 201 261
+[2020-07-13 14:15:25,550] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-13 14:15:26,532] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:15:52,820] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-13 14:16:36,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role?username=admin1&application=automation&type=menu HTTP/1.1" 301 0
+[2020-07-13 14:16:36,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role?username=admin1&application=automation&type=button HTTP/1.1" 301 0
+[2020-07-13 14:16:37,035] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 14:16:37,036] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 14:16:37,037] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin1&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-13 14:16:37,038] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin1&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-13 14:16:43,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:16:46,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 14:16:46,739] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 14:16:48,721] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:23:02,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:23:23,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:27:23,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:29:52,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:30:25,438] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:46:56,597] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 14:46:56,602] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-13 14:46:56,620] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 14:46:56,621] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-13 14:47:04,112] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:47:08,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 14:47:08,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 14:47:23,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:47:24,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 14:47:24,122] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 14:47:31,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:56:45,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 14:56:45,562] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 14:56:45,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 14:56:51,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:15:37,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:15:40,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:19:29,663] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 15:19:29,664] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 15:19:38,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:19:44,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 15:19:44,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 15:19:47,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:19:49,976] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:23:29,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:23:32,243] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:26:09,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:28:41,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:28:46,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:36:41,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:36:44,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:38:40,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:38:43,336] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:41:42,321] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:43:23,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 15:43:25,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:07:55,263] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 16:07:55,265] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 16:07:55,388] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 16:07:55,391] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-13 16:07:55,398] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 16:07:55,399] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-13 16:08:05,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:08:09,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:08:09,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:08:12,362] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:08:16,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:09:37,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:09:39,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:11:20,227] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:11:20,478] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:11:20,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:11:23,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:14:17,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:14:17,812] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:14:17,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:14:28,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:17:01,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:17:03,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:17:04,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:17:04,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:17:15,259] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:18:14,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:18:16,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:18:16,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:18:16,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:18:27,128] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:19:56,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:19:59,312] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:23:40,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:23:42,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:23:42,367] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:23:42,369] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:32:53,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:32:57,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:32:58,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:32:58,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:34:16,967] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:34:17,257] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:34:17,275] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:34:40,098] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:38:51,886] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 16:38:51,887] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 16:39:07,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:39:10,980] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 16:39:10,980] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 16:39:12,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 16:43:42,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:03:48,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:03:48,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:03:48,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:03:51,801] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:11:09,464] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 17:11:09,466] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 17:11:19,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:16:45,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:16:45,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:16:47,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:16:52,175] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:17:22,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:25:43,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:25:46,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:26:03,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:29:23,985] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:29:24,309] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:29:24,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:30:15,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:31:46,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:31:47,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:31:47,207] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:31:49,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:32:38,640] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:32:38,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:32:38,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:33:05,101] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:33:06,688] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:33:06,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:33:06,980] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:33:08,709] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:33:29,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:33:35,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:39:12,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:39:14,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:39:14,759] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:39:14,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:39:17,642] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:39:17,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:39:17,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:39:42,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:39:42,605] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:39:42,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:39:44,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:41:04,352] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:41:12,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:42:13,150] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-13 17:42:13,151] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-13 17:42:13,172] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 17:42:13,172] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-13 17:42:13,189] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-13 17:42:13,193] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=gzc&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-13 17:42:22,130] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:42:26,674] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:42:26,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:42:29,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:42:43,640] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:43:37,826] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:43:37,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:43:38,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:44:00,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:45:03,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:45:14,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:48:28,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:48:31,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:48:42,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:48:44,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:48:44,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:48:44,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:48:46,275] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:49:54,346] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:49:54,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:49:54,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:50:01,715] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:50:24,985] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:52:27,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:52:28,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 3307
+[2020-07-13 17:52:28,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-13 17:52:30,878] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-13 17:52:51,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65

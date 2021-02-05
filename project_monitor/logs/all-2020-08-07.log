@@ -1,0 +1,268 @@
+[2020-08-07 09:22:56,762] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:23:04,490] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:24:31,360] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:24:34,790] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:24:40,319] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py", line 226, in get_monitor
+    print(json.loads(str(res)))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2020-08-07 09:24:40,336] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 19522
+[2020-08-07 09:24:55,652] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:24:59,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:25:29,309] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:25:32,331] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:26:31,230] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:26:37,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:26:59,637] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py", line 226, in get_monitor
+    print(json.loads(str(res).encode('utf-8')))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2020-08-07 09:26:59,655] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 19538
+[2020-08-07 09:28:50,481] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:28:54,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:30:02,499] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:30:06,267] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:31:43,107] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:31:46,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:35:50,248] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:35:53,525] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:38:08,560] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py changed, reloading.
+[2020-08-07 09:38:09,513] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:39:12,783] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:39:17,953] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:40:46,527] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:40:51,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:42:39,611] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:42:42,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:43:05,683] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:43:08,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:43:50,315] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:43:53,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:48:32,717] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 09:48:35,130] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 09:48:35,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3163
+[2020-08-07 10:03:24,209] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:03:28,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:03:28,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 4073
+[2020-08-07 10:05:27,746] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:05:40,881] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:05:41,038] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py", line 226, in get_monitor
+    data = dict()
+UnboundLocalError: local variable 'dict' referenced before assignment
+[2020-08-07 10:05:41,041] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 19055
+[2020-08-07 10:06:08,939] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:06:15,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:06:24,311] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py", line 243, in get_monitor
+    print(json.loads(v.decode('utf-8')), type(json.loads(v.decode('utf-8'))))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 5 (char 4)
+[2020-08-07 10:06:24,324] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 19351
+[2020-08-07 10:06:55,995] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:06:58,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:07:21,985] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py", line 243, in get_monitor
+    print(json.loads(v.decode('utf-8')), type(json.loads(v.decode('utf-8'))))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 5 (char 4)
+[2020-08-07 10:07:21,999] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 19351
+[2020-08-07 10:07:55,551] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:08:01,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:08:48,276] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3621
+[2020-08-07 10:17:27,828] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:17:32,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:17:32,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3623
+[2020-08-07 10:23:40,668] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:23:49,054] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:23:49,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3620
+[2020-08-07 10:25:41,805] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:25:46,965] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:25:47,341] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/server_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be str, int, float, bool or None, not bytes
+[2020-08-07 10:25:47,346] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 500 144828
+[2020-08-07 10:26:00,872] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:26:05,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:26:05,321] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 4070
+[2020-08-07 10:28:35,855] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py changed, reloading.
+[2020-08-07 10:28:36,663] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:28:41,051] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:28:41,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3618
+[2020-08-07 10:32:49,939] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:32:56,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:32:56,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3618
+[2020-08-07 10:33:28,582] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:34:13,720] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:34:13,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3619
+[2020-08-07 10:57:20,949] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:57:25,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:57:25,951] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3620
+[2020-08-07 10:58:18,240] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 10:58:21,645] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 10:58:21,693] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3620
+[2020-08-07 10:58:47,630] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py changed, reloading.
+[2020-08-07 10:58:48,493] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:06:26,146] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:06:29,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:06:30,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3622
+[2020-08-07 11:07:17,998] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:07:22,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:07:22,589] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3621
+[2020-08-07 11:08:27,052] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:08:31,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:08:31,811] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3620
+[2020-08-07 11:09:30,170] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:09:35,530] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:09:35,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3619
+[2020-08-07 11:09:49,084] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:09:55,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:09:55,239] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3619
+[2020-08-07 11:10:47,022] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py changed, reloading.
+[2020-08-07 11:10:50,678] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:10:55,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:10:55,344] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3637
+[2020-08-07 11:11:23,264] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:11:38,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:11:38,495] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3620
+[2020-08-07 11:14:19,207] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:14:22,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:14:22,552] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3619
+[2020-08-07 11:15:22,713] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/server_monitor/views.py changed, reloading.
+[2020-08-07 11:15:23,569] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:16:17,755] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 11:16:21,699] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 301 0
+[2020-08-07 11:16:21,759] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_10.10.10.130_wangweichao-rhel74-10130 HTTP/1.1" 200 3619

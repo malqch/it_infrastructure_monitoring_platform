@@ -1,0 +1,20 @@
+[2020-11-30 10:18:07,212] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-30 10:18:28,370] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=test&application=sys&type=button HTTP/1.1" 200 82
+[2020-11-30 10:18:47,625] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-30 10:20:02,838] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-30 10:20:07,759] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=test&application=sys&type=button HTTP/1.1" 200 291
+[2020-11-30 10:20:19,508] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=test&application=sys&type=menu HTTP/1.1" 200 1159
+[2020-11-30 10:20:48,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=test&application=asset&type=menu HTTP/1.1" 200 6608
+[2020-11-30 16:36:45,164] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-30 16:36:49,178] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-11-30 16:37:26,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=menu HTTP/1.1" 200 10057
+[2020-11-30 16:37:26,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=button HTTP/1.1" 200 2
+[2020-11-30 16:37:49,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6608
+[2020-11-30 16:37:50,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-11-30 16:38:08,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=menu HTTP/1.1" 200 10057
+[2020-11-30 16:38:08,067] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=button HTTP/1.1" 200 2
+[2020-11-30 16:39:29,659] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-11-30 16:39:29,660] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-11-30 16:39:36,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-11-30 16:39:40,211] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=menu HTTP/1.1" 200 10057
+[2020-11-30 16:39:40,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=monitor&type=button HTTP/1.1" 200 2

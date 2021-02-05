@@ -1,0 +1,4 @@
+[2020-12-10 15:50:55,107] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 15:51:01,432] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 15:57:38,170] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 16:05:58,045] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！

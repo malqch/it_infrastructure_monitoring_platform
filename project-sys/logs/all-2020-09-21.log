@@ -1,0 +1,275 @@
+[2020-09-21 09:08:29,577] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-09-21 09:33:00,348] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-09-21 09:33:00,348] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-09-21 09:33:00,350] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 403 31
+[2020-09-21 09:33:00,350] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 403 31
+[2020-09-21 09:33:13,918] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:33:16,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 09:33:16,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 09:41:34,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 09:41:34,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 09:41:42,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:41:46,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:41:46,822] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:09,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:11,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:11,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:13,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:14,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:14,852] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:22,313] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:22,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:22,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:26,444] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:26,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:30,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:33,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:33,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:35,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:42,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:42,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:45,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:47,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:47,312] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:47,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:48,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:48,729] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:51,959] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:53,644] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:53,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:53,936] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:55,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:42:55,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:53:54,412] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:53:54,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:53:54,426] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:53:54,431] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:53:57,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:03,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:03,190] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:03,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:03,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:09,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:54:10,595] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:55:36,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:55:36,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 09:55:36,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 09:55:37,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:05,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:05,711] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:05,714] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:05,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:07,236] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:10,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:10,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:10,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:10,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:12,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:13,660] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:13,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:31,101] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:32,681] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:41,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:42,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:57:42,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:03,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:04,802] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:09,777] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:14,408] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:16,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:18,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 09:58:18,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:05,867] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 10:21:06,003] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 10:21:16,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:21,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 10:21:21,024] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 10:21:24,011] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:29,000] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:29,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:36,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:43,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:44,219] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:53,645] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:21:58,257] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:26:41,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:26:41,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:26:41,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:30:20,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:30:36,491] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:30:45,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:30:46,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:30:46,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:43:46,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:43:49,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 10:43:49,623] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 10:43:53,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:43:53,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:44:32,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:44:32,453] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:44:32,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:46:32,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:47:12,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:53:29,006] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 10:53:29,021] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 10:53:35,729] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:53:41,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 10:53:41,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 10:53:45,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 10:53:46,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:10:55,423] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 11:10:55,437] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 11:11:41,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:11:48,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 11:11:48,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 11:11:52,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:11:53,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:13:53,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:14:20,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:14:20,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:14:20,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:15:06,369] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:15:06,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:15:06,656] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:32:50,424] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 11:40:35,291] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 11:40:35,337] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 12:21:43,448] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:21:50,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 12:21:50,880] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 12:21:56,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:21:56,477] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:23:56,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:44:56,416] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-09-21 12:44:56,419] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-09-21 12:44:56,952] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 403 31
+[2020-09-21 12:44:56,953] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 403 31
+[2020-09-21 12:45:04,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:45:27,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 12:45:27,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 12:45:30,392] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:45:30,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 12:45:30,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:42:37,357] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 13:42:37,365] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 13:42:43,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:42:48,433] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 13:42:48,443] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5951
+[2020-09-21 13:42:55,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:42:55,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:43:00,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:56:57,203] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:57:22,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:58:19,110] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 13:58:19,111] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 13:58:45,105] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:59:46,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 13:59:47,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:00:04,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:00:05,747] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:46:45,777] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 14:46:45,856] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 14:46:58,704] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:47:03,701] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5957
+[2020-09-21 14:47:03,709] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 14:47:06,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:47:06,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:47:06,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:59:05,371] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 14:59:05,372] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 14:59:26,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:59:43,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:59:45,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 14:59:51,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:02:35,668] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 15:02:35,669] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 15:03:27,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:03:31,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5957
+[2020-09-21 15:03:31,230] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 15:03:34,374] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:03:34,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:03:34,553] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:04:55,322] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:04:55,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:06:22,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-09-21 15:06:22,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=sys&type=button HTTP/1.1" 200 291
+[2020-09-21 15:06:30,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/?current_page=1&pre_page=10 HTTP/1.1" 200 182315
+[2020-09-21 15:06:32,679] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/ HTTP/1.1" 200 49986
+[2020-09-21 15:06:36,639] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /sys/api/user/2/assign_user/ HTTP/1.1" 200 43798
+[2020-09-21 15:06:37,073] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/?current_page=1&pre_page=10 HTTP/1.1" 200 213268
+[2020-09-21 15:09:41,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-09-21 15:09:41,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 5957
+[2020-09-21 15:09:44,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:09:44,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:23:54,321] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:23:54,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:30:50,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:30:50,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:38:10,369] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:38:10,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:42:20,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 15:42:20,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:31:39,258] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:32:53,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:39:10,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:39:10,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:39:40,014] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:39:40,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:41:34,203] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:41:34,676] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:43:59,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:44:00,190] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:45:03,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:45:04,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:53:51,840] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:53:52,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:54:19,701] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:54:20,064] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:55:40,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 16:55:40,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:27:28,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:36:05,522] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:36:05,533] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:36:07,163] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:36:07,164] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:36:36,728] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:36:36,728] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:42:41,045] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:42:41,046] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:42:46,488] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:42:46,489] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:42:49,908] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:42:50,008] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:43:16,472] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:43:16,473] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:43:29,156] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:43:29,157] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:44:36,673] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:44:36,674] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:45:02,125] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:45:05,060] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:45:54,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:45:58,015] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:45:58,015] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:46:01,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:46:04,966] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:46:04,967] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:46:19,997] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:46:19,998] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:46:36,323] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-09-21 17:46:36,324] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-09-21 17:47:14,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:48:01,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:48:14,487] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:48:57,865] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:55:54,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 17:56:33,499] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:08:05,495] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:08:37,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:10:26,491] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:10:30,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:10:32,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:10:34,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:11:05,862] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:11:08,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-09-21 18:15:45,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65

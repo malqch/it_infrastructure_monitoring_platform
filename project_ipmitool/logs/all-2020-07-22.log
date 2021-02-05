@@ -1,0 +1,4 @@
+[2020-07-22 10:18:48,367] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-22 10:41:19,417] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.
+[2020-07-22 10:41:20,421] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-23 15:00:43,231] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /Users/yangxiaotong/svn/TIP_toolkit/quality_inspection/python-workspace/project_ipmitool/ipmitool/views.py changed, reloading.

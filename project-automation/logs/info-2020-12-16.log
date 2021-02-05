@@ -1,0 +1,18 @@
+[2020-12-16 14:47:21,591] [views.py:55] [views:authenticate] [INFO]- 200
+[2020-12-16 14:47:43,062] [views.py:55] [views:authenticate] [INFO]- 200
+[2020-12-16 15:52:47,013] [views.py:564] [views:upload_immediate_exec_script] [INFO]- 开始连接10.10.10.130
+[2020-12-16 15:52:47,781] [views.py:573] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.10.10.130
+[2020-12-16 15:52:47,901] [views.py:577] [views:upload_immediate_exec_script] [INFO]- 脚本文件上传到10.10.10.130成功
+[2020-12-16 15:52:47,902] [views.py:581] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130正在执行脚本
+[2020-12-16 15:52:51,084] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：Hello world!
+[2020-12-16 15:52:52,086] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：this is a test script.....
+[2020-12-16 15:52:53,088] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：script fimish.
+[2020-12-16 15:52:54,090] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：the end.
+[2020-12-16 15:56:01,943] [views.py:564] [views:upload_immediate_exec_script] [INFO]- 开始连接10.10.10.130
+[2020-12-16 15:56:03,663] [views.py:573] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.10.10.130
+[2020-12-16 15:56:03,862] [views.py:577] [views:upload_immediate_exec_script] [INFO]- 脚本文件上传到10.10.10.130成功
+[2020-12-16 15:56:03,864] [views.py:581] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130正在执行脚本
+[2020-12-16 15:56:06,974] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：Hello world!
+[2020-12-16 15:56:07,977] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：this is a test script.....
+[2020-12-16 15:56:08,979] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：script fimish.
+[2020-12-16 15:56:09,982] [views.py:590] [views:upload_immediate_exec_script] [INFO]- 10.10.10.130脚本执行输出：the end.

@@ -1,0 +1,22 @@
+[2020-10-14 13:47:26,115] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-10-14 13:47:35,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:47:35,936] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 715
+[2020-10-14 13:47:36,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:52:24,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:52:24,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 716
+[2020-10-14 13:52:24,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:52:30,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 716
+[2020-10-14 13:52:30,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:52:31,124] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:52:50,044] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 716
+[2020-10-14 13:52:50,057] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:52:50,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:53:53,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 716
+[2020-10-14 13:53:53,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:53:54,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:54:02,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 716
+[2020-10-14 13:54:02,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:54:03,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525
+[2020-10-14 13:56:34,175] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 718
+[2020-10-14 13:56:34,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 715
+[2020-10-14 13:56:37,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3525

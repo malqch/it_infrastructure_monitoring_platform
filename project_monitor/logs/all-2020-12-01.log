@@ -1,0 +1,278 @@
+[2020-12-01 11:18:31,905] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 11:22:05,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-12-01 11:22:06,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3146
+[2020-12-01 11:22:06,691] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 5788
+[2020-12-01 11:22:06,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 6111
+[2020-12-01 11:22:10,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-12-01 11:22:10,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 683
+[2020-12-01 11:22:10,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3146
+[2020-12-01 11:22:19,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4874
+[2020-12-01 11:22:28,816] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/device/device_info/?device_type=%E5%AD%98%E5%82%A8&tag_id=&business_id= HTTP/1.1" 200 86
+[2020-12-01 11:23:12,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/indicator/?device_type=%E5%AD%98%E5%82%A8 HTTP/1.1" 200 1720
+[2020-12-01 11:23:17,318] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/indicator/?device_type=%E5%AD%98%E5%82%A8 HTTP/1.1" 200 1720
+[2020-12-01 11:23:23,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/indicator/?device_type=%E5%AD%98%E5%82%A8 HTTP/1.1" 200 1720
+[2020-12-01 11:23:26,625] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/indicator/?device_type=%E5%AD%98%E5%82%A8 HTTP/1.1" 200 1720
+[2020-12-01 11:27:05,524] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/network_monitor/views.py changed, reloading.
+[2020-12-01 11:27:18,033] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 11:42:51,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4874
+[2020-12-01 11:44:09,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 6076
+[2020-12-01 11:44:09,628] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-12-01 11:44:09,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 5813
+[2020-12-01 11:44:09,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3146
+[2020-12-01 11:44:13,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 680
+[2020-12-01 11:44:13,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 685
+[2020-12-01 11:44:13,972] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 3146
+[2020-12-01 11:44:32,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4874
+[2020-12-01 11:44:37,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/?current_page=1&pre_page=10&strategy_name=&is_delete=0 HTTP/1.1" 200 1165
+[2020-12-01 11:44:40,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4874
+[2020-12-01 11:44:43,803] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/5/logic_delete/ HTTP/1.1" 200 868
+[2020-12-01 11:44:43,846] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4028
+[2020-12-01 11:44:59,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/device/device_info/?device_type=%E5%AD%98%E5%82%A8&tag_id=&business_id= HTTP/1.1" 200 86
+[2020-12-01 11:45:00,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/indicator/?device_type=%E5%AD%98%E5%82%A8 HTTP/1.1" 200 974
+[2020-12-01 11:45:25,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/ HTTP/1.1" 200 726
+[2020-12-01 11:45:34,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/ HTTP/1.1" 200 1094
+[2020-12-01 11:45:43,463] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/ HTTP/1.1" 200 726
+[2020-12-01 11:45:54,816] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/ HTTP/1.1" 200 1094
+[2020-12-01 11:46:01,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/ HTTP/1.1" 200 726
+[2020-12-01 11:46:09,150] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/ HTTP/1.1" 200 1094
+[2020-12-01 11:46:23,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/ HTTP/1.1" 200 1094
+[2020-12-01 11:46:32,612] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/ HTTP/1.1" 200 726
+[2020-12-01 11:46:35,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /monitor/api/alarm_rule/ HTTP/1.1" 201 14
+[2020-12-01 11:46:35,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4963
+[2020-12-01 12:57:32,703] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py changed, reloading.
+[2020-12-01 12:57:40,981] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 13:13:15,682] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py changed, reloading.
+[2020-12-01 13:13:16,643] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 13:22:52,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 4963
+[2020-12-01 13:40:04,833] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606757691&end=1606800891&m=IFOUTOCTETS_ETH11,IFINOCTETS_ETH11,IFINDISCARDS_ETH11,IFOUTDISCARDS_ETH11&logic_ip=10.230.68.248 HTTP/1.1" 200 33130
+[2020-12-01 13:40:40,871] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606757691&end=1606800891&m=IFOUTOCTETS_ETH11,IFINOCTETS_ETH11,IFINDISCARDS_ETH11,IFOUTDISCARDS_ETH11&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 13:46:07,492] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py changed, reloading.
+[2020-12-01 13:46:20,353] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 13:53:11,020] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-01 13:53:17,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 685
+[2020-12-01 13:53:17,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-12-01 13:53:18,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 4608
+[2020-12-01 13:57:24,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?middleware_type=WEBLOGIC&current_page=1&pre_page=1 HTTP/1.1" 200 72
+[2020-12-01 13:57:36,480] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10 HTTP/1.1" 301 0
+[2020-12-01 13:57:36,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10 HTTP/1.1" 200 2
+[2020-12-01 13:58:14,466] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=11 HTTP/1.1" 301 0
+[2020-12-01 13:58:14,529] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=11 HTTP/1.1" 200 2
+[2020-12-01 13:58:15,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=1 HTTP/1.1" 301 0
+[2020-12-01 13:58:15,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=1 HTTP/1.1" 200 2
+[2020-12-01 13:58:16,262] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10 HTTP/1.1" 200 2
+[2020-12-01 13:58:17,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.1 HTTP/1.1" 301 0
+[2020-12-01 13:58:17,985] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.1 HTTP/1.1" 200 2
+[2020-12-01 13:58:18,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.10 HTTP/1.1" 301 0
+[2020-12-01 13:58:18,612] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.10 HTTP/1.1" 200 2
+[2020-12-01 13:58:21,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10. HTTP/1.1" 301 0
+[2020-12-01 13:58:21,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10. HTTP/1.1" 200 2
+[2020-12-01 13:58:22,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.230 HTTP/1.1" 301 0
+[2020-12-01 13:58:22,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.230 HTTP/1.1" 200 2
+[2020-12-01 13:58:24,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.230.1. HTTP/1.1" 301 0
+[2020-12-01 13:58:24,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.230.1. HTTP/1.1" 200 2
+[2020-12-01 13:58:26,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.230.11 HTTP/1.1" 301 0
+[2020-12-01 13:58:26,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.230.11 HTTP/1.1" 200 2
+[2020-12-01 13:58:26,922] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search?middleware_type=WEBLOGIC&query=10.230.11.1 HTTP/1.1" 301 0
+[2020-12-01 13:58:26,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=10.230.11.1 HTTP/1.1" 200 2
+[2020-12-01 13:58:32,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/search/?middleware_type=WEBLOGIC&query=1 HTTP/1.1" 200 2
+[2020-12-01 14:05:36,039] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?middleware_type=WEBSPHERE&current_page=1&pre_page=1 HTTP/1.1" 200 261
+[2020-12-01 14:05:36,450] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759500&end=1606802700&m=sum:SYSTEMCPULOAD{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:05:36,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759500&end=1606802700&m=sum:SYSTEMLOADAVERAGE{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:05:36,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBSPHERE_10.230.11.1_2099 HTTP/1.1" 200 506
+[2020-12-01 14:06:18,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?middleware_type=WEBSPHERE&current_page=1&pre_page=1 HTTP/1.1" 200 261
+[2020-12-01 14:06:18,204] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBSPHERE_10.230.11.1_2099 HTTP/1.1" 200 506
+[2020-12-01 14:06:18,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759560&end=1606802760&m=sum:SYSTEMCPULOAD{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:06:18,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759560&end=1606802760&m=sum:SYSTEMLOADAVERAGE{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:07:25,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?middleware_type=WEBSPHERE&current_page=1&pre_page=1 HTTP/1.1" 200 261
+[2020-12-01 14:07:25,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBSPHERE_10.230.11.1_2099 HTTP/1.1" 200 506
+[2020-12-01 14:07:25,355] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759620&end=1606802820&m=sum:SYSTEMCPULOAD{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:07:25,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1606759620&end=1606802820&m=sum:SYSTEMLOADAVERAGE{logicIp=10.230.11.1} HTTP/1.1" 200 34
+[2020-12-01 14:24:19,960] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/monitor/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/network_monitor/views.py", line 182, in get_monitor
+    res = conn.hgetall(network_name)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/client.py", line 3014, in hgetall
+    return self.execute_command('HGETALL', name)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+[2020-12-01 14:24:19,963] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 500 22697
+[2020-12-01 14:25:06,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:25:35,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-12-01 14:25:36,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 586
+[2020-12-01 14:25:36,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 558
+[2020-12-01 14:25:36,441] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 4609
+[2020-12-01 14:25:41,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 670
+[2020-12-01 14:25:41,322] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 685
+[2020-12-01 14:25:41,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 4609
+[2020-12-01 14:25:55,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:26:41,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:31:41,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_undefined HTTP/1.1" 200 2
+[2020-12-01 14:36:44,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_undefined HTTP/1.1" 200 2
+[2020-12-01 14:37:09,865] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:38:05,609] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:39:06,368] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:40:05,395] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:43:43,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 685
+[2020-12-01 14:43:43,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-12-01 14:43:43,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 4609
+[2020-12-01 14:43:48,831] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:43:57,257] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,258] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,259] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE2-0-3,IFINOCTETS_FORTYGIGE2-0-3,IFINDISCARDS_FORTYGIGE2-0-3,IFOUTDISCARDS_FORTYGIGE2-0-3&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:43:57,324] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,325] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,326] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_RETH1.153,IFINOCTETS_RETH1.153,IFINDISCARDS_RETH1.153,IFOUTDISCARDS_RETH1.153&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:43:57,333] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,334] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,344] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_RETH1.154,IFINOCTETS_RETH1.154,IFINDISCARDS_RETH1.154,IFOUTDISCARDS_RETH1.154&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:43:57,386] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,388] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,387] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,389] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:43:57,391] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,392] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:43:57,393] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE2-0-1,IFINOCTETS_FORTYGIGE2-0-1,IFINDISCARDS_FORTYGIGE2-0-1,IFOUTDISCARDS_FORTYGIGE2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:43:57,394] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_REGISTER-TUNNEL0,IFINOCTETS_REGISTER-TUNNEL0,IFINDISCARDS_REGISTER-TUNNEL0,IFOUTDISCARDS_REGISTER-TUNNEL0&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:43:57,395] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE2-0-2,IFINOCTETS_FORTYGIGE2-0-2,IFINDISCARDS_FORTYGIGE2-0-2,IFOUTDISCARDS_FORTYGIGE2-0-2&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,307] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,310] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,312] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_ROUTE-AGGREGATION50,IFINOCTETS_ROUTE-AGGREGATION50,IFINDISCARDS_ROUTE-AGGREGATION50,IFOUTDISCARDS_ROUTE-AGGREGATION50&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,385] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,387] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,388] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_RETH1,IFINOCTETS_RETH1,IFINDISCARDS_RETH1,IFOUTDISCARDS_RETH1&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,399] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,414] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,417] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_GIGABITETHERNET2-0-1,IFINOCTETS_GIGABITETHERNET2-0-1,IFINDISCARDS_GIGABITETHERNET2-0-1,IFOUTDISCARDS_GIGABITETHERNET2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,450] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,453] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,458] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE1-0-1,IFINOCTETS_FORTYGIGE1-0-1,IFINDISCARDS_FORTYGIGE1-0-1,IFOUTDISCARDS_FORTYGIGE1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,456] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,464] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,470] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE1-0-2,IFINOCTETS_FORTYGIGE1-0-2,IFINDISCARDS_FORTYGIGE1-0-2,IFOUTDISCARDS_FORTYGIGE1-0-2&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:05,472] [views.py:215] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.230.13.44', port=4242): Read timed out. (read timeout=8)
+[2020-12-01 14:44:05,473] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/network_monitor/history/
+[2020-12-01 14:44:05,476] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_FORTYGIGE1-0-3,IFINOCTETS_FORTYGIGE1-0-3,IFINDISCARDS_FORTYGIGE1-0-3,IFOUTDISCARDS_FORTYGIGE1-0-3&logic_ip=10.230.1.9 HTTP/1.1" 500 28
+[2020-12-01 14:44:09,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_GIGABITETHERNET1-0-1,IFINOCTETS_GIGABITETHERNET1-0-1,IFINDISCARDS_GIGABITETHERNET1-0-1,IFOUTDISCARDS_GIGABITETHERNET1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15613
+[2020-12-01 14:44:09,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_ROUTE-AGGREGATION2,IFINOCTETS_ROUTE-AGGREGATION2,IFINDISCARDS_ROUTE-AGGREGATION2,IFOUTDISCARDS_ROUTE-AGGREGATION2&logic_ip=10.230.1.9 HTTP/1.1" 200 12361
+[2020-12-01 14:44:09,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761828&end=1606805028&m=IFOUTOCTETS_ROUTE-AGGREGATION1,IFINOCTETS_ROUTE-AGGREGATION1,IFINDISCARDS_ROUTE-AGGREGATION1,IFOUTDISCARDS_ROUTE-AGGREGATION1&logic_ip=10.230.1.9 HTTP/1.1" 200 15447
+[2020-12-01 14:44:22,024] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 683
+[2020-12-01 14:44:22,044] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 685
+[2020-12-01 14:44:22,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 4609
+[2020-12-01 14:44:26,333] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=LOADBALANCE_10.230.68.248_lb_05b HTTP/1.1" 200 3100
+[2020-12-01 14:44:26,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH20,IFINOCTETS_ETH20,IFINDISCARDS_ETH20,IFOUTDISCARDS_ETH20&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,655] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH9,IFINOCTETS_ETH9,IFINDISCARDS_ETH9,IFOUTDISCARDS_ETH9&logic_ip=10.230.68.248 HTTP/1.1" 200 9073
+[2020-12-01 14:44:26,667] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH21,IFINOCTETS_ETH21,IFINDISCARDS_ETH21,IFOUTDISCARDS_ETH21&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH24,IFINOCTETS_ETH24,IFINDISCARDS_ETH24,IFOUTDISCARDS_ETH24&logic_ip=10.230.68.248 HTTP/1.1" 200 15562
+[2020-12-01 14:44:26,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH23,IFINOCTETS_ETH23,IFINDISCARDS_ETH23,IFOUTDISCARDS_ETH23&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH22,IFINOCTETS_ETH22,IFINDISCARDS_ETH22,IFOUTDISCARDS_ETH22&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH27,IFINOCTETS_ETH27,IFINDISCARDS_ETH27,IFOUTDISCARDS_ETH27&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,968] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH25,IFINOCTETS_ETH25,IFINDISCARDS_ETH25,IFOUTDISCARDS_ETH25&logic_ip=10.230.68.248 HTTP/1.1" 200 15276
+[2020-12-01 14:44:26,976] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH18,IFINOCTETS_ETH18,IFINDISCARDS_ETH18,IFOUTDISCARDS_ETH18&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH26,IFINOCTETS_ETH26,IFINDISCARDS_ETH26,IFOUTDISCARDS_ETH26&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:26,999] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH19,IFINOCTETS_ETH19,IFINDISCARDS_ETH19,IFOUTDISCARDS_ETH19&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:27,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH13,IFINOCTETS_ETH13,IFINDISCARDS_ETH13,IFOUTDISCARDS_ETH13&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:27,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH12,IFINOCTETS_ETH12,IFINDISCARDS_ETH12,IFOUTDISCARDS_ETH12&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:27,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH11,IFINOCTETS_ETH11,IFINDISCARDS_ETH11,IFOUTDISCARDS_ETH11&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:27,112] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761866&end=1606805066&m=IFOUTOCTETS_ETH10,IFINOCTETS_ETH10,IFINDISCARDS_ETH10,IFOUTDISCARDS_ETH10&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:32,665] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:44:32,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE2-0-3,IFINOCTETS_FORTYGIGE2-0-3,IFINDISCARDS_FORTYGIGE2-0-3,IFOUTDISCARDS_FORTYGIGE2-0-3&logic_ip=10.230.1.9 HTTP/1.1" 200 15230
+[2020-12-01 14:44:33,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE2-0-2,IFINOCTETS_FORTYGIGE2-0-2,IFINDISCARDS_FORTYGIGE2-0-2,IFOUTDISCARDS_FORTYGIGE2-0-2&logic_ip=10.230.1.9 HTTP/1.1" 200 12346
+[2020-12-01 14:44:33,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_REGISTER-TUNNEL0,IFINOCTETS_REGISTER-TUNNEL0,IFINDISCARDS_REGISTER-TUNNEL0,IFOUTDISCARDS_REGISTER-TUNNEL0&logic_ip=10.230.1.9 HTTP/1.1" 200 9109
+[2020-12-01 14:44:33,046] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE2-0-1,IFINOCTETS_FORTYGIGE2-0-1,IFINDISCARDS_FORTYGIGE2-0-1,IFOUTDISCARDS_FORTYGIGE2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 12352
+[2020-12-01 14:44:33,074] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_RETH1.153,IFINOCTETS_RETH1.153,IFINDISCARDS_RETH1.153,IFOUTDISCARDS_RETH1.153&logic_ip=10.230.1.9 HTTP/1.1" 200 15568
+[2020-12-01 14:44:33,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_RETH1.154,IFINOCTETS_RETH1.154,IFINDISCARDS_RETH1.154,IFOUTDISCARDS_RETH1.154&logic_ip=10.230.1.9 HTTP/1.1" 200 15215
+[2020-12-01 14:44:33,265] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_ROUTE-AGGREGATION50,IFINOCTETS_ROUTE-AGGREGATION50,IFINDISCARDS_ROUTE-AGGREGATION50,IFOUTDISCARDS_ROUTE-AGGREGATION50&logic_ip=10.230.1.9 HTTP/1.1" 200 15604
+[2020-12-01 14:44:33,358] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_GIGABITETHERNET2-0-1,IFINOCTETS_GIGABITETHERNET2-0-1,IFINDISCARDS_GIGABITETHERNET2-0-1,IFOUTDISCARDS_GIGABITETHERNET2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15193
+[2020-12-01 14:44:33,359] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE1-0-3,IFINOCTETS_FORTYGIGE1-0-3,IFINDISCARDS_FORTYGIGE1-0-3,IFOUTDISCARDS_FORTYGIGE1-0-3&logic_ip=10.230.1.9 HTTP/1.1" 200 15230
+[2020-12-01 14:44:33,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_RETH1,IFINOCTETS_RETH1,IFINDISCARDS_RETH1,IFOUTDISCARDS_RETH1&logic_ip=10.230.1.9 HTTP/1.1" 200 18030
+[2020-12-01 14:44:33,419] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE1-0-2,IFINOCTETS_FORTYGIGE1-0-2,IFINDISCARDS_FORTYGIGE1-0-2,IFOUTDISCARDS_FORTYGIGE1-0-2&logic_ip=10.230.1.9 HTTP/1.1" 200 14871
+[2020-12-01 14:44:33,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_FORTYGIGE1-0-1,IFINOCTETS_FORTYGIGE1-0-1,IFINDISCARDS_FORTYGIGE1-0-1,IFOUTDISCARDS_FORTYGIGE1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15273
+[2020-12-01 14:44:33,470] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_ROUTE-AGGREGATION2,IFINOCTETS_ROUTE-AGGREGATION2,IFINDISCARDS_ROUTE-AGGREGATION2,IFOUTDISCARDS_ROUTE-AGGREGATION2&logic_ip=10.230.1.9 HTTP/1.1" 200 12352
+[2020-12-01 14:44:33,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_GIGABITETHERNET1-0-1,IFINOCTETS_GIGABITETHERNET1-0-1,IFINDISCARDS_GIGABITETHERNET1-0-1,IFOUTDISCARDS_GIGABITETHERNET1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15601
+[2020-12-01 14:44:33,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761872&end=1606805072&m=IFOUTOCTETS_ROUTE-AGGREGATION1,IFINOCTETS_ROUTE-AGGREGATION1,IFINDISCARDS_ROUTE-AGGREGATION1,IFOUTDISCARDS_ROUTE-AGGREGATION1&logic_ip=10.230.1.9 HTTP/1.1" 200 15442
+[2020-12-01 14:44:43,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=SWITCH_10.230.68.254_A2-09-CE12812 HTTP/1.1" 200 65902
+[2020-12-01 14:44:44,370] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-14,IFINOCTETS_GE1-6-0-14,IFINDISCARDS_GE1-6-0-14,IFOUTDISCARDS_GE1-6-0-14&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,442] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-15,IFINOCTETS_GE1-6-0-15,IFINDISCARDS_GE1-6-0-15,IFOUTDISCARDS_GE1-6-0-15&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-13,IFINOCTETS_GE1-6-0-13,IFINDISCARDS_GE1-6-0-13,IFOUTDISCARDS_GE1-6-0-13&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-16,IFINOCTETS_GE1-6-0-16,IFINDISCARDS_GE1-6-0-16,IFOUTDISCARDS_GE1-6-0-16&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-18,IFINOCTETS_GE1-6-0-18,IFINDISCARDS_GE1-6-0-18,IFOUTDISCARDS_GE1-6-0-18&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-17,IFINOCTETS_GE1-6-0-17,IFINDISCARDS_GE1-6-0-17,IFOUTDISCARDS_GE1-6-0-17&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-19,IFINOCTETS_GE1-6-0-19,IFINDISCARDS_GE1-6-0-19,IFOUTDISCARDS_GE1-6-0-19&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-10,IFINOCTETS_GE1-6-0-10,IFINDISCARDS_GE1-6-0-10,IFOUTDISCARDS_GE1-6-0-10&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-12,IFINOCTETS_GE1-6-0-12,IFINDISCARDS_GE1-6-0-12,IFOUTDISCARDS_GE1-6-0-12&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-11,IFINOCTETS_GE1-6-0-11,IFINDISCARDS_GE1-6-0-11,IFOUTDISCARDS_GE1-6-0-11&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,834] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-2-0-0,IFINOCTETS_GE1-2-0-0,IFINDISCARDS_GE1-2-0-0,IFOUTDISCARDS_GE1-2-0-0&logic_ip=10.230.68.254 HTTP/1.1" 200 15124
+[2020-12-01 14:44:44,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-2-0-1,IFINOCTETS_GE1-2-0-1,IFINDISCARDS_GE1-2-0-1,IFOUTDISCARDS_GE1-2-0-1&logic_ip=10.230.68.254 HTTP/1.1" 200 16300
+[2020-12-01 14:44:44,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-24,IFINOCTETS_GE1-6-0-24,IFINDISCARDS_GE1-6-0-24,IFOUTDISCARDS_GE1-6-0-24&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-26,IFINOCTETS_GE1-6-0-26,IFINDISCARDS_GE1-6-0-26,IFOUTDISCARDS_GE1-6-0-26&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:44,909] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761883&end=1606805083&m=IFOUTOCTETS_GE1-6-0-25,IFINOCTETS_GE1-6-0-25,IFINDISCARDS_GE1-6-0-25,IFOUTDISCARDS_GE1-6-0-25&logic_ip=10.230.68.254 HTTP/1.1" 200 10560
+[2020-12-01 14:44:48,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_10.230.1.9_H3C-firewall HTTP/1.1" 200 2868
+[2020-12-01 14:44:48,901] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_RETH1.153,IFINOCTETS_RETH1.153,IFINDISCARDS_RETH1.153,IFOUTDISCARDS_RETH1.153&logic_ip=10.230.1.9 HTTP/1.1" 200 15562
+[2020-12-01 14:44:48,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE2-0-1,IFINOCTETS_FORTYGIGE2-0-1,IFINDISCARDS_FORTYGIGE2-0-1,IFOUTDISCARDS_FORTYGIGE2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 12346
+[2020-12-01 14:44:48,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_REGISTER-TUNNEL0,IFINOCTETS_REGISTER-TUNNEL0,IFINDISCARDS_REGISTER-TUNNEL0,IFOUTDISCARDS_REGISTER-TUNNEL0&logic_ip=10.230.1.9 HTTP/1.1" 200 9109
+[2020-12-01 14:44:48,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_RETH1.154,IFINOCTETS_RETH1.154,IFINDISCARDS_RETH1.154,IFOUTDISCARDS_RETH1.154&logic_ip=10.230.1.9 HTTP/1.1" 200 15203
+[2020-12-01 14:44:48,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE2-0-3,IFINOCTETS_FORTYGIGE2-0-3,IFINDISCARDS_FORTYGIGE2-0-3,IFOUTDISCARDS_FORTYGIGE2-0-3&logic_ip=10.230.1.9 HTTP/1.1" 200 15224
+[2020-12-01 14:44:48,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE2-0-2,IFINOCTETS_FORTYGIGE2-0-2,IFINDISCARDS_FORTYGIGE2-0-2,IFOUTDISCARDS_FORTYGIGE2-0-2&logic_ip=10.230.1.9 HTTP/1.1" 200 12346
+[2020-12-01 14:44:49,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_ROUTE-AGGREGATION50,IFINOCTETS_ROUTE-AGGREGATION50,IFINDISCARDS_ROUTE-AGGREGATION50,IFOUTDISCARDS_ROUTE-AGGREGATION50&logic_ip=10.230.1.9 HTTP/1.1" 200 15598
+[2020-12-01 14:44:49,319] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE1-0-1,IFINOCTETS_FORTYGIGE1-0-1,IFINDISCARDS_FORTYGIGE1-0-1,IFOUTDISCARDS_FORTYGIGE1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15267
+[2020-12-01 14:44:49,326] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE1-0-2,IFINOCTETS_FORTYGIGE1-0-2,IFINDISCARDS_FORTYGIGE1-0-2,IFOUTDISCARDS_FORTYGIGE1-0-2&logic_ip=10.230.1.9 HTTP/1.1" 200 14859
+[2020-12-01 14:44:49,331] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_GIGABITETHERNET2-0-1,IFINOCTETS_GIGABITETHERNET2-0-1,IFINDISCARDS_GIGABITETHERNET2-0-1,IFOUTDISCARDS_GIGABITETHERNET2-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15187
+[2020-12-01 14:44:49,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_RETH1,IFINOCTETS_RETH1,IFINDISCARDS_RETH1,IFOUTDISCARDS_RETH1&logic_ip=10.230.1.9 HTTP/1.1" 200 18023
+[2020-12-01 14:44:49,374] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_FORTYGIGE1-0-3,IFINOCTETS_FORTYGIGE1-0-3,IFINDISCARDS_FORTYGIGE1-0-3,IFOUTDISCARDS_FORTYGIGE1-0-3&logic_ip=10.230.1.9 HTTP/1.1" 200 15224
+[2020-12-01 14:44:49,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_ROUTE-AGGREGATION1,IFINOCTETS_ROUTE-AGGREGATION1,IFINDISCARDS_ROUTE-AGGREGATION1,IFOUTDISCARDS_ROUTE-AGGREGATION1&logic_ip=10.230.1.9 HTTP/1.1" 200 15430
+[2020-12-01 14:44:49,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_GIGABITETHERNET1-0-1,IFINOCTETS_GIGABITETHERNET1-0-1,IFINDISCARDS_GIGABITETHERNET1-0-1,IFOUTDISCARDS_GIGABITETHERNET1-0-1&logic_ip=10.230.1.9 HTTP/1.1" 200 15595
+[2020-12-01 14:44:49,477] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761888&end=1606805088&m=IFOUTOCTETS_ROUTE-AGGREGATION2,IFINOCTETS_ROUTE-AGGREGATION2,IFINDISCARDS_ROUTE-AGGREGATION2,IFOUTDISCARDS_ROUTE-AGGREGATION2&logic_ip=10.230.1.9 HTTP/1.1" 200 12352
+[2020-12-01 14:44:51,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/monitor/?network_name=LOADBALANCE_10.230.68.248_lb_05b HTTP/1.1" 200 3100
+[2020-12-01 14:44:51,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH21,IFINOCTETS_ETH21,IFINDISCARDS_ETH21,IFOUTDISCARDS_ETH21&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH9,IFINOCTETS_ETH9,IFINDISCARDS_ETH9,IFOUTDISCARDS_ETH9&logic_ip=10.230.68.248 HTTP/1.1" 200 9073
+[2020-12-01 14:44:51,699] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH20,IFINOCTETS_ETH20,IFINDISCARDS_ETH20,IFOUTDISCARDS_ETH20&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH23,IFINOCTETS_ETH23,IFINDISCARDS_ETH23,IFOUTDISCARDS_ETH23&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH24,IFINOCTETS_ETH24,IFINDISCARDS_ETH24,IFOUTDISCARDS_ETH24&logic_ip=10.230.68.248 HTTP/1.1" 200 15550
+[2020-12-01 14:44:51,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH22,IFINOCTETS_ETH22,IFINDISCARDS_ETH22,IFOUTDISCARDS_ETH22&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,976] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH19,IFINOCTETS_ETH19,IFINDISCARDS_ETH19,IFOUTDISCARDS_ETH19&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH26,IFINOCTETS_ETH26,IFINDISCARDS_ETH26,IFOUTDISCARDS_ETH26&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:51,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH25,IFINOCTETS_ETH25,IFINDISCARDS_ETH25,IFOUTDISCARDS_ETH25&logic_ip=10.230.68.248 HTTP/1.1" 200 15264
+[2020-12-01 14:44:52,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH27,IFINOCTETS_ETH27,IFINDISCARDS_ETH27,IFOUTDISCARDS_ETH27&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:52,044] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH18,IFINOCTETS_ETH18,IFINDISCARDS_ETH18,IFOUTDISCARDS_ETH18&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:52,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH13,IFINOCTETS_ETH13,IFINDISCARDS_ETH13,IFOUTDISCARDS_ETH13&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:52,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH10,IFINOCTETS_ETH10,IFINDISCARDS_ETH10,IFOUTDISCARDS_ETH10&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:52,128] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH12,IFINOCTETS_ETH12,IFINDISCARDS_ETH12,IFOUTDISCARDS_ETH12&logic_ip=10.230.68.248 HTTP/1.1" 200 9076
+[2020-12-01 14:44:52,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/history/?start=1606761891&end=1606805091&m=IFOUTOCTETS_ETH11,IFINOCTETS_ETH11,IFINDISCARDS_ETH11,IFOUTDISCARDS_ETH11&logic_ip=10.230.68.248 HTTP/1.1" 200 9076

@@ -1,0 +1,89 @@
+[2020-12-12 10:28:24,724] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:29:18,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-12 10:29:23,974] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-automation/huaweiyun/views.py", line 130, in get_vms
+    res['total_page'] = (res.count + res['pre_page'] - 1) / res['pre_page']
+AttributeError: 'dict' object has no attribute 'count'
+[2020-12-12 10:29:23,978] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 20116
+[2020-12-12 10:29:49,629] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:29:54,083] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:29:58,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-12 10:30:02,071] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-automation/huaweiyun/views.py", line 130, in get_vms
+    res['total_page'] = (res['count'] + res['pre_page'] - 1) / res['pre_page']
+KeyError: 'count'
+[2020-12-12 10:30:02,075] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 20045
+[2020-12-12 10:30:31,306] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:30:36,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-12 10:31:18,783] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:31:22,703] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-12 10:31:26,198] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-automation/huaweiyun/views.py", line 131, in get_vms
+    res['total_page'] = (res['total'] + res['pre_page'] - 1) / res['pre_page']
+KeyError: 'pre_page'
+[2020-12-12 10:31:26,202] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 20051
+[2020-12-12 10:31:51,487] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-12 10:31:56,680] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-12 10:31:57,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306500
+[2020-12-12 10:32:06,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306500
+[2020-12-12 10:32:07,025] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306500
+[2020-12-12 10:32:07,878] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306500
+[2020-12-12 10:35:55,523] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-automation/huaweiyun/views.py changed, reloading.
+[2020-12-12 10:35:57,101] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

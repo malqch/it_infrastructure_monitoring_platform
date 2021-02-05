@@ -1,0 +1,10 @@
+[2020-11-04 09:24:08,405] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-04 09:26:12,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-11-04 09:26:13,236] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 1036
+[2020-11-04 09:26:13,244] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 900
+[2020-11-04 09:26:13,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 30352
+[2020-11-04 09:26:16,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 654
+[2020-11-04 09:26:16,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 700
+[2020-11-04 09:26:17,221] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 30352
+[2020-11-04 09:26:20,404] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/?current_page=1&pre_page=10&grade_name=&is_delete=0 HTTP/1.1" 200 797
+[2020-11-04 09:26:23,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4962

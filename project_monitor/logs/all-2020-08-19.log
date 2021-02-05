@@ -1,0 +1,212 @@
+[2020-08-19 09:36:07,668] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-19 09:44:28,894] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715068&end=1597801468&m=sum:SystemLoadAverage HTTP/1.1" 200 24503
+[2020-08-19 09:44:28,895] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715068&end=1597801468&m=sum:SystemCpuLoad HTTP/1.1" 200 45471
+[2020-08-19 09:44:29,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 878
+[2020-08-19 09:44:36,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 09:44:39,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 09:44:39,676] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597715079&end=1597801479&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35507
+[2020-08-19 09:44:39,683] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597715079&end=1597801479&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 47026
+[2020-08-19 09:44:39,717] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597715079&end=1597801479&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46250
+[2020-08-19 09:44:40,054] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-19 09:44:40,066] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/databases/history/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py", line 105, in get_history_monitor
+    dps = r.json()[0]['dps']
+KeyError: 0
+[2020-08-19 09:44:40,071] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597715079&end=1597801479&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 500 20408
+[2020-08-19 09:44:40,074] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/databases/history/?start=1597715079&end=1597801479&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 500 20417
+[2020-08-19 09:44:42,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=ORACLE_10.10.10.11_testdb HTTP/1.1" 200 9071
+[2020-08-19 09:54:21,943] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 879
+[2020-08-19 09:54:21,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715661&end=1597802061&m=sum:SystemLoadAverage HTTP/1.1" 200 24503
+[2020-08-19 09:54:21,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715661&end=1597802061&m=sum:SystemCpuLoad HTTP/1.1" 200 45472
+[2020-08-19 09:54:25,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/?current_page=1&pre_page=10 HTTP/1.1" 200 636
+[2020-08-19 09:54:30,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 09:54:37,573] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/?current_page=1&pre_page=10 HTTP/1.1" 200 636
+[2020-08-19 09:54:39,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 09:54:40,995] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=WEBLOGIC_10.10.10.130_9004 HTTP/1.1" 200 879
+[2020-08-19 09:54:41,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715680&end=1597802080&m=sum:SystemLoadAverage HTTP/1.1" 200 24503
+[2020-08-19 09:54:41,022] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1597715680&end=1597802080&m=sum:SystemCpuLoad HTTP/1.1" 200 45472
+[2020-08-19 09:57:35,355] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 09:57:39,435] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 10:31:02,238] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 10:38:03,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=MYSQL_10.10.10.16_test_databases HTTP/1.1" 200 17529
+[2020-08-19 10:48:45,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 10:48:45,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597718925&end=1597805325&m=sum:LOAD_FIFTEEN_AVERAGE HTTP/1.1" 200 46299
+[2020-08-19 10:48:45,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597718925&end=1597805325&m=sum:LOAD_ONE_AVERAGE HTTP/1.1" 200 35701
+[2020-08-19 10:48:45,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597718925&end=1597805325&m=sum:LOAD_FIVE_AVERAGE HTTP/1.1" 200 47043
+[2020-08-19 10:48:45,190] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597718925&end=1597805325&m=sum:RECEIVE_BYTES_PER_SECOND HTTP/1.1" 200 25735
+[2020-08-19 10:48:45,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/history/?start=1597718925&end=1597805325&m=sum:SEND_BYTES_PER_SECOND HTTP/1.1" 200 25736
+[2020-08-19 10:51:45,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 10:54:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20471
+[2020-08-19 10:57:45,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21239
+[2020-08-19 11:00:45,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 11:03:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 11:06:45,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 11:09:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 11:12:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21265
+[2020-08-19 11:15:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 11:18:45,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-19 11:21:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21234
+[2020-08-19 11:24:45,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20454
+[2020-08-19 11:27:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 11:30:45,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 11:33:45,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21236
+[2020-08-19 11:36:45,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21263
+[2020-08-19 11:39:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 11:42:45,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21262
+[2020-08-19 11:45:45,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 11:48:45,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21260
+[2020-08-19 11:51:45,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 11:54:45,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21262
+[2020-08-19 11:57:45,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 12:00:45,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-19 12:03:45,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21234
+[2020-08-19 12:06:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 12:09:45,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 12:12:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 12:15:45,545] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20452
+[2020-08-19 12:18:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21267
+[2020-08-19 12:21:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 12:24:45,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 12:27:45,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20473
+[2020-08-19 12:30:45,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 12:33:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 12:36:45,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 12:39:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21254
+[2020-08-19 12:42:45,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 12:45:45,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21239
+[2020-08-19 12:48:45,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 12:51:45,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 12:54:45,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21266
+[2020-08-19 12:57:45,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 13:00:45,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 13:03:45,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 13:06:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21260
+[2020-08-19 13:09:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 13:12:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21263
+[2020-08-19 13:15:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20467
+[2020-08-19 13:18:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 13:21:45,545] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20470
+[2020-08-19 13:24:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20453
+[2020-08-19 13:27:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 13:30:45,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21267
+[2020-08-19 13:33:45,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 13:36:45,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 13:39:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21256
+[2020-08-19 13:42:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 13:45:45,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21257
+[2020-08-19 13:48:45,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20454
+[2020-08-19 13:51:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 13:54:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 13:57:45,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 14:00:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21268
+[2020-08-19 14:03:45,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 14:06:45,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 14:09:45,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 14:12:45,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21270
+[2020-08-19 14:15:45,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20453
+[2020-08-19 14:18:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21263
+[2020-08-19 14:21:45,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 14:24:45,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21263
+[2020-08-19 14:27:45,545] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20454
+[2020-08-19 14:30:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 14:33:45,528] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20468
+[2020-08-19 14:36:45,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 14:39:45,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 14:42:45,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21252
+[2020-08-19 14:45:45,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21234
+[2020-08-19 14:48:45,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21245
+[2020-08-19 14:51:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 14:54:45,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 14:57:45,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21233
+[2020-08-19 15:00:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 15:03:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21237
+[2020-08-19 15:06:45,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21266
+[2020-08-19 15:09:45,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21254
+[2020-08-19 15:12:45,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21262
+[2020-08-19 15:15:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21252
+[2020-08-19 15:18:45,584] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20471
+[2020-08-19 15:21:45,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21255
+[2020-08-19 15:24:45,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21266
+[2020-08-19 15:27:45,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 15:30:45,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-19 15:33:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21234
+[2020-08-19 15:36:45,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-19 15:39:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21235
+[2020-08-19 15:42:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21262
+[2020-08-19 15:45:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 15:48:45,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21260
+[2020-08-19 15:51:45,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 15:54:45,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21266
+[2020-08-19 15:57:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20470
+[2020-08-19 16:00:45,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 16:03:45,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21252
+[2020-08-19 16:06:45,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 16:09:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21234
+[2020-08-19 16:12:45,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 16:15:45,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21223
+[2020-08-19 16:18:45,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20453
+[2020-08-19 16:21:45,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21239
+[2020-08-19 16:24:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 16:27:45,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21238
+[2020-08-19 16:30:45,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21249
+[2020-08-19 16:33:45,525] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21236
+[2020-08-19 16:36:45,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21252
+[2020-08-19 16:39:45,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21256
+[2020-08-19 16:42:45,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21247
+[2020-08-19 16:45:45,630] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21239
+[2020-08-19 16:48:45,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21251
+[2020-08-19 16:51:45,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21255
+[2020-08-19 16:54:45,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21269
+[2020-08-19 16:57:45,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21256
+[2020-08-19 17:00:45,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21248
+[2020-08-19 17:03:45,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21254
+[2020-08-19 17:06:45,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21265
+[2020-08-19 17:09:45,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253
+[2020-08-19 17:12:45,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21265
+[2020-08-19 17:15:45,549] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21239
+[2020-08-19 17:18:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 20466
+[2020-08-19 17:21:45,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21250
+[2020-08-19 17:24:45,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21264
+[2020-08-19 17:27:45,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21254
+[2020-08-19 17:30:45,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 21253

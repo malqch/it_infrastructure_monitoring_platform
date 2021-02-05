@@ -1,0 +1,327 @@
+[2020-11-03 14:49:36,362] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:50:24,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-11-03 14:50:24,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 910
+[2020-11-03 14:50:24,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 878
+[2020-11-03 14:50:25,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:50:30,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 659
+[2020-11-03 14:50:30,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:50:31,358] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:50:38,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:50:38,528] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 659
+[2020-11-03 14:50:39,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:51:48,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:51:48,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:51:49,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:51:54,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-11-03 14:51:54,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 910
+[2020-11-03 14:51:54,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 878
+[2020-11-03 14:51:55,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:52:09,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:52:09,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:52:10,238] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28550
+[2020-11-03 14:52:15,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4961
+[2020-11-03 14:53:20,562] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:54:04,383] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:54:10,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:54:10,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:54:10,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28551
+[2020-11-03 14:54:11,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4954
+[2020-11-03 14:54:14,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 14052
+[2020-11-03 14:54:39,312] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:54:45,488] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:54:45,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 14:54:46,108] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 28551
+[2020-11-03 14:54:47,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4825
+[2020-11-03 14:54:50,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=10 HTTP/1.1" 200 30683
+[2020-11-03 14:54:51,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 14052
+[2020-11-03 14:56:46,260] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:57:02,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4890
+[2020-11-03 14:57:37,744] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 14:57:51,645] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4813
+[2020-11-03 14:57:54,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 14052
+[2020-11-03 15:03:54,900] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:13:15,516] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:13:25,051] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4977
+[2020-11-03 15:13:28,674] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/alarm/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 492, in alarm
+    alarm_info = AlarmDetail.objects.get_queryset().filter(alarm_ip__contains=query).annotate("alarm_ip").order_by('-alarm_last_time')
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1042, in annotate
+    self._validate_values_are_expressions(args + tuple(kwargs.values()), method_name='annotate')
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1326, in _validate_values_are_expressions
+    raise TypeError(
+TypeError: QuerySet.annotate() received non-expression(s): alarm_ip.
+[2020-11-03 15:13:28,676] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 500 22193
+[2020-11-03 15:16:49,749] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:17:14,589] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4960
+[2020-11-03 15:17:39,866] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:17:57,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4850
+[2020-11-03 15:18:00,285] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/alarm/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'alarm_server_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 495, in alarm
+    self.get_serializer(alarm_info, many=True).data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 677, in to_representation
+    return [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `alarm_server_name` on serializer `AlarmDetailSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'alarm_server_name'."
+[2020-11-03 15:18:00,290] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 500 23539
+[2020-11-03 15:19:21,767] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:19:32,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4851
+[2020-11-03 15:19:40,467] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/alarm/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 492, in alarm
+    alarm_info = AlarmDetail.objects.get_queryset().filter(alarm_ip__contains=query).values("alarm_ip").annotate(Count("device_type")).order_by('-alarm_last_time')
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1071, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1021, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/aggregates.py", line 47, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/expressions.py", line 625, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/expressions.py", line 532, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1685, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'device_type' into field. Choices are: alarm_count, alarm_first_time, alarm_ip, alarm_last_time, alarm_level, alarm_server_name, alarm_status, alarm_strategy, alarm_time, collect_value, deal_flag, finish_time, id, indicator_code, indicator_name, notice_code, remark, server_type, upgrade_time
+[2020-11-03 15:19:40,472] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 500 24020
+[2020-11-03 15:20:22,900] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:20:30,386] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4849
+[2020-11-03 15:20:33,075] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/alarm/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'alarm_server_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 495, in alarm
+    self.get_serializer(alarm_info, many=True).data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 677, in to_representation
+    return [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `alarm_server_name` on serializer `AlarmDetailSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'alarm_server_name'."
+[2020-11-03 15:20:33,081] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 500 23539
+[2020-11-03 15:22:27,166] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:22:36,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4851
+[2020-11-03 15:22:39,129] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /monitor/api/alarm_detail/alarm/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'alarm_server_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project_monitor/alarm/views.py", line 495, in alarm
+    self.get_serializer(alarm_info, many=True).data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 677, in to_representation
+    return [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `alarm_server_name` on serializer `AlarmDetailSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'alarm_server_name'."
+[2020-11-03 15:22:39,133] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 500 23539
+[2020-11-03 15:26:58,824] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:27:04,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4944
+[2020-11-03 15:27:11,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 14055
+[2020-11-03 15:27:37,928] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:27:44,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4835
+[2020-11-03 15:27:46,368] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 14055
+[2020-11-03 15:28:11,602] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:28:22,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4962
+[2020-11-03 15:29:02,274] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:29:08,429] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 4890
+[2020-11-03 15:29:10,986] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm/?query=100 HTTP/1.1" 200 2889
+[2020-11-03 15:29:17,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=100.64.0.2&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 2963
+[2020-11-03 15:29:21,429] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/?current_page=1&pre_page=10&alarm_ip=100.64.0.10&alarm_level=&alarm_last_time1=&alarm_last_time2=&alarm_status=&indicator_name= HTTP/1.1" 200 1535
+[2020-11-03 15:56:46,625] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 15:56:56,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 10525
+[2020-11-03 15:57:25,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/device/device_info/?device_type=%E4%BA%A4%E6%8D%A2%E6%9C%BA&tag_id=&business_id= HTTP/1.1" 200 681
+[2020-11-03 15:57:27,482] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/tag/ HTTP/1.1" 200 1472
+[2020-11-03 15:57:28,658] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/device/device_info/?device_type=%E4%BA%A4%E6%8D%A2%E6%9C%BA&tag_id=1&business_id= HTTP/1.1" 200 606
+[2020-11-03 15:57:29,206] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/business/ HTTP/1.1" 200 1012
+[2020-11-03 15:57:30,288] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/device/device_info/?device_type=%E4%BA%A4%E6%8D%A2%E6%9C%BA&tag_id=1&business_id=1 HTTP/1.1" 200 532
+[2020-11-03 15:57:31,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /monitor/api/alarm_rule/ HTTP/1.1" 201 14
+[2020-11-03 15:57:31,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 3935
+[2020-11-03 15:57:47,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/239/logic_delete/ HTTP/1.1" 200 289
+[2020-11-03 15:57:47,672] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 5291
+[2020-11-03 15:57:51,140] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/238/logic_delete/ HTTP/1.1" 200 290
+[2020-11-03 15:57:51,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 6470
+[2020-11-03 15:57:53,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/240/logic_delete/ HTTP/1.1" 200 292
+[2020-11-03 15:57:53,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 7038
+[2020-11-03 15:57:56,094] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/241/logic_delete/ HTTP/1.1" 200 292
+[2020-11-03 15:57:56,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 7609
+[2020-11-03 15:57:59,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/242/logic_delete/ HTTP/1.1" 200 297
+[2020-11-03 15:57:59,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 8510
+[2020-11-03 15:58:02,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /monitor/api/alarm_rule/243/logic_delete/ HTTP/1.1" 200 292
+[2020-11-03 15:58:02,901] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 9116
+[2020-11-03 15:58:07,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_rule/?current_page=1&pre_page=10&rule_name=&device_name=&device_ip=&is_delete=0 HTTP/1.1" 200 9116
+[2020-11-03 16:07:09,169] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-11-03 17:08:02,392] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 200 682
+[2020-11-03 17:08:02,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 200 659
+[2020-11-03 17:08:03,011] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 30329
+[2020-11-03 17:08:16,172] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?current_page=1&pre_page=10 HTTP/1.1" 200 859
+[2020-11-03 17:08:25,283] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/middleware/
+[2020-11-03 17:08:25,284] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/middleware/ HTTP/1.1" 400 242
+[2020-11-03 17:10:02,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?current_page=1&pre_page=10 HTTP/1.1" 200 859
+[2020-11-03 17:10:04,981] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/middleware/
+[2020-11-03 17:10:04,982] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/middleware/ HTTP/1.1" 400 242
+[2020-11-03 17:10:15,119] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/middleware/
+[2020-11-03 17:10:15,121] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/middleware/ HTTP/1.1" 400 242
+[2020-11-03 17:10:53,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?current_page=1&pre_page=10 HTTP/1.1" 200 859
+[2020-11-03 17:16:45,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?current_page=1&pre_page=10 HTTP/1.1" 200 859
+[2020-11-03 17:16:52,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?current_page=1&pre_page=10 HTTP/1.1" 200 859
+[2020-11-03 17:17:27,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/?middleware_type=REDIS&current_page=1&pre_page=1 HTTP/1.1" 200 257
+[2020-11-03 17:17:27,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1604351820&end=1604395020&m=sum:INSTANTANEOUS_OUTPUT_KBPS{logicIp=10.10.10.130} HTTP/1.1" 200 13260
+[2020-11-03 17:17:27,990] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1604351820&end=1604395020&m=sum:INSTANTANEOUS_INPUT_KBPS{logicIp=10.10.10.130} HTTP/1.1" 200 13666
+[2020-11-03 17:17:27,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/history/?start=1604351820&end=1604395020&m=sum:INSTANTANEOUS_OPS_PER_SEC{logicIp=10.10.10.130} HTTP/1.1" 200 13005
+[2020-11-03 17:17:28,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/monitor/?middleware_name=REDIS_10.10.10.130_6379 HTTP/1.1" 200 5901
+[2020-11-03 17:17:34,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/?current_page=1&pre_page=10 HTTP/1.1" 200 685
+[2020-11-03 17:17:37,417] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/databases/
+[2020-11-03 17:17:37,419] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/databases/ HTTP/1.1" 400 195
+[2020-11-03 17:17:53,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_severity/?current_page=1&pre_page=10&grade_name=&is_delete=0 HTTP/1.1" 200 797
+[2020-11-03 17:17:57,947] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_strategy/?current_page=1&pre_page=10&strategy_name=&is_delete=0 HTTP/1.1" 200 1165
+[2020-11-03 17:18:06,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/?current_page=1&pre_page=10 HTTP/1.1" 200 685
+[2020-11-03 17:18:22,995] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/databases/
+[2020-11-03 17:18:22,995] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/databases/ HTTP/1.1" 400 195
+[2020-11-03 17:18:27,352] [log.py:222] [log:log_response] [WARNING]- Bad Request: /monitor/api/databases/
+[2020-11-03 17:18:27,353] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /monitor/api/databases/ HTTP/1.1" 400 195
+[2020-11-03 17:22:22,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/?current_page=1&pre_page=10 HTTP/1.1" 200 685
+[2020-11-03 17:42:33,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/middleware/count/ HTTP/1.1" 200 103
+[2020-11-03 17:42:33,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=CPU_PERCENT HTTP/1.1" 200 880
+[2020-11-03 17:42:33,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/analysis/history/?m=MEM_PERCENT HTTP/1.1" 200 910
+[2020-11-03 17:42:37,358] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 200 30330

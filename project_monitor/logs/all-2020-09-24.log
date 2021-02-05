@@ -1,0 +1,22 @@
+[2020-09-24 16:34:51,414] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-09-24 16:36:25,586] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/analysis/
+[2020-09-24 16:36:25,593] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/alarm_detail/alarm_count/
+[2020-09-24 16:36:25,601] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/analysis/
+[2020-09-24 16:36:25,667] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/alarm_detail/alarm_count/ HTTP/1.1" 404 26042
+[2020-09-24 16:36:25,669] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/analysis/?type=cpu_percent&num=3 HTTP/1.1" 404 26021
+[2020-09-24 16:36:25,670] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/analysis/?type=mem_percent&num=3 HTTP/1.1" 404 26021
+[2020-09-24 16:36:40,419] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/network_monitor/monitor/
+[2020-09-24 16:36:40,419] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/network_monitor/monitor/?network_name=EXCHANGE_100.64.0.1 HTTP/1.1" 404 25
+[2020-09-24 16:37:20,074] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/network_monitor/?current_page=1&pre_page=10&indicator_name=&indicator_code=&series_name=&indicator_oid=&is_delete=0 HTTP/1.1" 200 3512
+[2020-09-24 16:37:23,832] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/network_monitor/monitor/
+[2020-09-24 16:37:23,833] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/network_monitor/monitor/?network_name=FIREWALL_100.64.0.10 HTTP/1.1" 404 25
+[2020-09-24 16:37:33,843] [log.py:222] [log:log_response] [WARNING]- Not Found: /monitor/api/storageitem/monitor/
+[2020-09-24 16:37:33,844] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /monitor/api/storageitem/monitor/?storage_name=STORAGE_10.10.10.7_3 HTTP/1.1" 404 26061
+[2020-09-24 16:37:41,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/?current_page=1&pre_page=10&monitor_type=&specific_type=&indicator=&indicator_name=&is_delete=0 HTTP/1.1" 200 2618
+[2020-09-24 16:37:47,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:swap_percent{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:47,899] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:cpu_system{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:47,901] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:mem_percent{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:47,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:cpu_user{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:47,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:cpu_percent{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:48,093] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/history/?start=1600893420&end=1600936620&m=sum:iowait{logicIp=192.168.5.4} HTTP/1.1" 200 34
+[2020-09-24 16:37:48,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/server_monitor/monitor/?server_name=SERVER_192.168.5.4_test-01 HTTP/1.1" 200 2

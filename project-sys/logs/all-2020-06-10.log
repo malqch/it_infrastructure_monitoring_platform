@@ -1,0 +1,1570 @@
+[2020-06-10 09:14:28,396] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 09:50:41,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 09:50:41,911] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 09:50:42,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 09:50:43,655] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 09:50:43,680] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:50:55,705] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/1 HTTP/1.1" 200 0
+[2020-06-10 09:50:55,926] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/1
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/user/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2020-06-10 09:50:55,927] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/1 HTTP/1.1" 500 74909
+[2020-06-10 09:53:58,148] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 09:54:23,244] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:54:26,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:54:26,644] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 09:54:34,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/1/ HTTP/1.1" 200 0
+[2020-06-10 09:54:34,610] [log.py:222] [log:log_response] [WARNING]- Forbidden: /user/1/
+[2020-06-10 09:54:34,611] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/1/ HTTP/1.1" 403 40
+[2020-06-10 09:55:10,741] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:55:10,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 09:55:12,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:55:12,992] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 09:55:18,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/5/ HTTP/1.1" 200 0
+[2020-06-10 09:55:18,892] [log.py:222] [log:log_response] [WARNING]- Forbidden: /user/5/
+[2020-06-10 09:55:18,893] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/5/ HTTP/1.1" 403 40
+[2020-06-10 09:56:52,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 09:56:58,168] [log.py:222] [log:log_response] [WARNING]- Forbidden: /user/5/
+[2020-06-10 09:56:58,169] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/5/ HTTP/1.1" 403 40
+[2020-06-10 09:57:47,221] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/2/ HTTP/1.1" 200 0
+[2020-06-10 09:57:47,235] [log.py:222] [log:log_response] [WARNING]- Forbidden: /user/2/
+[2020-06-10 09:57:47,236] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/2/ HTTP/1.1" 403 40
+[2020-06-10 10:19:05,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 10:19:05,148] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:19:11,562] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/1/ HTTP/1.1" 200 0
+[2020-06-10 10:19:11,688] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/1/ HTTP/1.1" 200 169
+[2020-06-10 10:19:11,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:19:25,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/4/ HTTP/1.1" 200 0
+[2020-06-10 10:19:25,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/4/ HTTP/1.1" 200 174
+[2020-06-10 10:19:25,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:19:33,218] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 10:19:33,257] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3714
+[2020-06-10 10:20:48,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-10 10:20:48,596] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-10 10:20:48,598] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19605
+[2020-06-10 10:20:52,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 10:20:54,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:20:54,552] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:20:54,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 10:21:02,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 10:21:03,404] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:21:03,433] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:21:03,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 10:21:17,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:21:20,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3484
+[2020-06-10 10:21:22,657] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:21:42,187] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 10:21:44,025] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 10:21:47,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:28:17,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3484
+[2020-06-10 10:28:19,780] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:30:47,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 10:30:47,610] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:43:10,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 10:43:10,257] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:43:45,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:47:08,411] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:47:13,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:47:13,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 10:47:13,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 10:47:13,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 11:06:45,830] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:06:45,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:06:48,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 11:06:48,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:06:48,856] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 11:06:48,886] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 11:08:50,925] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:08:54,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?username=mlq&current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:08:54,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=mlq&current_page=1&pre_page=10 HTTP/1.1" 200 246
+[2020-06-10 11:08:58,090] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?username=ml&current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:08:58,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=ml&current_page=1&pre_page=10 HTTP/1.1" 200 246
+[2020-06-10 11:09:00,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?username=m&current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:09:00,598] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=m&current_page=1&pre_page=10 HTTP/1.1" 200 246
+[2020-06-10 11:09:03,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:10:43,384] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:10:43,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1688
+[2020-06-10 11:11:15,232] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:12:46,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:12:46,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3484
+[2020-06-10 11:13:11,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:25:07,980] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 11:25:08,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:25:18,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 11:25:18,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1467
+[2020-06-10 11:25:18,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=admin&pid=1 HTTP/1.1" 200 0
+[2020-06-10 11:25:18,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=admin&pid=1 HTTP/1.1" 200 1223
+[2020-06-10 11:30:11,714] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 174
+[2020-06-10 11:31:06,689] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 11:31:07,226] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:05:22,804] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:05:23,694] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:08:58,311] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:08:58,630] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:17:49,903] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:17:50,275] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:18:23,526] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/
+[2020-06-10 13:18:23,526] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 400 82
+[2020-06-10 13:20:31,052] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:20:31,544] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:21:15,350] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/
+[2020-06-10 13:21:15,350] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 400 82
+[2020-06-10 13:22:00,276] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 158, in create
+    role = Role().objects.filter(id=role_id).first()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 176, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via Role instances
+[2020-06-10 13:22:00,277] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19354
+[2020-06-10 13:23:41,174] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 158, in create
+    role = Role().objects.filter(id=role_id).first()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 176, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via Role instances
+[2020-06-10 13:23:41,174] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19354
+[2020-06-10 13:23:47,681] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 13:23:47,682] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 13:24:09,779] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 158, in create
+    role = Role().objects.filter(id=role_id).first()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 176, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via Role instances
+[2020-06-10 13:24:09,779] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19354
+[2020-06-10 13:24:47,157] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:24:47,505] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:24:56,571] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 158, in create
+    role = Role().objects.filter(id=role_id).first()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 176, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via Role instances
+[2020-06-10 13:24:56,572] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19354
+[2020-06-10 13:26:11,353] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:26:11,744] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:29:19,987] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 13:29:20,320] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:30:29,393] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-10 13:30:29,836] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 13:31:27,582] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-10 13:31:27,912] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 14:05:57,460] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/8/ HTTP/1.1" 200 0
+[2020-06-10 14:05:57,488] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/8/
+[2020-06-10 14:05:57,490] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/8/ HTTP/1.1" 400 63
+[2020-06-10 14:06:49,337] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/8/ HTTP/1.1" 200 171
+[2020-06-10 14:06:49,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 14:06:49,396] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1642
+[2020-06-10 14:54:33,096] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:30:14,231] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:30:14,802] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:32:07,160] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:32:07,503] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:34:12,229] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:34:12,590] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:34:16,000] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 200 77
+[2020-06-10 15:44:03,635] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:44:04,015] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:45:24,407] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:45:24,738] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:48:16,644] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:48:16,994] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:48:20,384] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq HTTP/1.1" 301 0
+[2020-06-10 15:48:20,861] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 193, in user
+    pid = int(request.query_params.get('pid', None))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-06-10 15:48:20,863] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/user/?username=mlq HTTP/1.1" 500 19314
+[2020-06-10 15:48:38,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-10 15:48:38,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=mlq&pid=1 HTTP/1.1" 200 313
+[2020-06-10 15:49:45,615] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:49:45,981] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:49:48,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-10 15:49:48,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=mlq&pid=1 HTTP/1.1" 200 313
+[2020-06-10 15:50:20,779] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:50:21,182] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 15:50:26,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-10 15:50:26,171] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 201, in user
+    print(role.menus())
+TypeError: __call__() missing 1 required keyword-only argument: 'manager'
+[2020-06-10 15:50:26,172] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/user/?username=mlq&pid=1 HTTP/1.1" 500 19277
+[2020-06-10 15:51:16,984] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 15:51:17,568] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:14:00,140] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:14:00,529] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:15:13,294] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RoleUser' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 158, in create
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `RoleSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RoleUser` instance.
+Original exception text was: 'RoleUser' object has no attribute 'name'.
+[2020-06-10 16:15:13,295] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 20692
+[2020-06-10 16:15:49,232] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:15:49,553] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:15:51,430] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 16:15:51,431] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 16:16:34,348] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RoleUser' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 159, in create
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `RoleSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RoleUser` instance.
+Original exception text was: 'RoleUser' object has no attribute 'name'.
+[2020-06-10 16:16:34,349] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 20692
+[2020-06-10 16:18:27,229] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:18:27,619] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:19:51,379] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:19:51,737] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:20:27,181] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RoleUser' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 161, in create
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RoleUser` instance.
+Original exception text was: 'RoleUser' object has no attribute 'username'.
+[2020-06-10 16:20:27,182] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 20712
+[2020-06-10 16:22:37,920] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:22:38,241] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:23:05,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 176
+[2020-06-10 16:23:54,833] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:23:55,206] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:24:13,371] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 159, in create
+    new_user.data['role'] = role.data['role_id']
+AttributeError: 'RoleUser' object has no attribute 'data'
+[2020-06-10 16:24:13,372] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19143
+[2020-06-10 16:24:55,225] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:24:55,592] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:24:57,492] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 160, in create
+    new_user.data['role'] = role.data['role_id']
+AttributeError: 'RoleUser' object has no attribute 'data'
+[2020-06-10 16:24:57,493] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19143
+[2020-06-10 16:27:19,816] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:27:20,175] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:27:35,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 185
+[2020-06-10 16:27:56,004] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:27:56,564] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:28:08,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-10 16:28:08,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 16:28:10,235] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wwcd&pid=1 HTTP/1.1" 200 0
+[2020-06-10 16:28:10,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=wwcd&pid=1 HTTP/1.1" 301 0
+[2020-06-10 16:28:10,318] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wwcd&pid=1 HTTP/1.1" 200 0
+[2020-06-10 16:28:10,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wwcd&pid=1 HTTP/1.1" 200 1526
+[2020-06-10 16:30:24,426] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 16:30:24,439] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 16:36:05,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 16:38:37,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 16:39:24,391] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 16:39:27,865] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wwcd&pid=1 HTTP/1.1" 200 0
+[2020-06-10 16:39:27,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 16:39:28,014] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wwcd&pid=1 HTTP/1.1" 200 0
+[2020-06-10 16:39:28,042] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wwcd&pid=1 HTTP/1.1" 200 1526
+[2020-06-10 16:46:51,515] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:46:52,680] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:47:27,396] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:47:27,697] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:48:16,963] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:48:17,332] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:48:26,236] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = Role.objects.get(name=role_name)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 16:48:26,238] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19459
+[2020-06-10 16:48:28,973] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 16:48:28,974] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 16:52:56,854] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'Role'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 160, in create
+    RoleUser.objects.create(role_id=role_id, user_id=user_id)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1390, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1333, in as_sql
+    value_rows = [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1275, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/related.py", line 939, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2365, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Role: Role object (1)>.
+[2020-06-10 16:52:56,857] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 22575
+[2020-06-10 16:55:40,462] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:55:40,834] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:55:42,864] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'RoleSerializer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 160, in create
+    RoleUser.objects.create(role_id=role_id, user_id=user_id)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 782, in save_base
+    updated = self._save_table(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/base.py", line 924, in _do_insert
+    return manager._insert(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1390, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1333, in as_sql
+    value_rows = [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1334, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1275, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/related.py", line 939, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 821, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2365, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got RoleSerializer(<Role: Role object (1)>):
+    id = IntegerField(label='ID', read_only=True)
+    users = UserSerializer(many=True, read_only=True):
+        id = IntegerField(label='ID', read_only=True)
+        username = CharField(max_length=50)
+        email = EmailField(max_length=50)
+        phone = CharField(max_length=20)
+        password = CharField(max_length=255)
+        is_delete = BooleanField(required=False)
+        create_time = DateTimeField(required=False)
+        remove_time = DateTimeField(allow_null=True, required=False)
+    menus = MenuSerializer(many=True, read_only=True):
+        id = IntegerField(label='ID', read_only=True)
+        name = CharField(max_length=50)
+        action_code = CharField(max_length=255)
+        prev_menu = CharField(allow_blank=True, allow_null=True, max_length=50, required=False)
+        menu_url = CharField(max_length=255)
+        p_id = IntegerField(max_value=9223372036854775807, min_value=-9223372036854775808)
+        is_function = BooleanField(required=False)
+        icon = CharField(allow_null=True, max_length=255, required=False)
+        is_delete = BooleanField(required=False)
+        create_time = DateTimeField(required=False)
+        remove_time = DateTimeField(allow_null=True, required=False)
+    name = CharField(max_length=50)
+    mark = CharField(max_length=255)
+    is_delete = BooleanField(required=False)
+    create_time = DateTimeField(required=False)
+    remove_time = DateTimeField(allow_null=True, required=False).
+[2020-06-10 16:55:42,866] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 25531
+[2020-06-10 16:56:49,086] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 16:56:49,454] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 16:56:51,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 191
+[2020-06-10 17:04:45,116] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 17:04:45,471] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 17:05:02,140] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 200 493
+[2020-06-10 17:08:32,748] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 17:08:33,263] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 17:12:07,010] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 17:12:07,414] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 17:12:11,712] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 194
+[2020-06-10 17:12:59,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-10 17:12:59,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 17:13:01,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:13:01,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:13:01,807] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:13:03,698] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 17:13:03,737] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:14:15,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:14:15,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:15:15,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:15:17,918] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:15:17,944] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:15:53,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 17:15:53,964] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:15:53,967] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:18:48,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:18:48,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:19:33,534] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:19:33,544] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:22:26,709] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 17:22:26,711] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 17:22:44,880] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:22:44,881] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:23:23,621] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:23:23,622] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:23:39,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:23:39,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 17:23:39,713] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:23:40,043] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:23:40,108] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:24:03,365] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:24:03,367] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:25:39,489] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:26:02,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 17:26:03,011] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:26:03,011] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:29:20,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:29:43,231] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:29:43,232] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:33:03,578] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:34:09,856] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:34:09,857] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:34:15,824] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:34:15,825] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 17:34:15,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:34:15,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:34:15,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:34:41,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:37:04,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:37:26,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 17:37:26,613] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:37:26,614] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:40:25,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:40:44,776] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:40:44,777] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:41:43,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:42:05,564] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:42:05,565] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19645
+[2020-06-10 17:43:13,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:43:13,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:43:34,317] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:43:34,318] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19645
+[2020-06-10 17:46:16,663] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 17:46:16,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:46:40,215] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 17:46:40,216] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 17:52:38,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:52:38,301] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:52:38,382] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:52:55,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:55:17,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:55:45,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:55:45,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:55:46,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 17:55:46,188] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:56:17,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 17:56:17,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 17:56:17,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:57:56,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 17:57:56,431] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:01:03,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:01:03,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:01:20,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:01:25,097] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:01:25,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:02:10,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:02:10,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:02:48,858] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:02:55,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:02:55,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:03:14,667] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 18:03:14,975] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:03:14,975] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 18:03:31,933] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 18:03:31,934] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 18:04:24,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:04:28,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:04:28,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:04:44,142] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:04:44,143] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 18:06:26,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 18:06:26,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:06:33,509] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:06:33,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:06:33,640] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:06:33,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:06:44,261] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 18:06:44,262] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 18:07:43,736] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:07:43,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:10:04,986] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:12:19,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:12:19,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:21:58,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 18:21:58,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:22:33,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:22:33,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:22:33,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:22:34,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:22:52,608] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:22:52,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:23:13,495] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=wl&pid=1 HTTP/1.1" 301 0
+[2020-06-10 18:23:13,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:23:13,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:23:37,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=wl&pid=1 HTTP/1.1" 301 0
+[2020-06-10 18:23:38,024] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:23:38,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:24:12,191] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 18:24:12,402] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:24:12,402] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 18:24:30,814] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 18:24:30,815] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 18:25:03,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:25:03,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:25:26,024] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:25:26,025] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 18:26:20,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:26:39,507] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:26:39,508] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19644
+[2020-06-10 18:28:41,084] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:28:58,366] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:28:58,384] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:30:25,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:30:51,997] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 18:30:51,997] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 18:31:20,239] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:31:44,586] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/
+[2020-06-10 18:31:44,587] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 400 41
+[2020-06-10 18:33:44,565] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 18:33:44,612] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:34:23,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 18:34:23,577] [log.py:222] [log:log_response] [WARNING]- Conflict: /user/
+[2020-06-10 18:34:23,578] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 409 25
+[2020-06-10 18:35:45,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:35:45,232] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:35:45,244] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:35:45,412] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:36:11,354] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:36:11,355] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19645
+[2020-06-10 18:53:48,359] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 18:53:48,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:54:29,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:54:32,020] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:54:32,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 18:54:32,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:54:32,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:54:49,807] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 18:54:49,914] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 18:54:49,915] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19645
+[2020-06-10 18:56:18,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:56:21,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 18:56:21,673] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 18:56:54,682] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:10:23,782] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:10:23,851] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:10:23,964] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:18:05,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:18:09,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:18:09,683] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:18:09,716] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:18:09,772] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:18:49,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:18:49,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:19:41,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:19:41,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:21:36,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:21:36,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:24:44,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:24:46,578] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:24:46,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:26:33,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:27:28,682] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:27:32,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:27:32,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:31:52,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:31:52,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:31:54,633] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:31:54,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:31:54,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:31:54,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:31:58,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:31:58,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:32:06,206] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:32:08,699] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:32:08,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:32:39,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:32:50,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:32:50,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:34:18,808] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:34:57,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:34:57,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:35:21,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 19:35:22,410] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 157, in create
+    role_id = RoleSerializer(Role.objects.get(name=role_name)).data['id']
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Role.DoesNotExist: Role matching query does not exist.
+[2020-06-10 19:35:22,412] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /user/ HTTP/1.1" 500 19645
+[2020-06-10 19:38:37,782] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-10 19:38:42,813] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-10 19:38:49,714] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:38:49,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1173
+[2020-06-10 19:39:06,720] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 186
+[2020-06-10 19:39:06,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:48:38,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:48:38,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:48:47,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:48:50,408] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:48:50,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:48:50,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:48:50,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1346
+[2020-06-10 19:48:58,274] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:48:58,317] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1346
+[2020-06-10 19:49:30,990] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:49:31,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1346
+[2020-06-10 19:49:59,553] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-10 19:49:59,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /user/ HTTP/1.1" 201 189
+[2020-06-10 19:49:59,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:50:28,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-10 19:50:28,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-10 19:50:30,596] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=et&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:50:30,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=et&pid=1 HTTP/1.1" 301 0
+[2020-06-10 19:50:30,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=et&pid=1 HTTP/1.1" 200 0
+[2020-06-10 19:50:30,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=et&pid=1 HTTP/1.1" 200 1521
+[2020-06-10 19:54:33,593] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:59:47,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:59:47,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:59:47,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=et&pid=1 HTTP/1.1" 200 1521
+[2020-06-10 19:59:52,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=2&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:59:52,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 1857
+[2020-06-10 19:59:52,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=3&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:59:52,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1835
+[2020-06-10 19:59:53,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=4&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:59:53,258] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 1620
+[2020-06-10 19:59:54,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1835
+[2020-06-10 19:59:54,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 1857
+[2020-06-10 19:59:55,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 19:59:59,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-10 19:59:59,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 4723
+[2020-06-10 19:59:59,831] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 20:01:18,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=et&pid=1 HTTP/1.1" 200 0
+[2020-06-10 20:01:18,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-10 20:01:18,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=et&pid=1 HTTP/1.1" 200 0
+[2020-06-10 20:01:18,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=et&pid=1 HTTP/1.1" 200 1521

@@ -1,0 +1,1771 @@
+[2020-06-12 09:18:52,655] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 09:24:32,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-12 09:24:32,846] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=wl&pid=1 HTTP/1.1" 200 0
+[2020-06-12 09:24:32,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1882
+[2020-06-12 09:25:16,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 09:25:16,796] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 09:25:19,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=wl&pid=1 HTTP/1.1" 200 1882
+[2020-06-12 09:25:29,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 09:25:29,365] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:25:31,039] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 09:25:31,052] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 09:27:41,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:27:57,009] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:28:16,150] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:28:26,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:29:31,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 09:30:25,727] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 10:37:10,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:37:10,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 10:42:25,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=5&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:42:25,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 251
+[2020-06-12 10:42:28,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 10:42:51,968] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=2&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:42:51,995] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 1857
+[2020-06-12 10:42:53,178] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=3&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:42:53,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1835
+[2020-06-12 10:42:53,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=4&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:42:53,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 1801
+[2020-06-12 10:42:55,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 251
+[2020-06-12 10:42:57,219] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 10:43:05,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 10:49:12,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 1857
+[2020-06-12 10:49:13,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1835
+[2020-06-12 10:49:13,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 1801
+[2020-06-12 10:49:14,279] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 251
+[2020-06-12 10:49:15,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 10:49:15,925] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:19:39,426] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:19:39,457] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:19:42,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 13:19:42,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:28:41,318] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-12 13:28:41,333] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1617
+[2020-06-12 13:28:51,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:28:51,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:28:52,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:28:56,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:28:57,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:31:05,586] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role
+[2020-06-12 13:31:05,587] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role HTTP/1.1" 404 6461
+[2020-06-12 13:31:05,653] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-06-12 13:31:05,653] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 6461
+[2020-06-12 13:31:24,542] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user
+[2020-06-12 13:31:24,543] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user HTTP/1.1" 404 6461
+[2020-06-12 13:31:35,760] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/
+[2020-06-12 13:31:35,761] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/ HTTP/1.1" 404 6464
+[2020-06-12 13:31:51,899] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/2/user/
+[2020-06-12 13:31:51,900] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/2/user/ HTTP/1.1" 404 6464
+[2020-06-12 13:32:04,965] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role
+[2020-06-12 13:32:04,966] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role HTTP/1.1" 404 6461
+[2020-06-12 13:32:09,593] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role/
+[2020-06-12 13:32:09,594] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role/ HTTP/1.1" 404 6464
+[2020-06-12 13:33:15,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:33:23,759] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 13:33:23,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=mlq&pid=1 HTTP/1.1" 200 851
+[2020-06-12 13:33:48,473] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user
+[2020-06-12 13:33:48,473] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user HTTP/1.1" 404 6461
+[2020-06-12 13:33:53,101] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/
+[2020-06-12 13:33:53,101] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/ HTTP/1.1" 404 6464
+[2020-06-12 13:34:26,659] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/
+[2020-06-12 13:34:26,659] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/ HTTP/1.1" 404 6464
+[2020-06-12 13:34:46,735] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/
+[2020-06-12 13:34:46,735] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/ HTTP/1.1" 404 6464
+[2020-06-12 13:35:54,663] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role/
+[2020-06-12 13:35:54,663] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role/ HTTP/1.1" 404 6464
+[2020-06-12 13:37:34,977] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:37:37,011] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:38:01,771] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:38:21,060] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:38:21,846] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:38:28,526] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role/
+[2020-06-12 13:38:28,526] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role/ HTTP/1.1" 404 6506
+[2020-06-12 13:38:37,171] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/1/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 191, in user
+    pid = int(request.query_params.get('pid', None))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-06-12 13:38:37,173] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/1/user/ HTTP/1.1" 500 18736
+[2020-06-12 13:38:59,838] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:39:00,694] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:39:04,703] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:39:10,385] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/1/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 194, in user
+    role_info = RoleUser.objects.filter(user_id=user_info.id).first()
+AttributeError: 'NoneType' object has no attribute 'id'
+[2020-06-12 13:39:10,387] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/1/user/ HTTP/1.1" 500 18681
+[2020-06-12 13:42:20,988] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:42:21,697] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:42:36,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:42:36,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:42:42,369] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 13:42:42,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:42:53,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:43:01,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:43:01,172] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:43:15,339] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:43:23,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:43:27,673] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:43:31,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:43:36,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:43:58,814] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:44:07,438] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:44:08,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:44:26,604] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:44:45,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:44:47,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:45:23,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:45:28,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:45:29,397] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 5837
+[2020-06-12 13:46:03,060] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 13:46:03,869] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:46:26,572] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:47:06,435] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 13:47:07,181] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:47:19,700] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 13:47:20,518] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:47:24,363] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 13:47:25,181] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:47:38,190] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/1/role/
+[2020-06-12 13:47:38,191] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/1/role/ HTTP/1.1" 404 6485
+[2020-06-12 13:48:44,275] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:48:45,138] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:48:53,305] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:48:59,346] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:49:00,164] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:49:05,450] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/1/user/1/role/
+[2020-06-12 13:49:05,451] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /role/1/user/1/role/ HTTP/1.1" 404 6913
+[2020-06-12 13:49:17,190] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/1/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 166, in role
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `RoleSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'name'.
+[2020-06-12 13:49:17,192] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/1/role/ HTTP/1.1" 500 20193
+[2020-06-12 13:54:14,398] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 13:54:18,102] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 13:54:20,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 169
+[2020-06-12 13:54:28,562] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1 HTTP/1.1" 301 0
+[2020-06-12 13:54:28,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/ HTTP/1.1" 200 169
+[2020-06-12 13:54:35,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 169
+[2020-06-12 13:54:41,243] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role/1/
+[2020-06-12 13:54:41,243] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role/1/ HTTP/1.1" 404 6898
+[2020-06-12 13:54:53,622] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/role/1
+[2020-06-12 13:54:53,623] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/role/1 HTTP/1.1" 404 6895
+[2020-06-12 13:55:10,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role HTTP/1.1" 301 0
+[2020-06-12 13:55:10,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 169
+[2020-06-12 13:55:21,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:55:21,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:55:30,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 13:55:30,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3234
+[2020-06-12 13:55:32,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:55:34,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3234
+[2020-06-12 13:55:34,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:55:49,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3234
+[2020-06-12 13:55:51,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:56:01,064] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3234
+[2020-06-12 13:56:03,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 13:56:03,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 13:56:38,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/1/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 13:56:38,502] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /role/1/assign_user/ HTTP/1.1" 200 1782
+[2020-06-12 13:56:38,641] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3242
+[2020-06-12 13:57:10,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 13:58:22,832] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3242
+[2020-06-12 13:58:27,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-12 13:58:27,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1617
+[2020-06-12 13:58:33,388] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1617
+[2020-06-12 13:59:14,232] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1617
+[2020-06-12 14:00:03,362] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 14:00:09,102] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3242
+[2020-06-12 14:00:20,872] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 1819
+[2020-06-12 14:02:58,807] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 14:02:59,567] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:03:03,008] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:03:08,922] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role HTTP/1.1" 301 0
+[2020-06-12 14:03:08,944] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 169
+[2020-06-12 14:03:19,353] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 7199
+[2020-06-12 14:03:38,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role HTTP/1.1" 301 0
+[2020-06-12 14:03:38,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 169
+[2020-06-12 14:03:44,783] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/1/menu
+[2020-06-12 14:03:44,784] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/1/menu HTTP/1.1" 404 6889
+[2020-06-12 14:04:19,634] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/serializers.py changed, reloading.
+[2020-06-12 14:04:20,415] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:07:06,644] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:07:07,534] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:07:19,325] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:07:59,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:07:59,175] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?username=admin HTTP/1.1" 200 171
+[2020-06-12 14:08:49,708] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:08:50,921] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:09:14,434] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:09:15,180] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:09:55,441] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:10:05,098] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:10:05,118] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin HTTP/1.1" 200 169
+[2020-06-12 14:10:16,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:10:58,248] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:10:59,056] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:11:06,316] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:06,399] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: role() missing 1 required positional argument: 'pk'
+[2020-06-12 14:11:06,400] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=admin HTTP/1.1" 500 18612
+[2020-06-12 14:11:17,199] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:11:18,006] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:11:22,675] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:22,692] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/role/
+[2020-06-12 14:11:22,693] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/role/?username=admin HTTP/1.1" 404 25
+[2020-06-12 14:11:25,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:25,320] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/role/
+[2020-06-12 14:11:25,321] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/role/?username=admin HTTP/1.1" 404 25
+[2020-06-12 14:11:26,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:26,312] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/role/
+[2020-06-12 14:11:26,312] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/role/?username=admin HTTP/1.1" 404 25
+[2020-06-12 14:11:26,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:26,554] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/role/
+[2020-06-12 14:11:26,554] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/role/?username=admin HTTP/1.1" 404 25
+[2020-06-12 14:11:32,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:11:32,441] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/?username=admin HTTP/1.1" 200 169
+[2020-06-12 14:13:19,190] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 14:13:20,101] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:13:25,408] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:02,192] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 14:14:03,023] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:07,656] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 14:14:08,454] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:12,848] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:34,091] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 14:14:34,869] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:38,819] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:14:42,027] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:14:42,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/?username=admin HTTP/1.1" 200 1933
+[2020-06-12 14:15:08,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:15:08,073] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/role/
+[2020-06-12 14:15:08,073] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /user/role/?username=admin HTTP/1.1" 404 25
+[2020-06-12 14:15:15,840] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role?username=admin HTTP/1.1" 301 0
+[2020-06-12 14:15:15,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/?username=admin HTTP/1.1" 200 1933
+[2020-06-12 14:15:39,625] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role HTTP/1.1" 301 0
+[2020-06-12 14:15:39,639] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 107
+[2020-06-12 14:16:32,409] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:16:33,249] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:16:35,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role HTTP/1.1" 301 0
+[2020-06-12 14:16:35,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/role/ HTTP/1.1" 200 1933
+[2020-06-12 14:20:16,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/2/role HTTP/1.1" 301 0
+[2020-06-12 14:20:16,172] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/2/role/ HTTP/1.1" 200 2072
+[2020-06-12 14:26:03,966] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:26:04,851] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:31:51,128] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:31:52,155] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:32:27,596] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:32:27,697] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 172, in role
+    menu_list = serializer.data['menus']
+KeyError: 'menus'
+[2020-06-12 14:32:27,699] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 500 18696
+[2020-06-12 14:32:57,489] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:32:58,284] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:33:00,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:33:00,635] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 174, in role
+    menu_list = serializer.data['menus']
+KeyError: 'menus'
+[2020-06-12 14:33:00,636] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 500 18696
+[2020-06-12 14:33:59,753] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:34:10,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:34:10,728] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 177, in role
+    for info in menu_list[:]:
+TypeError: unhashable type: 'slice'
+[2020-06-12 14:34:10,730] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 500 18721
+[2020-06-12 14:34:38,721] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:34:39,624] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:34:42,730] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:34:45,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:34:45,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 200 1933
+[2020-06-12 14:37:14,042] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:37:14,801] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:37:50,216] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:37:51,140] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:37:52,932] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:37:53,717] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:38:01,970] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:38:02,888] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:38:08,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:38:08,316] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 200 1933
+[2020-06-12 14:41:53,359] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:41:54,172] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:43:36,408] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:43:37,225] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:43:37,688] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:43:37,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&pid=1 HTTP/1.1" 200 1933
+[2020-06-12 14:45:06,795] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:45:07,868] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:45:29,776] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:45:29,809] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2072
+[2020-06-12 14:51:22,327] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:51:23,145] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:53:32,064] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:53:39,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:53:39,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2072
+[2020-06-12 14:55:02,591] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 14:55:03,446] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:56:07,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:56:07,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2072
+[2020-06-12 14:56:23,317] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 14:56:26,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 14:56:26,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2072
+[2020-06-12 15:06:48,863] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:06:58,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:06:58,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2072
+[2020-06-12 15:13:44,958] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:13:45,881] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:15:20,620] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:15:21,379] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:17:02,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 15:17:02,734] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3153
+[2020-06-12 15:17:05,911] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 15:17:06,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 27490
+[2020-06-12 15:17:11,175] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/2/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 15:17:11,296] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/2/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 243, in assign_user
+    role.users.add(user)
+AttributeError: 'Role' object has no attribute 'users'
+[2020-06-12 15:17:11,298] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /role/2/assign_user/ HTTP/1.1" 500 18836
+[2020-06-12 15:17:47,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:17:47,211] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 182, in role
+    menus = list(set(menus_list))
+TypeError: unhashable type: 'list'
+[2020-06-12 15:17:47,212] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18715
+[2020-06-12 15:18:26,331] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:18:27,119] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:18:29,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:18:29,293] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 182, in role
+    menus = set(menus_list)
+TypeError: unhashable type: 'list'
+[2020-06-12 15:18:29,294] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18709
+[2020-06-12 15:18:55,021] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:18:55,824] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:18:56,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:18:57,073] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 183, in role
+    menus = set(menus_list)
+TypeError: unhashable type: 'list'
+[2020-06-12 15:18:57,075] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18709
+[2020-06-12 15:18:58,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:18:58,286] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 183, in role
+    menus = set(menus_list)
+TypeError: unhashable type: 'list'
+[2020-06-12 15:18:58,287] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18709
+[2020-06-12 15:20:06,676] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:20:10,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:20:10,276] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 183, in role
+    menus = set(menus_list)
+TypeError: unhashable type: 'collections.OrderedDict'
+[2020-06-12 15:20:10,278] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18747
+[2020-06-12 15:20:50,110] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:20:50,883] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:20:51,304] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:20:51,509] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 184, in role
+    menus = set(menus_list)
+TypeError: unhashable type: 'collections.OrderedDict'
+[2020-06-12 15:20:51,510] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 500 18747
+[2020-06-12 15:40:00,397] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:40:04,288] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:40:04,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2890
+[2020-06-12 15:40:50,476] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:40:51,418] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:40:59,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 15:40:59,898] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 2890
+[2020-06-12 15:42:14,375] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:42:15,385] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:49:29,783] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:49:30,602] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:52:46,876] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 15:52:47,824] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:53:59,595] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 15:54:00,340] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:54:16,122] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/models.py changed, reloading.
+[2020-06-12 15:54:16,900] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 15:59:39,619] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 15:59:40,454] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:02:33,989] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:02:34,811] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:03:45,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 16:03:45,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 3096
+[2020-06-12 16:04:21,569] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:04:22,509] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:04:23,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 16:04:23,594] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&pid=1 HTTP/1.1" 200 3096
+[2020-06-12 16:05:24,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:05:24,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 3096
+[2020-06-12 16:06:01,942] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:06:02,860] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:07:39,659] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:07:40,508] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:07:44,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:07:44,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:09:52,762] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:09:53,586] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:09:55,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:09:55,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:11:13,798] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:11:18,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:11:19,070] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 191, in role
+    return Response(self.get_serializer(res, many=True).data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 677, in to_representation
+    return [
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'username'.
+[2020-06-12 16:11:19,073] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 500 20711
+[2020-06-12 16:12:01,884] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:12:02,883] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:12:15,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 16:12:16,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:12:18,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=mlq&pid=1 HTTP/1.1" 200 0
+[2020-06-12 16:12:18,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&pid=1 HTTP/1.1" 301 0
+[2020-06-12 16:12:18,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=mlq&pid=1 HTTP/1.1" 200 0
+[2020-06-12 16:12:18,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user/?username=mlq&pid=1 HTTP/1.1" 200 134
+[2020-06-12 16:12:28,884] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:12:28,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/user?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:12:28,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/user/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:12:29,071] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 221, in user
+    pid = int(request.query_params.get('pid', None))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-06-12 16:12:29,073] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/user/?username=mlq&application=sys HTTP/1.1" 500 18955
+[2020-06-12 16:13:48,275] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:13:49,283] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:14:12,908] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:14:17,422] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 216, in user
+    pid = int(request.query_params.get('pid', None))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-06-12 16:14:17,425] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/user/?username=mlq&application=sys HTTP/1.1" 500 18955
+[2020-06-12 16:15:58,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:15:59,819] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /role/user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 216, in user
+    pid = int(request.query_params.get('pid', None))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-06-12 16:15:59,820] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /role/user/?username=mlq&application=sys HTTP/1.1" 500 18955
+[2020-06-12 16:17:52,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 16:17:52,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:17:53,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:17:54,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:17:54,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:17:54,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:18:03,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:18:26,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:19:57,455] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-12 16:19:57,456] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19111
+[2020-06-12 16:20:04,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:20:05,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:20:05,819] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:20:05,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:20:05,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:21:52,180] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:22:38,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:23:18,907] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys/ HTTP/1.1" 200 0
+[2020-06-12 16:23:18,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys/ HTTP/1.1" 301 0
+[2020-06-12 16:23:18,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys/ HTTP/1.1" 200 0
+[2020-06-12 16:23:19,042] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys/ HTTP/1.1" 200 1772
+[2020-06-12 16:23:35,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:23:37,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys/ HTTP/1.1" 200 0
+[2020-06-12 16:23:37,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys/ HTTP/1.1" 301 0
+[2020-06-12 16:23:37,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys/ HTTP/1.1" 200 0
+[2020-06-12 16:23:37,317] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys/ HTTP/1.1" 200 11
+[2020-06-12 16:24:01,080] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys/ HTTP/1.1" 301 0
+[2020-06-12 16:24:01,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys/ HTTP/1.1" 200 11
+[2020-06-12 16:24:08,025] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:24:08,063] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:24:44,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:24:44,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:26:02,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:26:09,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:26:19,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:26:22,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:26:42,782] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:27:51,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:27:54,623] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:27:54,685] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:27:54,752] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:28:46,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:29:00,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:29:47,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:29:58,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:29:58,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:30:34,508] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:30:43,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:31:25,057] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:31:31,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:31:37,144] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:32:05,617] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 1006
+[2020-06-12 16:32:22,907] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 16:32:22,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:32:25,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:32:25,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:32:25,819] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:32:25,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:34:14,936] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 16:34:15,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 16:34:57,977] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 16:34:59,862] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:35:13,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:36:07,398] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:36:12,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:36:12,461] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:36:29,191] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:36:42,108] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:36:42,148] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:36:46,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:36:46,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 1772
+[2020-06-12 16:36:51,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:40:12,683] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:40:16,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:40:48,937] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:40:53,623] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:41:51,013] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:41:55,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:41:59,457] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 171, in role
+    print(role_list['menus'])
+TypeError: list indices must be integers or slices, not str
+[2020-06-12 16:41:59,468] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 500 18809
+[2020-06-12 16:42:16,794] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:42:21,088] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:43:59,070] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:44:01,336] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:44:07,535] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:44:11,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:44:11,976] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 2079
+[2020-06-12 16:44:53,436] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:44:56,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:44:56,986] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 2079
+[2020-06-12 16:45:24,993] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:45:30,096] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:45:30,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 2079
+[2020-06-12 16:46:52,701] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:46:57,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:46:57,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:49:38,881] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 16:49:43,080] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:49:43,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:50:03,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:50:03,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:51:05,176] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:51:05,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 16:51:05,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:51:05,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 16:51:05,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:51:17,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 16:51:17,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:52:17,338] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 16:52:17,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:52:19,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:52:19,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:52:19,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 16:52:19,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:52:57,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:01,051] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:15,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:28,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:32,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:40,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 16:53:42,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=admin&application=sys HTTP/1.1" 301 0
+[2020-06-12 16:53:42,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 16:53:54,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 16:53:55,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 16:54:35,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1 HTTP/1.1" 301 0
+[2020-06-12 16:54:35,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/1/ HTTP/1.1" 200 2079
+[2020-06-12 16:55:43,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 16:56:36,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 17:04:21,767] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 17:04:28,566] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 17:05:33,667] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 17:05:41,470] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:05:41,470] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:05:41,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:05:41,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:05:41,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:06:04,232] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:06:04,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:13:54,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:13:54,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:27:11,799] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:27:11,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:27:11,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:27:13,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:27:13,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:28:55,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:28:55,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:34:40,755] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:34:40,833] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:39:54,698] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:39:54,703] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:39:54,736] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:39:54,870] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:39:54,875] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:41:06,700] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:41:42,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:41:56,245] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:42:13,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:42:19,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:42:30,634] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 17:42:31,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 17:42:33,343] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:42:33,375] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:42:33,477] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:42:36,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:42:37,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 17:43:06,878] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:44:46,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:44:46,922] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:45:42,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:46:26,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:46:28,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:46:29,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:48:09,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:48:10,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:48:11,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:48:25,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:50:41,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:50:41,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:50:41,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:51:28,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:52:26,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:52:30,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:53:02,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:53:21,249] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:53:28,194] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=2&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:53:28,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 5888
+[2020-06-12 17:53:29,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:53:30,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 5888
+[2020-06-12 17:53:31,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:53:32,577] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=2&pre_page=10 HTTP/1.1" 200 5888
+[2020-06-12 17:53:34,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=3&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:53:34,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1945
+[2020-06-12 17:53:35,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=4&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:53:35,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 5700
+[2020-06-12 17:53:36,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=5&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:53:36,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 655
+[2020-06-12 17:53:38,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 5700
+[2020-06-12 17:53:40,077] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:54:15,883] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 17:54:16,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 17:54:20,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:54:22,221] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 17:54:25,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:55:08,485] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:58:23,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:59:20,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:59:39,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 17:59:51,391] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:59:51,641] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-12 17:59:51,670] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 17:59:51,804] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:00:07,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:00:08,685] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:00:42,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:00:42,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:00:46,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:00:46,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:00:57,307] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:00:57,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:02:19,485] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:02:19,493] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:03:12,755] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:03:23,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:05:05,909] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:05:25,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 18:05:25,990] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:09:29,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:09:38,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:09:49,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:11:14,463] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 18:11:15,093] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 18:11:17,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:11:17,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:11:17,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:11:20,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:11:20,133] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:11:22,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:11:22,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 18:11:25,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:11:26,043] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:11:31,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 18:11:32,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:11:33,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:11:36,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:11:52,647] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:11:56,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 18:11:57,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:11:59,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 18:12:16,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:12:18,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:12:22,347] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:12:26,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:13:15,798] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:13:18,604] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:13:53,118] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:13:55,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/6/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 18:13:55,490] [log.py:222] [log:log_response] [WARNING]- Not Found: /role/6/assign_user/
+[2020-06-12 18:13:55,492] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /role/6/assign_user/ HTTP/1.1" 404 25
+[2020-06-12 18:21:52,528] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 18:22:14,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:22:14,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:22:17,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:22:17,069] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:22:17,142] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:22:17,155] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:22:19,679] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 18:22:19,995] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:22:23,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/6/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 18:22:24,092] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/6/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 205, in assign_user
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `RoleSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'name'.
+[2020-06-12 18:22:24,095] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/6/assign_user/ HTTP/1.1" 500 20395
+[2020-06-12 18:26:52,085] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 18:26:57,342] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:26:59,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:26:59,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:27:02,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:27:06,328] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/6/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '普'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 201, in assign_user
+    roles = Role.objects.filter(id__in=role_ids).all()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 223, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got '普'.
+[2020-06-12 18:27:06,331] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/6/assign_user/ HTTP/1.1" 500 20866
+[2020-06-12 18:35:10,901] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 18:35:24,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:35:24,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:35:24,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 18:35:24,709] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:35:24,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:35:27,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 18:35:27,470] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:35:29,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/6/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 18:35:29,977] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/6/assign_user/
+[2020-06-12 18:35:29,977] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/6/assign_user/ HTTP/1.1" 404 7285
+[2020-06-12 18:37:13,245] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:37:19,435] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 18:37:25,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 18:37:25,243] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:37:27,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:37:29,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 18:37:29,595] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 200, in assign_user
+    user = self.get_object()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 88, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view UserViewSet to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[2020-06-12 18:37:29,597] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/assign_user/ HTTP/1.1" 500 19235
+[2020-06-12 18:40:58,341] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 18:41:07,948] [log.py:222] [log:log_response] [WARNING]- Method Not Allowed: /user/assign_user/
+[2020-06-12 18:41:07,949] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/assign_user/ HTTP/1.1" 405 46
+[2020-06-12 18:41:17,473] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 200, in assign_user
+    user = self.get_object()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 88, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view UserViewSet to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[2020-06-12 18:41:17,475] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/assign_user/ HTTP/1.1" 500 19076
+[2020-06-12 18:41:55,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 18:41:55,204] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 18:41:59,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 18:42:04,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 18:42:17,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 20:10:50,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 20:10:51,327] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 29916
+[2020-06-12 21:48:50,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=3&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 21:48:50,589] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=3&pre_page=10 HTTP/1.1" 200 1945
+[2020-06-12 21:48:51,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=4&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 21:48:51,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=4&pre_page=10 HTTP/1.1" 200 5700
+[2020-06-12 21:48:53,085] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=5&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 21:48:53,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 655
+[2020-06-12 21:49:00,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 21:49:00,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 21:55:09,701] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 21:55:17,965] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 21:55:23,396] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 21:55:23,450] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 3096
+[2020-06-12 21:59:00,067] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 21:59:00,991] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:04:24,253] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:04:25,267] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:04:57,770] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:05:07,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:05:07,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:05:07,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:05:07,253] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:07,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:24,375] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:05:34,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:34,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:44,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:44,372] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:46,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:46,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:47,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:48,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:49,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:49,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:05:51,262] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:05:51,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:06:08,081] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:06:08,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:06:23,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:06:23,906] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:06:23,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:06:26,250] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:06:26,390] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:06:27,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:06:27,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 22:06:28,030] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:06:28,058] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 22:10:09,643] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:10:11,158] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:28:42,150] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:28:43,735] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:28:45,518] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:28:46,412] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:29:14,517] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:29:15,320] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:29:19,138] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:29:19,961] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:29:33,794] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:29:34,603] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:30:00,678] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:30:01,454] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:35:40,923] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:35:41,819] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:36:04,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:36:04,992] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:36:05,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 767
+[2020-06-12 22:36:17,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 767
+[2020-06-12 22:37:13,364] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:37:20,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 22:37:20,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 767
+[2020-06-12 22:37:58,742] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:38:02,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 22:38:02,104] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:11,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:17,731] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:19,776] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:28,318] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:43,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:38:47,529] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:38:47,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 22:38:48,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:38:48,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:38:48,947] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 22:38:48,972] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 22:38:52,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:39:41,364] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:39:45,227] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 22:39:45,804] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 182, in role
+    data = sorted(filter(lambda info: info['application'] == application, menus))
+TypeError: '<' not supported between instances of 'dict' and 'dict'
+[2020-06-12 22:39:45,806] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 500 18869
+[2020-06-12 22:40:05,131] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:40:05,891] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:40:07,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 22:40:07,156] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:45:53,984] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:45:54,861] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:45:56,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=mlq&application=sys HTTP/1.1" 301 0
+[2020-06-12 22:45:56,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:47:05,945] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:47:15,190] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:47:15,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 22:47:15,308] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:47:15,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:47:17,732] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:47:17,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 22:47:20,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 22:47:21,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:47:36,456] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:47:37,306] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:47:38,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 22:47:41,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:47:41,657] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 22:47:43,665] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:47:44,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/?current_page=1&pre_page=10 HTTP/1.1" 200 1834
+[2020-06-12 22:47:45,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 22:47:46,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 22:48:58,380] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:48:59,291] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:49:21,448] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: assign_user() missing 1 required positional argument: 'pk'
+[2020-06-12 22:49:21,450] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/assign_user/ HTTP/1.1" 500 18562
+[2020-06-12 22:50:09,179] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/25/assign_user/
+[2020-06-12 22:50:09,179] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/25/assign_user/ HTTP/1.1" 404 7288
+[2020-06-12 22:50:45,072] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:50:45,901] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:50:46,569] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/25/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 196, in assign_user
+    return Response(serializer.data)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `RoleSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'name'.
+[2020-06-12 22:50:46,572] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/25/assign_user/ HTTP/1.1" 500 20240
+[2020-06-12 22:51:07,327] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:51:08,162] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:51:10,329] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/25/assign_user/ HTTP/1.1" 200 2092
+[2020-06-12 22:53:02,830] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-12 22:53:03,612] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:53:15,258] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-12 22:53:28,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/24/assign_user/ HTTP/1.1" 200 2224
+[2020-06-12 23:01:11,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-12 23:01:12,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 31950
+[2020-06-12 23:01:13,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 31950
+[2020-06-12 23:12:09,880] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 31950
+[2020-06-12 23:16:13,967] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:20:26,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:20:26,693] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 23:20:26,732] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:20:26,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:20:26,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:20:29,613] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:20:29,667] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:24:15,417] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:24:15,469] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:24:20,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/ HTTP/1.1" 200 0
+[2020-06-12 23:24:20,750] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:26:00,771] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:26:00,832] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:26:02,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:27:38,632] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:27:38,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:27:40,480] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:32:05,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:32:05,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 23:32:05,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:32:05,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:32:05,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:32:07,798] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:32:17,957] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:32:58,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:32:58,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:32:59,332] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:36:59,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:36:59,392] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:37:01,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/ HTTP/1.1" 200 0
+[2020-06-12 23:37:01,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:38:49,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:38:49,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:38:51,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:38:51,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:39:03,862] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:39:03,918] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:39:06,736] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:39:06,773] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:39:59,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:40:00,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:40:02,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:02,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:08,605] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:08,644] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:20,384] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:20,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:40:27,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/6/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 23:40:28,939] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/6/assign_user/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '普通用户'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 192, in assign_user
+    roles = Role.objects.filter(id__in=role_ids).all()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 223, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got '普通用户'.
+[2020-06-12 23:40:28,948] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/6/assign_user/ HTTP/1.1" 500 20893
+[2020-06-12 23:41:30,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:41:30,396] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16092
+[2020-06-12 23:41:32,418] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:41:37,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/6/assign_user/ HTTP/1.1" 200 318
+[2020-06-12 23:41:37,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16226
+[2020-06-12 23:51:45,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 23:51:45,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:51:45,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:51:45,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:51:45,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16226
+[2020-06-12 23:51:51,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/ HTTP/1.1" 200 0
+[2020-06-12 23:51:51,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:51:59,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/7/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 23:51:59,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/7/assign_user/ HTTP/1.1" 200 183
+[2020-06-12 23:52:00,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16226
+[2020-06-12 23:56:28,101] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-12 23:56:28,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16226
+[2020-06-12 23:56:30,944] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:56:37,372] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/7/assign_user/ HTTP/1.1" 200 317
+[2020-06-12 23:56:37,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16360
+[2020-06-12 23:56:44,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:56:48,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/8/assign_user/ HTTP/1.1" 200 0
+[2020-06-12 23:56:48,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/8/assign_user/ HTTP/1.1" 200 710
+[2020-06-12 23:56:48,745] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16888
+[2020-06-12 23:57:04,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-12 23:57:09,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 23:57:09,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 23:57:13,130] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-12 23:57:13,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1763
+[2020-06-12 23:57:18,886] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1763
+[2020-06-12 23:57:32,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/4/assign_menu/ HTTP/1.1" 200 0
+[2020-06-12 23:57:32,627] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /role/4/assign_menu/ HTTP/1.1" 200 393
+[2020-06-12 23:57:32,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-12 23:57:44,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16888
+[2020-06-12 23:57:48,729] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=5&pre_page=10 HTTP/1.1" 200 0
+[2020-06-12 23:57:48,776] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=5&pre_page=10 HTTP/1.1" 200 655
+[2020-06-12 23:58:04,211] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-12 23:58:04,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-12 23:58:06,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=test11&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:58:06,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role?username=test11&application=sys HTTP/1.1" 301 0
+[2020-06-12 23:58:06,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=test11&application=sys HTTP/1.1" 200 0
+[2020-06-12 23:58:06,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=test11&application=sys HTTP/1.1" 200 257
+[2020-06-13 00:00:57,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-13 00:00:58,919] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-13 00:00:59,037] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys HTTP/1.1" 200 0
+[2020-06-13 00:00:59,096] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys HTTP/1.1" 200 997
+[2020-06-13 00:01:34,443] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-13 00:01:34,444] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19111
+[2020-06-13 00:01:39,864] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-13 00:01:39,865] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19112
+[2020-06-13 00:01:44,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-13 00:01:46,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-13 00:01:46,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys HTTP/1.1" 200 0
+[2020-06-13 00:01:46,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys HTTP/1.1" 200 997
+[2020-06-13 00:01:50,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-13 00:01:50,243] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 16888
+[2020-06-13 00:01:57,105] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/ HTTP/1.1" 200 0
+[2020-06-13 00:01:57,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:02:01,712] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:02:13,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:02:20,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:02:31,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:02:40,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/ HTTP/1.1" 200 3308
+[2020-06-13 00:03:02,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 3379
+[2020-06-13 00:03:04,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 1763

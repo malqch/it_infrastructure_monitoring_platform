@@ -1,0 +1,11 @@
+[2020-08-12 14:25:38,799] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:25:57,374] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 41639
+[2020-08-12 14:29:14,822] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project_monitor/databases/views.py changed, reloading.
+[2020-08-12 14:29:16,261] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:29:17,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 37173
+[2020-08-12 15:19:15,577] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:19:41,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 37161
+[2020-08-12 15:22:38,929] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:22:42,607] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /monitor/api/databases/monitor/?db_name=DM_10.10.10.16_DM HTTP/1.1" 200 37161
+[2020-08-12 17:58:19,004] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 18:05:15,519] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

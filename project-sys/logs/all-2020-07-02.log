@@ -1,0 +1,930 @@
+[2020-07-02 10:25:04,522] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:35:42,048] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:36:06,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 10:36:06,270] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 10:36:06,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 10:36:06,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 10:36:08,441] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:36:08,450] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:36:08,457] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:36:08,463] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 10:37:00,220] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:37:00,228] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:39:44,499] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:39:44,510] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 10:40:28,864] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:40:28,875] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:43:57,558] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:43:57,567] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:51:19,472] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:51:29,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 10:51:29,066] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 10:51:29,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 10:51:29,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 10:51:29,448] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:51:29,456] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:51:29,458] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 10:51:29,460] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:51:56,364] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:52:03,975] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:52:03,980] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:52:03,983] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 10:52:03,985] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 10:53:16,019] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-02 10:53:17,026] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:53:52,355] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 10:56:26,386] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 10:56:26,399] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 11:10:06,435] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:10:16,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:10:16,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:10:16,386] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:10:16,386] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:10:16,707] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 11:10:16,717] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /sys/api/user/role/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    self.user, self.auth = user_auth_tuple
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 118, in __iter__
+    raise ContentNotRenderedError(
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be iterated over.
+[2020-07-02 11:10:16,720] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 500 19645
+[2020-07-02 11:10:16,721] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 500 19639
+[2020-07-02 11:10:41,252] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-02 11:10:42,073] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:10:56,930] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-02 11:10:57,815] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:14:23,067] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:14:33,375] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:14:33,377] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:14:33,379] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 31
+[2020-07-02 11:14:33,381] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 31
+[2020-07-02 11:15:03,722] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:15:18,277] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:16:11,326] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:17:17,598] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-07-02 11:17:18,330] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:18:09,113] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:18:09,122] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-02 11:21:42,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:21:45,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:21:45,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:21:45,219] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:21:45,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:22:50,217] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:22:50,232] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:23:52,967] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:23:58,639] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:24:25,265] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:24:25,279] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:24:50,002] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:25:10,680] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:25:36,057] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:25:36,059] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:25:36,064] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:25:36,065] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:25:46,633] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:25:46,636] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:25:46,637] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:25:46,638] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:43:52,879] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 11:44:04,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:44:04,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:44:04,339] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 11:44:04,340] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 11:44:04,531] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:44:04,533] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:44:04,545] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:44:04,547] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:44:17,691] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:44:17,693] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:44:17,708] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:44:17,709] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:45:42,057] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:45:42,058] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:45:42,060] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:45:42,061] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:46:22,265] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:46:26,814] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-07-02 11:46:26,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 291
+[2020-07-02 11:47:22,153] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:47:22,156] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 403 24
+[2020-07-02 11:47:22,165] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 11:47:22,167] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 403 24
+[2020-07-02 11:47:36,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:47:40,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:47:40,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:47:44,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:47:46,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:51:04,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:51:04,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:51:04,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:51:09,490] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:51:09,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:51:09,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:53:36,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:53:36,530] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:53:36,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:54:32,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:54:32,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:54:32,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:55:55,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:55:55,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:55:55,613] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:56:00,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:56:00,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:56:00,538] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 11:59:57,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 11:59:57,834] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 11:59:57,851] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:02:37,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:02:38,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:02:38,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:03:42,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:03:42,949] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:03:42,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:07:16,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:07:16,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:07:16,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:08:45,891] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:08:46,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:08:46,030] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:10:56,175] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:10:56,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:10:56,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:19:23,993] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 12:19:23,995] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 24
+[2020-07-02 12:19:24,007] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 12:19:24,009] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 24
+[2020-07-02 12:19:24,025] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 12:19:24,026] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-02 12:20:06,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:20:09,313] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:20:09,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:20:11,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:26:15,267] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:26:15,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:26:15,411] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:26:19,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:26:19,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 12:26:19,612] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 12:26:55,796] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 12:26:56,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 13:51:34,831] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 13:51:34,833] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-02 13:51:34,898] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 13:51:34,899] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 13:51:34,911] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 13:51:34,912] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 13:53:31,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 13:53:34,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 13:53:34,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 13:53:34,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 13:53:34,077] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 13:53:34,368] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 291
+[2020-07-02 13:53:34,374] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-07-02 13:57:43,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-07-02 13:57:43,052] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 291
+[2020-07-02 14:23:44,788] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-02 15:06:00,856] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:06:00,860] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:06:00,906] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 15:06:00,909] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 15:12:44,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:12:45,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:12:45,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:12:48,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:25:21,352] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 15:25:21,354] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-02 15:25:21,421] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:25:21,423] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 15:25:21,439] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:25:21,439] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 15:25:29,716] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:25:31,299] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:25:31,301] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:25:47,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:25:47,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:26:22,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:26:22,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:26:33,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:26:35,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:26:35,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:27:24,744] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:27:24,747] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:27:25,180] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 15:27:25,182] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 15:27:48,730] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:27:52,922] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 15:27:52,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 15:27:53,397] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-07-02 15:27:53,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 291
+[2020-07-02 15:27:53,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-07-02 15:27:53,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-07-02 15:27:58,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:27:58,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:28:24,468] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/role/
+[2020-07-02 15:28:24,469] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 403 31
+[2020-07-02 15:28:31,438] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:29:05,613] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:29:05,617] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:36:57,661] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:36:57,664] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:36:57,665] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 15:36:57,666] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 15:37:23,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:37:28,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:37:28,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:40:29,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:40:29,243] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:40:48,435] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:40:48,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:50:00,038] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:50:02,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:50:02,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:58:14,310] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:58:14,312] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 15:58:14,316] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 15:58:14,317] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 15:58:24,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 15:58:26,431] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:58:26,433] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 15:58:37,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 15:58:37,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 16:04:38,923] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:04:38,927] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:04:39,001] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 16:04:39,006] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 16:05:51,525] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 16:05:53,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 16:05:53,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 16:07:12,276] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:07:12,290] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 16:07:12,311] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:07:12,312] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 16:08:16,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 16:08:18,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 16:08:18,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 16:37:56,590] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:37:56,600] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 16:37:56,647] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 16:37:56,653] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 16:43:02,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 16:43:04,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 16:43:04,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 16:43:06,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 16:43:08,318] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 17:58:17,763] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 17:58:17,764] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-02 17:58:17,805] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 17:58:17,805] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-02 17:58:17,815] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-02 17:58:17,815] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-02 20:22:29,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:22:31,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 20:22:31,947] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 20:22:34,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:26:20,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:27:50,054] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:37:33,852] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:37:38,922] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:37:39,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 20:37:39,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 20:38:36,021] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:39:31,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:39:47,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:40:06,633] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:40:27,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:53:49,291] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 20:53:49,310] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 39
+[2020-07-02 20:53:56,482] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:53:58,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 20:53:58,148] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 20:54:00,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:54:14,492] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:54:14,851] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 20:56:57,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:00:38,971] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:00:40,705] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:00:40,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:00:40,875] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:01:07,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:01:07,433] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:01:07,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:01:47,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:01:48,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:01:48,057] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:10:54,275] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:10:54,396] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:10:54,396] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:11:22,327] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:11:22,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:11:22,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:11:34,388] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:11:34,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:11:34,498] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:11:54,172] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:11:54,317] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:11:54,327] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:12:03,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:12:03,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:12:03,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:12:19,793] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:12:19,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:12:19,959] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:12:37,009] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:12:37,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:12:37,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:13:48,802] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:13:49,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:13:49,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:14:40,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:14:41,899] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:14:42,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 21:14:42,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 21:15:13,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:15:13,485] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:16:13,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:16:24,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 21:16:28,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-02 22:45:27,499] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 22:45:27,575] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-02 22:45:37,872] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-02 22:45:37,873] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 25
+[2020-07-02 22:45:45,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-02 22:45:48,737] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-02 22:45:48,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-02 22:45:52,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 09:40:06,441] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-03 09:40:06,443] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /sys/api/auth/
+[2020-07-03 09:40:06,456] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-07-03 09:40:06,982] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 403 31
+[2020-07-03 09:40:06,989] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 403 31
+[2020-07-03 09:40:06,990] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sys/api/auth/ HTTP/1.1" 401 28
+[2020-07-03 09:40:18,569] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 09:40:21,338] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 09:40:21,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 09:40:24,700] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 09:40:24,705] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 09:40:47,705] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 09:46:03,742] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:52:04,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:52:30,858] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 09:52:30,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 09:52:30,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:52:51,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 09:53:19,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:54:42,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:57:10,829] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 09:57:10,830] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 09:57:10,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 09:58:05,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 09:58:05,241] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 09:58:05,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:03:40,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:03:43,739] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:03:43,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:03:43,831] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:07:12,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:07:12,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:07:12,207] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:07:14,444] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:07:14,446] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:07:14,503] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:07:58,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:08:59,562] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:09:20,416] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:10:41,022] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/role/
+[2020-07-03 10:10:41,024] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 403 24
+[2020-07-03 10:10:51,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 10:10:52,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:10:52,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:10:55,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:11:51,128] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 10:12:26,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:13:02,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:15:20,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:16:15,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:16:15,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:16:15,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:27:40,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:27:40,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:27:41,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:27:51,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:27:51,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:27:51,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:27:58,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:27:58,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:27:58,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:00,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:00,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:01,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:09,367] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:09,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:09,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:11,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:11,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:11,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:18,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:18,315] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:18,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:20,712] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:20,712] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:20,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:26,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:26,821] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:26,900] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:28,548] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:28,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:28,587] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:46,451] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:46,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:46,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:49,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:49,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:49,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:51,266] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:51,313] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:51,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:53,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:53,474] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:53,477] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:55,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:55,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:55,750] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:28:58,455] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:28:58,465] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:28:58,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:08,236] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:08,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:08,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:13,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:13,172] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:13,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:19,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:19,600] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:19,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:36,073] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:36,073] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:36,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:48,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:48,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:48,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:50,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:50,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:50,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:29:52,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:29:52,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:29:52,847] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:17,880] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 10:30:19,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:19,556] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:21,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:25,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:25,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:25,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:33,968] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:33,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:34,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:41,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:41,731] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:41,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:43,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:43,865] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:43,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:46,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:46,069] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:46,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:48,216] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:48,217] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:48,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:30:50,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:30:50,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:30:50,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:31:05,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:31:05,804] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:31:05,862] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:31:17,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:31:17,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:31:18,337] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:31:21,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 10:31:21,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 10:31:21,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:33:42,319] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:35:21,819] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:38:05,828] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:40:11,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:40:32,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:40:57,707] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:43:36,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:46:11,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 10:47:48,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 11:23:55,090] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/role/
+[2020-07-03 11:23:55,175] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 403 24
+[2020-07-03 11:28:07,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:28:10,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 11:28:10,119] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 11:28:12,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 11:37:48,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:39:43,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 11:40:25,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:07,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:07,966] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:20,832] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:21,169] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:38,769] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:42:39,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:43:26,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:46:43,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:46:43,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 11:46:43,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 11:46:48,469] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:46:48,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=menu HTTP/1.1" 200 1472
+[2020-07-03 11:46:48,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=admin&application=automation&type=button HTTP/1.1" 200 2
+[2020-07-03 11:46:51,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509
+[2020-07-03 11:46:56,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-07-03 11:46:59,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/role/?current_page=1&pre_page=10 HTTP/1.1" 200 36509

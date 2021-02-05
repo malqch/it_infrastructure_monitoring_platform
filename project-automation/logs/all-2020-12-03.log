@@ -1,0 +1,4 @@
+[2020-12-03 15:11:47,446] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-03 15:12:27,498] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-03 15:12:41,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910
+[2020-12-03 15:12:42,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 910

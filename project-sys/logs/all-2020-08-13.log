@@ -1,0 +1,52 @@
+[2020-08-13 09:27:07,503] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-13 09:31:02,089] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 09:31:02,091] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 09:31:02,093] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 403 24
+[2020-08-13 09:31:02,095] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 403 24
+[2020-08-13 09:31:12,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-08-13 09:31:16,211] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 09:31:16,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 10:33:20,021] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 10:33:20,021] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 10:33:20,072] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 403 24
+[2020-08-13 10:33:20,073] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 403 24
+[2020-08-13 10:33:32,488] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-08-13 10:33:36,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 10:33:37,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 10:37:15,636] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 10:37:15,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 10:37:39,663] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 10:37:39,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 10:48:16,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 10:48:16,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 11:31:04,578] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 11:31:04,579] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 11:31:04,662] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 403 24
+[2020-08-13 11:31:04,664] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 403 24
+[2020-08-13 11:31:17,442] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-08-13 11:31:20,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 11:31:20,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 14:05:10,857] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 14:05:10,870] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 14:05:10,899] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 403 24
+[2020-08-13 14:05:10,900] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 403 24
+[2020-08-13 14:05:22,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-08-13 14:05:29,383] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 3624
+[2020-08-13 14:05:29,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-08-13 14:05:38,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 14:05:38,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7669
+[2020-08-13 15:23:32,024] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 15:23:32,026] [log.py:222] [log:log_response] [WARNING]- Forbidden: /sys/api/user/role/
+[2020-08-13 15:23:32,033] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 403 24
+[2020-08-13 15:23:32,034] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 403 24
+[2020-08-13 15:50:59,019] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /sys/api/auth/ HTTP/1.1" 200 65
+[2020-08-13 15:51:01,879] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=button HTTP/1.1" 200 2
+[2020-08-13 15:51:01,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=automation&type=menu HTTP/1.1" 200 3624
+[2020-08-13 15:51:04,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7966
+[2020-08-13 15:51:04,551] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 15:51:25,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7966
+[2020-08-13 15:51:25,825] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 16:11:06,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7966
+[2020-08-13 16:11:06,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2
+[2020-08-13 16:13:03,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=menu HTTP/1.1" 200 7966
+[2020-08-13 16:13:03,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /sys/api/user/role/?username=wl&application=monitor&type=button HTTP/1.1" 200 2

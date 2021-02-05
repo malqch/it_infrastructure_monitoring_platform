@@ -1,0 +1,17 @@
+[2020-12-05 11:46:39,917] [views.py:565] [views:upload_immediate_exec_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 11:46:43,916] [views.py:574] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 11:46:46,621] [views.py:602] [views:upload_immediate_exec_script] [ERROR]- 10.230.13.41脚本执行失败：[Errno 2] No such file or directory: '/home/rock/quality_inspection/python-workspace/project-automation/script/script_file/test.py'
+[2020-12-05 11:48:20,330] [views.py:565] [views:upload_immediate_exec_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 11:48:22,262] [views.py:574] [views:upload_immediate_exec_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 11:48:23,052] [views.py:578] [views:upload_immediate_exec_script] [INFO]- 脚本文件上传到10.230.13.41成功
+[2020-12-05 11:48:23,626] [views.py:582] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41正在执行脚本
+[2020-12-05 11:48:34,945] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：starting....
+[2020-12-05 11:48:38,183] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：executing...
+[2020-12-05 11:48:40,883] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：2
+[2020-12-05 11:48:43,338] [views.py:591] [views:upload_immediate_exec_script] [INFO]- 10.230.13.41脚本执行输出：ending...
+[2020-12-05 12:03:48,524] [views.py:518] [views:redis_lock] [INFO]- <Redis Lock> scheduler.lock.rbay5a1dbk00000000.2020-12-05 12:03:48
+[2020-12-05 12:03:48,552] [views.py:149] [views:upload_execute_script] [INFO]- 开始连接10.230.13.41
+[2020-12-05 12:03:48,761] [views.py:157] [views:upload_execute_script] [INFO]- 正在上传脚本文件到10.230.13.41
+[2020-12-05 12:03:48,961] [views.py:160] [views:upload_execute_script] [INFO]- 脚本文件上传到10.230.13.41成功
+[2020-12-05 12:03:48,962] [views.py:163] [views:upload_execute_script] [INFO]- 10.230.13.41正在执行脚本
+[2020-12-05 12:03:51,025] [views.py:166] [views:upload_execute_script] [INFO]- 10.230.13.41脚本执行结果：['starting....\n', 'executing...\n', '2\n', 'ending...\n']

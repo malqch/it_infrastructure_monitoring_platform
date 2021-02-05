@@ -1,0 +1,70 @@
+[2020-12-08 14:03:29,049] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-08 14:06:04,727] [views.py:460] [views:list] [INFO]- 已启动定时任务：[<Job (id=nm7lqswpjcg0000000 name=ScriptViewSet.task_thread)>]
+[2020-12-08 14:09:28,324] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-08 14:09:43,417] [views.py:460] [views:list] [INFO]- 已启动定时任务：[<Job (id=nm7lqswpjcg0000000 name=ScriptViewSet.task_thread)>]
+[2020-12-08 14:11:44,209] [views.py:460] [views:list] [INFO]- 已启动定时任务：[<Job (id=nm7lqswpjcg0000000 name=ScriptViewSet.task_thread)>]
+[2020-12-08 14:19:32,286] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ws/immediate_exec_script/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "./script/views.py", line 531, in immediate_exec_script
+    data = json.loads(str(data, encoding="utf-8"))
+TypeError: decoding to str: need a bytes-like object, NoneType found
+[2020-12-08 14:20:45,375] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ws/immediate_exec_script/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "./script/views.py", line 531, in immediate_exec_script
+    data = json.loads(str(data, encoding="utf-8"))
+TypeError: decoding to str: need a bytes-like object, NoneType found
+[2020-12-08 14:50:59,943] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ws/immediate_exec_script/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "./script/views.py", line 531, in immediate_exec_script
+    data = json.loads(str(data, encoding="utf-8"))
+TypeError: decoding to str: need a bytes-like object, NoneType found
+[2020-12-08 15:45:20,712] [log.py:222] [log:log_response] [WARNING]- Forbidden: /automation/api/script/
+[2020-12-08 15:45:29,172] [log.py:222] [log:log_response] [WARNING]- Forbidden: /automation/api/script/
+[2020-12-08 15:47:57,965] [log.py:222] [log:log_response] [WARNING]- Forbidden: /automation/api/script/
+[2020-12-08 15:50:38,476] [log.py:222] [log:log_response] [WARNING]- Forbidden: /automation/api/script/
+[2020-12-08 15:57:59,898] [log.py:222] [log:log_response] [WARNING]- Forbidden: /automation/api/script/
+[2020-12-08 15:59:30,891] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /ws/immediate_exec_script/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "./script/views.py", line 531, in immediate_exec_script
+    data = json.loads(str(data, encoding="utf-8"))
+TypeError: decoding to str: need a bytes-like object, NoneType found

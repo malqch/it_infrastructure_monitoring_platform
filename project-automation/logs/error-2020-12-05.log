@@ -1,0 +1,1 @@
+[2020-12-05 11:46:46,621] [views.py:602] [views:upload_immediate_exec_script] [ERROR]- 10.230.13.41脚本执行失败：[Errno 2] No such file or directory: '/home/rock/quality_inspection/python-workspace/project-automation/script/script_file/test.py'

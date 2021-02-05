@@ -1,0 +1,1300 @@
+[2020-06-23 10:32:07,119] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 10:32:20,627] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 10:32:21,509] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 10:32:34,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 10:32:34,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 10:32:35,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:32:35,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:32:35,926] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:32:35,939] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:32:36,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 10:32:36,218] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 10:35:03,490] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/2/change_pwd/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+[2020-06-23 10:35:03,492] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/2/change_pwd/ HTTP/1.1" 500 111832
+[2020-06-23 10:36:23,084] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 10:36:24,226] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 10:36:36,824] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-23 10:36:36,826] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19114
+[2020-06-23 10:36:43,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 10:36:57,078] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/2/change_pwd/ HTTP/1.1" 200 1
+[2020-06-23 10:42:37,845] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 10:42:38,853] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 10:42:45,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/2/change_pwd/ HTTP/1.1" 200 1
+[2020-06-23 10:43:01,897] [log.py:222] [log:log_response] [WARNING]- Not Found: /user/2/reset_pwd/
+[2020-06-23 10:43:01,897] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/2/reset_pwd/ HTTP/1.1" 404 10257
+[2020-06-23 10:43:28,515] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 10:43:29,529] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 10:43:34,973] [log.py:222] [log:log_response] [WARNING]- Method Not Allowed: /user/2/reset_pwd/
+[2020-06-23 10:43:34,985] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/2/reset_pwd/ HTTP/1.1" 405 45
+[2020-06-23 10:43:47,875] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/2/reset_pwd/ HTTP/1.1" 200 1
+[2020-06-23 10:56:09,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:56:09,629] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:56:09,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:56:09,666] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:56:10,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 10:56:10,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 10:56:11,683] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 10:56:12,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 10:57:04,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 10:57:04,624] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 10:57:06,145] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:57:06,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:57:06,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 10:57:06,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 10:57:06,408] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 10:57:06,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 10:57:11,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 10:57:53,968] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 10:57:53,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 10:57:54,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 10:59:23,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 10:59:24,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 10:59:25,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 11:09:38,918] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:09:44,531] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:09:51,398] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:09:52,452] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:10:04,328] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:10:05,308] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:12:32,829] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:12:35,432] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:12:51,737] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:12:53,517] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:14:39,141] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:14:40,694] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:16:48,679] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:17:00,407] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:17:05,498] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/2/change_pwd/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 162, in change_pwd
+    user.set_password(password)
+AttributeError: 'User' object has no attribute 'set_password'
+[2020-06-23 11:17:05,500] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/2/change_pwd/ HTTP/1.1" 500 18765
+[2020-06-23 11:19:16,616] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 11:19:23,014] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 11:19:39,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/2008/change_pwd/ HTTP/1.1" 200 1
+[2020-06-23 11:30:46,366] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=asset&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:30:46,368] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=asset&type=button HTTP/1.1" 200 0
+[2020-06-23 11:30:46,659] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:30:46,666] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 0
+[2020-06-23 11:30:47,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-06-23 11:30:47,178] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6014
+[2020-06-23 11:30:53,665] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:30:53,666] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:30:54,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:30:54,263] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:30:54,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 11:30:54,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 11:30:56,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6014
+[2020-06-23 11:30:56,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-06-23 11:31:04,081] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 11:31:04,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 11:31:07,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 11:31:07,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 11:57:17,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:57:17,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:57:17,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 11:57:17,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:57:17,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:57:17,847] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 11:57:17,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 11:57:17,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 11:57:22,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 11:57:22,871] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 11:58:31,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/2/reset_pwd/ HTTP/1.1" 200 0
+[2020-06-23 11:58:31,311] [log.py:222] [log:log_response] [WARNING]- Forbidden: /user/2/reset_pwd/
+[2020-06-23 11:58:31,311] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/2/reset_pwd/ HTTP/1.1" 403 40
+[2020-06-23 11:59:14,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 11:59:17,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 11:59:17,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 11:59:17,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 11:59:20,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 11:59:20,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 11:59:21,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 11:59:29,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/2/reset_pwd/ HTTP/1.1" 200 1
+[2020-06-23 11:59:40,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 11:59:41,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 11:59:42,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:59:42,891] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:59:43,148] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 11:59:43,171] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 11:59:43,436] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 11:59:43,443] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 12:00:03,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 12:00:03,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 12:00:13,805] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-23 12:00:13,808] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19114
+[2020-06-23 12:00:17,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 12:00:19,770] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 12:00:19,771] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 12:00:21,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78664
+[2020-06-23 12:00:42,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/2/reset_pwd/ HTTP/1.1" 200 1
+[2020-06-23 12:00:50,532] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 95, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 105, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-23 12:00:50,534] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19117
+[2020-06-23 12:00:56,061] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 12:00:57,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 12:00:57,770] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 12:00:59,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:16:35,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:16:35,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:16:35,343] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:16:35,346] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:16:35,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 13:16:35,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 13:16:35,758] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 13:16:36,107] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:25:14,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:26:19,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 13:26:19,808] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 13:26:20,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:26:58,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:26:58,381] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 13:26:58,384] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:26:58,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:26:58,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:26:58,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 13:26:58,739] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 13:26:59,000] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:28:24,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 13:28:24,314] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 13:28:26,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:28:26,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:28:26,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:28:26,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:28:27,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:28:27,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:28:29,272] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:39:15,417] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:39:15,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:39:15,421] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 13:39:15,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:39:15,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:39:15,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:39:15,899] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:39:16,259] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:48:25,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:48:25,109] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:48:25,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:48:29,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=asset&type=button HTTP/1.1" 200 0
+[2020-06-23 13:48:29,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=asset&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:48:29,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 0
+[2020-06-23 13:48:29,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:48:29,635] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6014
+[2020-06-23 13:48:29,636] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-06-23 13:48:55,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:48:55,794] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:49:00,393] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-06-23 13:49:00,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6014
+[2020-06-23 13:49:59,355] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:49:59,357] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:49:59,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 13:49:59,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 13:49:59,704] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:49:59,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:50:01,633] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=menu HTTP/1.1" 200 6014
+[2020-06-23 13:50:01,634] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=asset&type=button HTTP/1.1" 200 60
+[2020-06-23 13:50:03,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:50:03,238] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:51:58,435] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:51:58,438] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:52:01,257] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 13:52:01,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:54:49,265] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:54:49,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:54:49,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:57:54,883] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:58:29,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:58:29,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:58:29,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:59:26,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 13:59:28,385] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 13:59:28,397] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 13:59:28,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 14:00:43,674] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 14:11:39,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:11:39,030] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:11:39,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:11:39,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:11:39,362] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 14:11:39,362] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 14:12:45,883] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 14:12:45,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 14:16:14,772] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-23 14:16:14,971] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/
+[2020-06-23 14:16:14,973] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 400 155
+[2020-06-23 14:38:15,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:38:15,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:38:16,042] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:38:16,098] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:38:16,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 14:38:16,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 14:51:36,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:51:36,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:51:36,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 14:51:36,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 14:51:37,146] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 14:51:37,147] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 14:53:31,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 14:53:31,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:09:05,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:09:05,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:09:05,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:09:05,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:09:06,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:09:06,306] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:10:01,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 15:10:02,114] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 15:10:04,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:10:04,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:12:44,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:12:44,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:12:47,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:12:47,630] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:16:59,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:16:59,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:19:59,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:19:59,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:19:59,990] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:19:59,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:20:00,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:20:00,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:20:55,862] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:20:55,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:22:25,188] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:22:25,189] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:23:08,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:23:08,791] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:23:37,858] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:23:37,863] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:23:40,393] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:23:40,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:25:12,156] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:25:12,159] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:26:59,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:26:59,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:31:19,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:31:19,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:31:19,673] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:31:19,674] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:31:19,875] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:31:19,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:35:03,548] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:35:03,559] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:35:06,279] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:35:06,288] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:37:56,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:37:56,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:39:38,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:39:38,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:42:38,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:42:38,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:42:38,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:42:38,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:42:38,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:42:38,575] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:42:53,017] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 15:42:53,237] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 15:42:54,983] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:42:55,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:42:59,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 15:42:59,769] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 15:52:26,796] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:52:26,845] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:55:04,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:55:04,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:55:04,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 15:55:04,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 15:55:04,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 15:55:04,824] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 15:56:06,413] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 15:56:13,221] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 15:57:19,249] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 15:57:20,344] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 15:58:00,062] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 15:58:02,391] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:31:19,474] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:31:41,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:31:41,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:31:41,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:31:41,050] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:31:41,343] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 16:31:41,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 16:32:03,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 16:32:03,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 16:32:04,835] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:32:04,836] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:32:04,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:32:04,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:32:05,362] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:32:05,365] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:33:02,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/change_pwd/ HTTP/1.1" 200 0
+[2020-06-23 16:33:02,498] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /user/change_pwd/
+[2020-06-23 16:33:02,500] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/change_pwd/ HTTP/1.1" 401 25
+[2020-06-23 16:33:17,128] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/change_pwd/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+[2020-06-23 16:33:17,130] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/change_pwd/ HTTP/1.1" 500 111290
+[2020-06-23 16:36:14,769] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:36:25,747] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:36:25,769] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:36:40,476] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /user/change_pwd/
+[2020-06-23 16:36:40,478] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/change_pwd/ HTTP/1.1" 401 25
+[2020-06-23 16:36:48,719] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/change_pwd/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Role is not JSON serializable
+[2020-06-23 16:36:48,722] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/change_pwd/ HTTP/1.1" 500 113913
+[2020-06-23 16:39:53,408] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 16:39:54,224] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:40:05,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:40:05,606] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:40:17,974] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /user/change_pwd/
+[2020-06-23 16:40:17,976] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/change_pwd/ HTTP/1.1" 401 25
+[2020-06-23 16:40:26,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/change_pwd/ HTTP/1.1" 200 0
+[2020-06-23 16:40:52,233] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /user/change_pwd/
+[2020-06-23 16:40:52,235] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/change_pwd/ HTTP/1.1" 401 25
+[2020-06-23 16:41:01,985] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/change_pwd/ HTTP/1.1" 200 0
+[2020-06-23 16:42:34,109] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 16:42:35,416] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:43:47,759] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 16:43:48,727] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:44:03,118] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 16:44:04,507] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:44:31,175] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 16:44:32,352] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:47:10,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:47:10,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:47:10,840] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 16:47:10,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 16:47:11,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:47:11,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:47:25,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/change_pwd/ HTTP/1.1" 200 0
+[2020-06-23 16:47:25,333] [log.py:222] [log:log_response] [WARNING]- Unauthorized: /user/change_pwd/
+[2020-06-23 16:47:25,335] [basehttp.py:157] [basehttp:log_message] [WARNING]- "PUT /user/change_pwd/ HTTP/1.1" 401 25
+[2020-06-23 16:47:34,685] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/change_pwd/ HTTP/1.1" 200 28
+[2020-06-23 16:47:50,619] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 16:47:50,887] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 96, in post
+    raise exceptions.AuthenticationFailed('未查询到用户信息！')
+rest_framework.exceptions.AuthenticationFailed: 未查询到用户信息！
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 106, in post
+    except exceptions as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2020-06-23 16:47:50,889] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /auth/ HTTP/1.1" 500 19114
+[2020-06-23 16:47:55,509] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 16:47:57,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:47:57,524] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:48:14,103] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /user/change_pwd/ HTTP/1.1" 200 28
+[2020-06-23 16:48:24,751] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 16:48:26,609] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:48:26,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:54:26,054] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:54:29,444] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 16:54:29,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 16:55:35,126] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:56:48,107] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:56:55,362] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /user/change_pwd/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 169, in change_pwd
+    print(user.pwd)
+AttributeError: 'User' object has no attribute 'pwd'
+[2020-06-23 16:56:55,370] [basehttp.py:157] [basehttp:log_message] [ERROR]- "PUT /user/change_pwd/ HTTP/1.1" 500 18819
+[2020-06-23 16:57:09,153] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 16:57:31,434] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 17:02:41,354] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 17:02:42,246] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 17:03:36,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:03:36,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:03:36,609] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:03:36,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:03:50,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:03:50,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:03:53,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 17:03:54,077] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:04:39,148] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:04:39,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:04:39,571] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:07:29,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:07:29,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:07:29,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:07:32,721] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:07:32,721] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:07:33,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:13:54,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:13:54,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:13:54,771] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:13:54,772] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:13:55,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:13:55,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:15:09,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:15:09,982] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:15:12,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:15:12,427] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:15:16,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 17:15:17,628] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:15:21,431] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/ HTTP/1.1" 200 0
+[2020-06-23 17:15:21,584] [log.py:222] [log:log_response] [WARNING]- Bad Request: /user/
+[2020-06-23 17:15:21,587] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /user/ HTTP/1.1" 400 115
+[2020-06-23 17:15:40,440] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 17:15:40,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 17:15:48,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:18:33,661] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:18:33,685] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:18:36,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:18:36,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:18:57,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /auth/ HTTP/1.1" 200 0
+[2020-06-23 17:18:57,215] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 17:18:58,870] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:18:58,871] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:19:24,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:19:24,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:19:33,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:19:33,907] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:20:33,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 17:20:34,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 17:20:52,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=menu HTTP/1.1" 200 870
+[2020-06-23 17:20:52,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=mlq&application=sys&type=button HTTP/1.1" 200 133
+[2020-06-23 17:20:52,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 17:21:12,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /auth/ HTTP/1.1" 200 65
+[2020-06-23 17:21:14,151] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:21:14,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:21:14,176] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 17:21:14,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 17:21:14,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 17:21:14,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 17:21:15,892] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/?current_page=1&pre_page=10 HTTP/1.1" 200 29598
+[2020-06-23 17:21:17,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/1/to_menu/ HTTP/1.1" 200 0
+[2020-06-23 17:21:17,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /role/1/menu/ HTTP/1.1" 200 0
+[2020-06-23 17:21:17,230] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/1/menu/ HTTP/1.1" 200 12498
+[2020-06-23 17:21:17,275] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /role/1/to_menu/ HTTP/1.1" 200 2
+[2020-06-23 17:21:31,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 17:21:32,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 17:22:03,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 17:22:03,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 17:22:03,263] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:14:03,436] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:14:03,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:14:03,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 18:14:03,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:14:03,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:14:03,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:14:03,787] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:14:03,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 18:17:59,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:18:02,157] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:18:02,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 18:18:02,281] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:19:21,949] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:21:05,771] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:21:10,709] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:23:06,601] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:23:07,869] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:25:03,674] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:25:04,689] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:25:50,139] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:25:51,265] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:26:55,222] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:26:56,211] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:28:20,388] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:28:21,349] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:31:48,598] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:32:38,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 18:34:45,012] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:35:01,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 18:35:17,394] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 18:37:38,910] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:38:45,792] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 443, in create
+    menu = Menu.objects.get(prev_menu=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Menu.DoesNotExist: Menu matching query does not exist.
+[2020-06-23 18:38:45,795] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19148
+[2020-06-23 18:40:34,811] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 443, in create
+    menu = Menu.objects.get(prev_menu=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Menu.DoesNotExist: Menu matching query does not exist.
+[2020-06-23 18:40:34,813] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19148
+[2020-06-23 18:42:02,191] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:42:02,200] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:42:02,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:42:02,592] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:42:02,766] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:42:02,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 18:42:02,988] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:42:24,519] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 18:42:24,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 18:43:10,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 18:43:10,856] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 443, in create
+    menu = Menu.objects.get(prev_menu=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Menu.DoesNotExist: Menu matching query does not exist.
+[2020-06-23 18:43:10,857] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19148
+[2020-06-23 18:44:34,494] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:44:39,797] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 445, in create
+    menu = Menu.objects.get(prev_menu=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 415, in get
+    raise self.model.DoesNotExist(
+sys_auth.models.Menu.DoesNotExist: Menu matching query does not exist.
+[2020-06-23 18:44:39,801] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19148
+[2020-06-23 18:45:48,565] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:45:49,531] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:45:55,212] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:46:06,716] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 277
+[2020-06-23 18:46:06,921] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13033
+[2020-06-23 18:46:59,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13033
+[2020-06-23 18:46:59,612] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:46:59,614] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 18:47:37,428] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 18:47:38,217] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:47:50,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13034
+[2020-06-23 18:47:50,650] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 18:47:50,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:48:47,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 284
+[2020-06-23 18:48:48,090] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13319
+[2020-06-23 18:49:06,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/delete/ HTTP/1.1" 200 0
+[2020-06-23 18:49:07,036] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 18:49:07,278] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13062
+[2020-06-23 18:49:19,040] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 18:49:19,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 18:49:22,046] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 18:49:22,297] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:57:14,891] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 18:57:20,421] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:57:20,421] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 18:57:20,429] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:57:20,439] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 18:57:20,444] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 18:57:20,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 18:57:20,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 18:57:20,762] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:05:28,709] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:08:15,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 19:08:15,769] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:08:18,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/?current_page=1&pre_page=10 HTTP/1.1" 200 0
+[2020-06-23 19:08:18,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/?current_page=1&pre_page=10 HTTP/1.1" 200 78661
+[2020-06-23 19:08:19,550] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:12:29,440] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:13:33,557] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 19:13:34,509] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:23:34,127] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:24:13,911] [log.py:222] [log:log_response] [WARNING]- Not Found: /menu/menutype/
+[2020-06-23 19:24:13,914] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /menu/menutype/ HTTP/1.1" 404 25
+[2020-06-23 19:24:39,162] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:24:43,633] [log.py:222] [log:log_response] [WARNING]- Not Found: /menu/menutype/
+[2020-06-23 19:24:43,636] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /menu/menutype/ HTTP/1.1" 404 25
+[2020-06-23 19:25:06,927] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/menu_type/ HTTP/1.1" 200 23
+[2020-06-23 19:26:02,422] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:26:27,449] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:26:48,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:28:47,259] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:28:55,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 11
+[2020-06-23 19:30:21,210] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 19:30:22,102] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:36:05,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 19:36:05,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:36:09,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 19:36:09,043] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 19:36:09,058] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 19:36:09,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 19:36:09,267] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:36:09,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:36:09,358] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:36:11,574] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 19:36:11,761] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:37:03,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:37:29,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 19:37:30,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 19:37:33,331] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 19:37:44,765] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 19:37:55,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/delete/ HTTP/1.1" 200 0
+[2020-06-23 19:37:55,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 19:37:55,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:38:02,203] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:38:17,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 19:38:17,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 19:38:20,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 19:38:21,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:38:45,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:38:48,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:39:32,583] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:39:38,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:39:38,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:39:38,437] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:39:39,453] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:41:55,810] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 19:51:08,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 19:51:08,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:51:09,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 19:51:09,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 19:51:09,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 19:51:09,776] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 19:51:10,101] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:51:10,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:51:10,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:51:12,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:51:14,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:51:29,424] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:51:33,350] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:01,131] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:04,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:06,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:06,750] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:06,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:07,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:22,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:24,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:52:24,730] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:52:24,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:52:26,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 19:52:26,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:53:14,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:53:14,635] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:53:14,636] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:53:17,390] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:53:17,391] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:03,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:05,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:05,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:54:05,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:54:07,518] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:54:07,522] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:07,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:37,298] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:38,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:54:38,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:54:38,917] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:55:20,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:55:22,849] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:55:43,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:56:38,089] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:56:38,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:59:00,634] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:59:01,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 19:59:41,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:59:41,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:59:41,436] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:59:43,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 19:59:43,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 19:59:43,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 19:59:44,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:01:21,229] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 20:01:21,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:01:23,344] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:02:31,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:02:31,872] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:02:31,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:02:31,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:02:32,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:02:32,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 20:02:32,141] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 20:02:33,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 20:02:34,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:17:11,790] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 20:17:12,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:17:13,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 20:17:14,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:17:20,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:17:43,433] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:17:49,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:17:49,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:17:49,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:17:49,158] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:17:49,360] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:17:49,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 20:17:49,460] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 20:20:47,523] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:20:49,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:21:13,919] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:21:15,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:21:15,826] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 20:21:15,845] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 20:21:17,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:21:43,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:21:49,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:22:21,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:22:24,906] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 20:23:13,913] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:27:49,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:27:49,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:27:49,517] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 20:27:49,553] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 20:27:49,555] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 20:27:49,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 20:27:49,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 20:27:49,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 20:27:50,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 20:27:50,733] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:52:23,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 21:52:23,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 21:52:23,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 21:52:23,099] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 21:52:23,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 21:52:23,251] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:52:23,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 21:52:23,357] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 21:52:26,208] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 21:52:26,424] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:53:34,490] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:53:36,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:53:36,500] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 21:53:36,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 21:53:37,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:54:05,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:54:05,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 21:54:05,527] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 21:54:07,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:54:27,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:54:27,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 21:54:27,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 21:54:29,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:57:40,655] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:57:42,624] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:59:02,549] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:59:04,084] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:59:23,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 21:59:24,296] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 21:59:52,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 266
+[2020-06-23 21:59:52,567] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12765
+[2020-06-23 21:59:56,085] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:00:39,914] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 442, in create
+    menu = Menu.objects.get(name=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 419, in get
+    raise self.model.MultipleObjectsReturned(
+sys_auth.models.Menu.MultipleObjectsReturned: get() returned more than one Menu -- it returned 3!
+[2020-06-23 22:00:39,919] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19208
+[2020-06-23 22:01:08,955] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 442, in create
+    menu = Menu.objects.get(name=prev_menu, application=app)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/db/models/query.py", line 419, in get
+    raise self.model.MultipleObjectsReturned(
+sys_auth.models.Menu.MultipleObjectsReturned: get() returned more than one Menu -- it returned 3!
+[2020-06-23 22:01:08,956] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 19208
+[2020-06-23 22:02:06,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 278
+[2020-06-23 22:02:06,738] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13044
+[2020-06-23 22:04:54,498] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:04:58,321] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 22:04:58,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:05:34,233] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 22:05:34,459] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 442, in create
+    menu = Menu.objects.get(name=prev_menu, application=app, is_delete=0).first()
+AttributeError: 'Menu' object has no attribute 'first'
+[2020-06-23 22:05:34,463] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 18840
+[2020-06-23 22:05:51,992] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 22:05:52,988] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:14:37,793] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:14:46,163] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:14:46,173] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:14:46,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:14:46,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:14:46,537] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13044
+[2020-06-23 22:14:46,674] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:14:46,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:15:33,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/delete/ HTTP/1.1" 200 0
+[2020-06-23 22:15:34,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 22:15:34,342] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 22:15:37,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 22:15:38,111] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:15:51,778] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 22:15:51,937] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 22:15:52,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13034
+[2020-06-23 22:16:02,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 22:16:03,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 22:16:04,668] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:16:36,750] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 22:16:40,673] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:17:31,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 22:17:34,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:18:09,081] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/rock/anaconda3/envs/venv/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py", line 443, in create
+    if len(menu) == 1:
+TypeError: object of type 'Menu' has no len()
+[2020-06-23 22:18:09,083] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /menu/ HTTP/1.1" 500 18763
+[2020-06-23 22:32:13,543] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:32:20,068] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:32:20,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:32:20,074] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 22:32:20,092] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:32:20,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:32:20,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12777
+[2020-06-23 22:32:20,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:32:20,404] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:32:24,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 22:32:25,056] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:32:49,716] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:33:03,388] [log.py:222] [log:log_response] [WARNING]- Conflict: /menu/
+[2020-06-23 22:33:03,391] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /menu/ HTTP/1.1" 409 25
+[2020-06-23 22:33:19,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/delete/ HTTP/1.1" 200 0
+[2020-06-23 22:33:19,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /menu/delete/ HTTP/1.1" 200 1
+[2020-06-23 22:33:19,951] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:35:14,923] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- /home/rock/quality_inspection/python-workspace/project-sys/sys_auth/views.py changed, reloading.
+[2020-06-23 22:35:15,998] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:35:21,312] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 22:35:30,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:35:30,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:35:30,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:35:31,335] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:35:45,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 22:35:45,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 22:35:49,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:36:14,057] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 281
+[2020-06-23 22:36:14,258] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:37:38,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:37:38,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:37:38,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:37:39,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:38:20,271] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:38:22,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:38:22,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:38:22,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:38:23,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:38:39,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:38:42,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:39:00,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:39:40,346] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:39:41,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:43:02,032] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:43:02,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 22:43:02,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:43:02,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:43:02,063] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:43:02,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:43:02,353] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:43:02,353] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:43:04,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 22:43:04,689] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:43:54,476] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:43:56,124] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:43:56,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:43:56,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:43:57,975] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:47:14,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 13037
+[2020-06-23 22:47:18,385] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:47:38,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:47:49,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 22
+[2020-06-23 22:49:06,468] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:49:06,526] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:49:06,535] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:49:19,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:49:35,220] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /menu/ HTTP/1.1" 201 256
+[2020-06-23 22:49:35,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12755
+[2020-06-23 22:49:50,638] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:49:50,694] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:49:50,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:49:55,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:51:34,539] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:51:36,600] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:53:45,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/app_list/ HTTP/1.1" 200 0
+[2020-06-23 22:53:45,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:53:51,258] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:53:57,124] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 22:54:19,115] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:54:19,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /menu/ HTTP/1.1" 200 0
+[2020-06-23 22:54:19,118] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:54:19,153] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 0
+[2020-06-23 22:54:19,154] [basehttp.py:157] [basehttp:log_message] [INFO]- "OPTIONS /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 0
+[2020-06-23 22:54:19,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:54:19,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:54:19,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:55:45,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 22:55:45,793] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 22:55:45,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 22:57:28,101] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 23:01:52,518] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-23 23:01:57,473] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/ HTTP/1.1" 200 12498
+[2020-06-23 23:01:57,493] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=menu HTTP/1.1" 200 1161
+[2020-06-23 23:01:57,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /user/role/?username=admin&application=sys&type=button HTTP/1.1" 200 248
+[2020-06-23 23:01:59,302] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 23:02:05,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 23:02:11,327] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15
+[2020-06-23 23:02:17,309] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /menu/app_list/ HTTP/1.1" 200 15

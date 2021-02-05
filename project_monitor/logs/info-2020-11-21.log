@@ -1,0 +1,1 @@
+[2020-11-21 15:22:45,666] [views.py:103] [views:get_history_monitor] [ERROR]- HTTPConnectionPool(host='10.10.10.202', port=4242): Max retries exceeded with url: /api/query?start=1605899410&end=1605942610&m=sum:hwAvgDuty1min (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcd24529ac0>, 'Connection to 10.10.10.202 timed out. (connect timeout=3)'))

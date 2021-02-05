@@ -1,0 +1,10 @@
+[2021-01-15 14:26:01,062] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-15 14:35:38,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?current_page=1&pre_page=10 HTTP/1.1" 200 566
+[2021-01-15 14:35:55,880] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0 HTTP/1.1" 200 495
+[2021-01-15 14:35:59,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script?use=0&name=test.py HTTP/1.1" 301 0
+[2021-01-15 14:35:59,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/script/?use=0&name=test.py HTTP/1.1" 200 495
+[2021-01-15 14:36:30,488] [views.py:564] [views:upload_immediate_exec_script] [INFO]- 开始连接10.10.10.130
+[2021-01-15 14:36:34,561] [views.py:601] [views:upload_immediate_exec_script] [ERROR]- 10.10.10.130脚本执行失败：Authentication failed.
+[2021-01-15 14:36:34,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /ws/immediate_exec_script/ HTTP/1.1" 200 0
+[2021-01-15 14:36:34,590] [basehttp.py:157] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x88\x82k')
+[2021-01-15 14:36:34,591] [basehttp.py:157] [basehttp:log_message] [WARNING]- "kÉ¶hä" 400 -

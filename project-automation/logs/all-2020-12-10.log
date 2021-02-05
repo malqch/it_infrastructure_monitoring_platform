@@ -1,0 +1,111 @@
+[2020-12-10 15:30:43,389] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:34:25,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:34:28,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:37:52,111] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:37:59,017] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:37:59,725] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:43:03,228] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:43:10,008] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:43:10,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:46:39,213] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:46:53,890] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:46:58,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:47:08,122] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /automation/api/huawei/2/ HTTP/1.1" 200 210
+[2020-12-10 15:47:08,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:47:11,684] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:48:17,752] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:48:20,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:48:24,493] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:48:27,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:50:44,346] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:50:50,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:50:54,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:50:55,107] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 15:50:55,109] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+[2020-12-10 15:50:55,111] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 34
+[2020-12-10 15:51:00,301] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:51:01,259] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:51:01,432] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 15:51:01,646] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+[2020-12-10 15:51:01,649] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 34
+[2020-12-10 15:51:43,753] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:51:47,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:51:48,230] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:24,443] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:53:29,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:53:32,269] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:33,482] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 15:53:44,020] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:44,190] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/osversions/ HTTP/1.1" 200 17193
+[2020-12-10 15:53:44,209] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=true HTTP/1.1" 200 9637
+[2020-12-10 15:53:46,764] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:46,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/network/ HTTP/1.1" 200 443
+[2020-12-10 15:53:48,358] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:48,489] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/securitygroups/ HTTP/1.1" 200 31
+[2020-12-10 15:53:51,102] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:53:52,002] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 15:54:18,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:54:25,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 15:54:27,127] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 15:55:01,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 15:55:08,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /automation/api/huawei/2/ HTTP/1.1" 200 206
+[2020-12-10 15:55:08,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 279
+[2020-12-10 15:56:34,255] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:57:34,948] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 279
+[2020-12-10 15:57:38,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 208
+[2020-12-10 15:57:38,170] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 15:57:38,351] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+[2020-12-10 15:57:38,353] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 34
+[2020-12-10 15:58:31,381] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 15:58:34,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 279
+[2020-12-10 15:58:35,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 208
+[2020-12-10 16:05:18,803] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 279
+[2020-12-10 16:05:26,213] [basehttp.py:157] [basehttp:log_message] [INFO]- "PUT /automation/api/huawei/2/ HTTP/1.1" 200 210
+[2020-12-10 16:05:26,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 16:05:28,457] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:05:51,459] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-12-10 16:05:56,321] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/?current_page=1&pre_page=10 HTTP/1.1" 200 283
+[2020-12-10 16:05:57,351] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:05:58,045] [huaweiyun.py:37] [huaweiyun:login_huawei_fusion_compute] [INFO]- 华为云登录失败:'x-auth-token'！
+[2020-12-10 16:05:58,060] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /automation/api/huawei/vms/
+[2020-12-10 16:05:58,062] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 500 34
+[2020-12-10 16:06:30,334] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:06:31,504] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:41,843] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:43,977] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:44,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:45,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:46,674] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:47,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:51,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:52,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:52,883] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:53,715] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:06:54,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:07:10,436] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:10,560] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/osversions/ HTTP/1.1" 200 17193
+[2020-12-10 16:07:10,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=true HTTP/1.1" 200 9637
+[2020-12-10 16:07:14,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:15,046] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/network/ HTTP/1.1" 200 443
+[2020-12-10 16:07:20,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:20,744] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/securitygroups/ HTTP/1.1" 200 31
+[2020-12-10 16:07:24,188] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:24,297] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/network/ HTTP/1.1" 200 443
+[2020-12-10 16:07:26,991] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:27,139] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/osversions/ HTTP/1.1" 200 17193
+[2020-12-10 16:07:27,150] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=true HTTP/1.1" 200 9637
+[2020-12-10 16:07:32,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:33,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
+[2020-12-10 16:07:35,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/datastores/ HTTP/1.1" 200 16909
+[2020-12-10 16:07:35,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/queryVfdFiles/ HTTP/1.1" 200 256
+[2020-12-10 16:07:35,902] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vncKeymapSettings/ HTTP/1.1" 200 139
+[2020-12-10 16:07:35,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/osversions/ HTTP/1.1" 200 17193
+[2020-12-10 16:07:51,112] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:51,199] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/securitygroups/ HTTP/1.1" 200 31
+[2020-12-10 16:07:52,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:52,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/network/ HTTP/1.1" 200 443
+[2020-12-10 16:07:53,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:54,067] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/osversions/ HTTP/1.1" 200 17193
+[2020-12-10 16:07:54,098] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=true HTTP/1.1" 200 9637
+[2020-12-10 16:07:55,802] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/ HTTP/1.1" 200 212
+[2020-12-10 16:07:56,732] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /automation/api/huawei/vms/?Template=false HTTP/1.1" 200 306429
