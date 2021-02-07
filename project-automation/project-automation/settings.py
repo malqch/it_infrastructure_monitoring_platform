@@ -136,7 +136,7 @@ LOGGING = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://10.10.10.130:6379/1",
+        "LOCATION": "redis://localhost:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -148,18 +148,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'itim_automation',
         'USER': 'root',
-        'PASSWORD': '@WSX3edc',
-        # 'PASSWORD': 'rock1204',
-        'HOST': '10.10.10.16',
-        # 'HOST': 'localhost',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
         'PORT': '3306',
     },
     'sys': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'itim_sys',
         'USER': 'root',
-        'PASSWORD': '@WSX3edc',
-        'HOST': '10.10.10.16',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
