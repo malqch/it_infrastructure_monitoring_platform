@@ -147,9 +147,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'itim_monitor',
         'USER': 'root',
-        # 'PASSWORD': 'XSW@zaq1',
-        'PASSWORD': '@WSX3edc',
-        'HOST': '10.10.10.16',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
         'PORT': '3306',
     },
 
@@ -157,9 +156,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'test_asset',
         'USER': 'root',
-        # 'PASSWORD': 'XSW@zaq1',
-        'PASSWORD': '@WSX3edc',
-        'HOST': '10.10.10.16',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
         'PORT': '3306',
     },
 
@@ -167,9 +165,8 @@ DATABASES = {
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'itim_sys',
             'USER': 'root',
-            # 'PASSWORD': 'XSW@zaq1',
-            'PASSWORD': '@WSX3edc',
-            'HOST': '10.10.10.16',
+            'PASSWORD': '123456',
+            'HOST': 'localhost',
             'PORT': '3306',
         }
 }
@@ -178,7 +175,7 @@ DATABASES = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://10.10.10.130:6379",
+        "LOCATION": "redis://localhost:6379",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "CONNECTION_POOL_KWARGS": {"max_connections": 100}
