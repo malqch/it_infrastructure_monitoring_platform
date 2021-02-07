@@ -132,8 +132,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'itim_sys',
         'USER': 'root',
-        'HOST': '10.10.10.16',
-        'PASSWORD': '@WSX3edc',
+        'HOST': 'localhost',
+        'PASSWORD': '123456',
         'PORT': '3306',
     }
 }
