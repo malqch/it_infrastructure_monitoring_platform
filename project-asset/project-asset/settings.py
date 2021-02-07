@@ -138,12 +138,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'test_asset',
-        # 'NAME': 'test_asset',
         'USER': 'root',
-        'PASSWORD': '@WSX3edc',
-        # 'HOST': '10.230.13.44',
-        'HOST': '10.10.10.16',
-        # 'PASSWORD': 'XSW@zaq1',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
         'PORT': '3306',
     },
 }
