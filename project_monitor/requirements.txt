@@ -10,7 +10,7 @@ distro==1.4.0
 Django==3.0.6
 django-cors-headers==3.3.0
 django-redis==4.12.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 html5lib==1.0.1
 idna==2.8
 ipaddr==2.2.0
