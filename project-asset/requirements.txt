@@ -15,7 +15,7 @@ Django==3.0.6
 django-cors-headers==3.3.0
 django-mysql==3.7.1
 django-redis==4.12.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 dnspython==1.16.0
 dwebsocket==0.5.12
 eventlet==0.30.0
