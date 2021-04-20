@@ -18,7 +18,7 @@ from subprocess import Popen, PIPE
 ip = "xxx"
 port = "xxx"
 api = 'xxx'
-url = "http://10.10.10.130:8848/server_monitor/host/"
+url = "http://localhost:8848/server_monitor/host/"
 
 
 # 获取主机名
