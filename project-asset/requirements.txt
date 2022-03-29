@@ -32,7 +32,7 @@ lockfile==0.12.2
 msgpack==0.6.2
 mysqlclient==1.4.6
 packaging==20.3
-paramiko==2.7.1
+paramiko==2.10.1
 pep517==0.8.2
 progress==1.5
 psutil==5.7.2
